@@ -9,6 +9,12 @@ Da jede Untergruppe des Computers ein Teil des Computers ist, entspringen die se
 ![image](https://github.com/user-attachments/assets/9ab00ee7-ff40-49b7-9236-4ea93e2a0176)
 
 
+## Nutzen
+Mit grafischer Oberfläche: Auf Website webprotege.stanford.edu gehen und Schritte in der file "owl_webprotege_link.txt" folgen.
+
+Als OWL-file: Datei "urn_webprotege_ontology_96477fc3-2e59-4b1d-b1fb-b5b0680971c2.owl" öffnen (z.B. in VS Code)
+
+## Inhalt
 ### Hardware-Teil
 In der Hardware werden die einzelnen Komponenten eines Computers behandelt. 
 ### Software-Teil
