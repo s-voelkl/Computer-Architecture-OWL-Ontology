@@ -1,4 +1,4 @@
 Link zum Projekt beim Stanford Web Protege:
 https://webprotege.stanford.edu/#projects/d74a8091-3c97-4ef0-92f5-a775aa0c3ab2 
 
-Alternativ: "Create new project" -> .owl-file auswählen -> Projekt benennen, erstellen und ansehen.
+Alternativ: "Create new project" -> .owl-file auswählen -> Projekt benennen -> Sprache "de - German" festlegen -> erstellen und ansehen.
