@@ -34,6 +34,8 @@ Neben dem Object-Property „benötigt-Teil“ für Subsumptionen beinhaltet die
 
 ## Weiterführung 
 Das Projekt ist dafür aufgebaut, weiter von außen erweiterbar zu sein.
+
 Die Klassen Ontologie_Besitzer, Ontologie_Ortsabhängigkeit, Ontologie_Aktivität und Ontologie_Zeitanhängigkeit sind vom DFKI Ubisworld inspiriert, haben jedoch noch keine Anwendung gefunden.
-Weitere Quellen sind in der Ontologie selbst im "rdfs:seealso" vorhanden.
+
+Verwendete Quellen sind in der Ontologie selbst im "rdfs:seealso" vorhanden. Inhalte (wie "rdfs:description") können teils KI-generiert sein.
 Dieses Projekt entstand für ein Projekt während des Studiums. Keine Garantie für Richtigkeit oder Vollständigkeit.
