@@ -1,0 +1,2269 @@
+Prefix(:=<urn:webprotege:ontology:96477fc3-2e59-4b1d-b1fb-b5b0680971c2#>)
+Prefix(owl:=<http://www.w3.org/2002/07/owl#>)
+Prefix(rdf:=<http://www.w3.org/1999/02/22-rdf-syntax-ns#>)
+Prefix(xml:=<http://www.w3.org/XML/1998/namespace>)
+Prefix(xsd:=<http://www.w3.org/2001/XMLSchema#>)
+Prefix(rdfs:=<http://www.w3.org/2000/01/rdf-schema#>)
+
+
+Ontology(<urn:webprotege:ontology:96477fc3-2e59-4b1d-b1fb-b5b0680971c2>
+
+Declaration(Class(<http://webprotege.stanford.edu/R11igUuVHwpyFuisYP1E0x>))
+Declaration(Class(<http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6>))
+Declaration(Class(<http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI>))
+Declaration(Class(<http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>))
+Declaration(Class(<http://webprotege.stanford.edu/R5OlFjslBVZ6mvO7ED1gOL>))
+Declaration(Class(<http://webprotege.stanford.edu/R6R6iRqQdOkH7xleAgsNbH>))
+Declaration(Class(<http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>))
+Declaration(Class(<http://webprotege.stanford.edu/R71Fu53JlS31LkD40mq5ZMy>))
+Declaration(Class(<http://webprotege.stanford.edu/R71iV18I5sJ3GEJMtevUL8s>))
+Declaration(Class(<http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4>))
+Declaration(Class(<http://webprotege.stanford.edu/R77Jdx4wq5J7LJ3FoBhCc5M>))
+Declaration(Class(<http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO>))
+Declaration(Class(<http://webprotege.stanford.edu/R7HjlPFZJ6HiYbtVxkzacJd>))
+Declaration(Class(<http://webprotege.stanford.edu/R7JDiKJ66Ipgbmb5DEYW5v0>))
+Declaration(Class(<http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>))
+Declaration(Class(<http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC>))
+Declaration(Class(<http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9>))
+Declaration(Class(<http://webprotege.stanford.edu/R7QEJApVdOXyNgX1cvITqjz>))
+Declaration(Class(<http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>))
+Declaration(Class(<http://webprotege.stanford.edu/R7Ul9vBXj6SXLPMYMNt3lK>))
+Declaration(Class(<http://webprotege.stanford.edu/R7YrmsLjQZkaspROFr7TIOb>))
+Declaration(Class(<http://webprotege.stanford.edu/R7Zkwn52tzL9bDV7F71h4qG>))
+Declaration(Class(<http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7>))
+Declaration(Class(<http://webprotege.stanford.edu/R7bdA6OrtfZ3v3O2ZQ40qOd>))
+Declaration(Class(<http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>))
+Declaration(Class(<http://webprotege.stanford.edu/R7o7XqDTXnCzNeftxs5FmSy>))
+Declaration(Class(<http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF>))
+Declaration(Class(<http://webprotege.stanford.edu/R7stuYuuyv7fakMllY4WNF4>))
+Declaration(Class(<http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM>))
+Declaration(Class(<http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB>))
+Declaration(Class(<http://webprotege.stanford.edu/R7z8Mi8ScV8qpzdOp0WfYW0>))
+Declaration(Class(<http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o>))
+Declaration(Class(<http://webprotege.stanford.edu/R7zZflAFsYtXidTmUKBQhf>))
+Declaration(Class(<http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y>))
+Declaration(Class(<http://webprotege.stanford.edu/R81JIHkBDZ0TyvRk7MfYYZ0>))
+Declaration(Class(<http://webprotege.stanford.edu/R85i3qMjkgPWLZVrHQmsG51>))
+Declaration(Class(<http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU>))
+Declaration(Class(<http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb>))
+Declaration(Class(<http://webprotege.stanford.edu/R8EV2sC7NDb9tZYbvfekcQP>))
+Declaration(Class(<http://webprotege.stanford.edu/R8HvNlco2d5FdVipgBQK6c4>))
+Declaration(Class(<http://webprotege.stanford.edu/R8JD0QDY37AVUgPfEB8wZeF>))
+Declaration(Class(<http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>))
+Declaration(Class(<http://webprotege.stanford.edu/R8OJ8Xd1tJuvrqCePbyE90p>))
+Declaration(Class(<http://webprotege.stanford.edu/R8SVdi4fMrbkoqwks5nzp6A>))
+Declaration(Class(<http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>))
+Declaration(Class(<http://webprotege.stanford.edu/R8XhreoQ6F4DW1Nol3AdZba>))
+Declaration(Class(<http://webprotege.stanford.edu/R8YwjDmEOtqdka5qKxy5JRX>))
+Declaration(Class(<http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2>))
+Declaration(Class(<http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>))
+Declaration(Class(<http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>))
+Declaration(Class(<http://webprotege.stanford.edu/R8c1LPnsvCRXy5QpXHCwSLG>))
+Declaration(Class(<http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4>))
+Declaration(Class(<http://webprotege.stanford.edu/R8cjV2kiPO7VihvNIJLzWTh>))
+Declaration(Class(<http://webprotege.stanford.edu/R8eQ7u6reOSoUBq0ZJ0sYhF>))
+Declaration(Class(<http://webprotege.stanford.edu/R8ilqliIoVDmdGjWxFP25In>))
+Declaration(Class(<http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>))
+Declaration(Class(<http://webprotege.stanford.edu/R8p4LjzxAzrBgrmGlJDAYDM>))
+Declaration(Class(<http://webprotege.stanford.edu/R8rI3lrmUUxU1avpE2LZu5h>))
+Declaration(Class(<http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv>))
+Declaration(Class(<http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k>))
+Declaration(Class(<http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv>))
+Declaration(Class(<http://webprotege.stanford.edu/R8tPzznzmrHrsp34SLxk5eB>))
+Declaration(Class(<http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>))
+Declaration(Class(<http://webprotege.stanford.edu/R8xAxxGnV9nCP2XOVFUA3Ts>))
+Declaration(Class(<http://webprotege.stanford.edu/R8xF9aUS4e0qObXeIef9XVb>))
+Declaration(Class(<http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O>))
+Declaration(Class(<http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E>))
+Declaration(Class(<http://webprotege.stanford.edu/R91C5XA1Of3COeykJlpt8Bd>))
+Declaration(Class(<http://webprotege.stanford.edu/R93NZkee43Gvnq8DQRLBkGY>))
+Declaration(Class(<http://webprotege.stanford.edu/R93pBpkNDhGy2TOvjBhvfZh>))
+Declaration(Class(<http://webprotege.stanford.edu/R9705hqVF7Ee8oGw2eQSsp9>))
+Declaration(Class(<http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>))
+Declaration(Class(<http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK>))
+Declaration(Class(<http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>))
+Declaration(Class(<http://webprotege.stanford.edu/R9R0rR8vG32YneitywQXvXk>))
+Declaration(Class(<http://webprotege.stanford.edu/R9RktVvCsiYH54VC5ZqNiz0>))
+Declaration(Class(<http://webprotege.stanford.edu/R9XLIilOR4idlgt31a39kz>))
+Declaration(Class(<http://webprotege.stanford.edu/R9chgD3TmjJV90WMEUuxxU0>))
+Declaration(Class(<http://webprotege.stanford.edu/R9g23PRmQcQQoHQS6V860Ki>))
+Declaration(Class(<http://webprotege.stanford.edu/R9g8eQ8AzLUiEllEpkt61od>))
+Declaration(Class(<http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s>))
+Declaration(Class(<http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX>))
+Declaration(Class(<http://webprotege.stanford.edu/R9pTJh7zSNVwb4vhbTiFEyX>))
+Declaration(Class(<http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>))
+Declaration(Class(<http://webprotege.stanford.edu/RB25YOpOo1k1hZfZafHiuoM>))
+Declaration(Class(<http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>))
+Declaration(Class(<http://webprotege.stanford.edu/RB2BJEU4A1EWj6N0FZ3QVR0>))
+Declaration(Class(<http://webprotege.stanford.edu/RB2WZux2eJWTzO6819FVtuu>))
+Declaration(Class(<http://webprotege.stanford.edu/RB6XOHm7YA0qLFkBNWj331P>))
+Declaration(Class(<http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>))
+Declaration(Class(<http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>))
+Declaration(Class(<http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR>))
+Declaration(Class(<http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec>))
+Declaration(Class(<http://webprotege.stanford.edu/RB9eokRP0JCr24vcJX9aDPb>))
+Declaration(Class(<http://webprotege.stanford.edu/RBAUCnMkb0jG2L1A9KOQ63h>))
+Declaration(Class(<http://webprotege.stanford.edu/RBGMeLj2nCXnEl6L6i8GFbx>))
+Declaration(Class(<http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm>))
+Declaration(Class(<http://webprotege.stanford.edu/RBJLNxKGtkuEzRpnICy1LLk>))
+Declaration(Class(<http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>))
+Declaration(Class(<http://webprotege.stanford.edu/RBOWLPgCE9kJxuhXMsViwcK>))
+Declaration(Class(<http://webprotege.stanford.edu/RBbB0nXhuwE1YLYSxBrR2uL>))
+Declaration(Class(<http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>))
+Declaration(Class(<http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>))
+Declaration(Class(<http://webprotege.stanford.edu/RBoZOkVAefQIxNEr8MB8dpW>))
+Declaration(Class(<http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>))
+Declaration(Class(<http://webprotege.stanford.edu/RBv9dsAt7cnVvtgNmQIXudI>))
+Declaration(Class(<http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>))
+Declaration(Class(<http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia>))
+Declaration(Class(<http://webprotege.stanford.edu/RC21UjlexOw75pWSSudRMaj>))
+Declaration(Class(<http://webprotege.stanford.edu/RC3cipnshFkIfMjbmUvRYPu>))
+Declaration(Class(<http://webprotege.stanford.edu/RC41IhpR8IT3RV6MLLINEdA>))
+Declaration(Class(<http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>))
+Declaration(Class(<http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef>))
+Declaration(Class(<http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>))
+Declaration(Class(<http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo>))
+Declaration(Class(<http://webprotege.stanford.edu/RCFo4ecEvCCvNCYkkXZ7ZZl>))
+Declaration(Class(<http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>))
+Declaration(Class(<http://webprotege.stanford.edu/RCM8ZNimiyuEjcSW6SncVbR>))
+Declaration(Class(<http://webprotege.stanford.edu/RCQFcNmMBS5wOI7dYWUbDnf>))
+Declaration(Class(<http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS>))
+Declaration(Class(<http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>))
+Declaration(Class(<http://webprotege.stanford.edu/RCZqzvyVwiGoWyu92PyPnkM>))
+Declaration(Class(<http://webprotege.stanford.edu/RCbhrrAtcGr0EPklvjUDwXO>))
+Declaration(Class(<http://webprotege.stanford.edu/RCf1MCtfbGBSJN64ANRhSAF>))
+Declaration(Class(<http://webprotege.stanford.edu/RCfNmue5WbrI4hbJDIa8zRp>))
+Declaration(Class(<http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky>))
+Declaration(Class(<http://webprotege.stanford.edu/RCjCw4XFPYIEPohnaT0LM9B>))
+Declaration(Class(<http://webprotege.stanford.edu/RCl2bUL66XDxHpx1HZhnDFh>))
+Declaration(Class(<http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>))
+Declaration(Class(<http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>))
+Declaration(Class(<http://webprotege.stanford.edu/RCtEzB8edoAhFiAg8ci4Tv>))
+Declaration(Class(<http://webprotege.stanford.edu/RCx6XI1twI8BYXxKsU3Dk4p>))
+Declaration(Class(<http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK>))
+Declaration(Class(<http://webprotege.stanford.edu/RCyVpeZjxRzfr6HWOBj55vW>))
+Declaration(Class(<http://webprotege.stanford.edu/RD0nPwuYJTUdrcqbp9i0a2l>))
+Declaration(Class(<http://webprotege.stanford.edu/RD2YIDrmiKblsUK5JdyDlcn>))
+Declaration(Class(<http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>))
+Declaration(Class(<http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>))
+Declaration(Class(<http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB>))
+Declaration(Class(<http://webprotege.stanford.edu/RDJJrw1widv0EcS6dy88Pb>))
+Declaration(Class(<http://webprotege.stanford.edu/RDLo5ZFbAaULdcyRvppsTEy>))
+Declaration(Class(<http://webprotege.stanford.edu/RDPPSjypvo7NF4ht7g3goje>))
+Declaration(Class(<http://webprotege.stanford.edu/RDPUjy5GMJMBF3krW1l6FFL>))
+Declaration(Class(<http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw>))
+Declaration(Class(<http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>))
+Declaration(Class(<http://webprotege.stanford.edu/RDT3SUbF4IrWPvlAkbDBbdO>))
+Declaration(Class(<http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek>))
+Declaration(Class(<http://webprotege.stanford.edu/RDXACVJIQGCDaZFrz3HPJFh>))
+Declaration(Class(<http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>))
+Declaration(Class(<http://webprotege.stanford.edu/RDZQ0ifA0PRJO91BrCvbEja>))
+Declaration(Class(<http://webprotege.stanford.edu/RDg3kEKG9hSMGvu0k7pJFhZ>))
+Declaration(Class(<http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>))
+Declaration(Class(<http://webprotege.stanford.edu/RDh60rxz8m5JQs9nsmnxIJf>))
+Declaration(Class(<http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH>))
+Declaration(Class(<http://webprotege.stanford.edu/RDklXKjIUxpT14UulYJc49P>))
+Declaration(Class(<http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS>))
+Declaration(Class(<http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6>))
+Declaration(Class(<http://webprotege.stanford.edu/RDpZ0J034vBpUnzOwQIq2cZ>))
+Declaration(Class(<http://webprotege.stanford.edu/RDq6UlnGDp42tz1WptYDJqa>))
+Declaration(Class(<http://webprotege.stanford.edu/RDsHOJNs1IL50zDYWxwEL3Z>))
+Declaration(Class(<http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB>))
+Declaration(Class(<http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>))
+Declaration(Class(<http://webprotege.stanford.edu/RDyiUOXU3mDxESrKRgofRSW>))
+Declaration(Class(<http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>))
+Declaration(Class(<http://webprotege.stanford.edu/RFoNz1kmOexYojD6xn0daA>))
+Declaration(Class(<http://webprotege.stanford.edu/RITpdAHdSi0SwwtG3JHcFR>))
+Declaration(Class(<http://webprotege.stanford.edu/RJDAO6GCQTWi9yElZWc0aJ>))
+Declaration(Class(<http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO>))
+Declaration(Class(<http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2>))
+Declaration(Class(<http://webprotege.stanford.edu/RMxPS2fXf0lf8RREd1cjlV>))
+Declaration(Class(<http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3>))
+Declaration(Class(<http://webprotege.stanford.edu/RNS1ANEHVjHXqFAHca8Ype>))
+Declaration(Class(<http://webprotege.stanford.edu/RNfxOcx3fe8YRFazLrzAFl>))
+Declaration(Class(<http://webprotege.stanford.edu/RQt2FrMaj7yXm04ahdFTo9>))
+Declaration(Class(<http://webprotege.stanford.edu/RQxerG1rwegoHvwr4FyEgS>))
+Declaration(Class(<http://webprotege.stanford.edu/RRLuH4pm0NZzUUwT0QxHuB>))
+Declaration(Class(<http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>))
+Declaration(Class(<http://webprotege.stanford.edu/RTIQkYOr3LP19PCtfgpTgN>))
+Declaration(Class(<http://webprotege.stanford.edu/RTbWOqbFBMkj93ixX6TRXi>))
+Declaration(Class(<http://webprotege.stanford.edu/RTulsSYDCz5kK3i4Xx3VMW>))
+Declaration(Class(<http://webprotege.stanford.edu/RUSSYtZWlFVa0ndhHG5Tbx>))
+Declaration(Class(<http://webprotege.stanford.edu/RV2Yg48VXKYNjZbsznkFj>))
+Declaration(Class(<http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX>))
+Declaration(Class(<http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF>))
+Declaration(Class(<http://webprotege.stanford.edu/RXepuVySiwfopxiWbqqcYQ>))
+Declaration(Class(<http://webprotege.stanford.edu/RXtT3MqJ5viFr6sWJY1EED>))
+Declaration(Class(<http://webprotege.stanford.edu/RY4PA7MFCpysEv5fqUwTJL>))
+Declaration(Class(<http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU>))
+Declaration(Class(<http://webprotege.stanford.edu/RbN6KWKjKV5fFkapZyPv4M>))
+Declaration(Class(<http://webprotege.stanford.edu/RbiRVoMLWP1OfrbH731R41>))
+Declaration(Class(<http://webprotege.stanford.edu/RcPGNeqUIMiE3Ndtra1oAm>))
+Declaration(Class(<http://webprotege.stanford.edu/RcyGGmSaRpSzIgtypa4VGY>))
+Declaration(Class(<http://webprotege.stanford.edu/RdaA56JI03hiH3T9rwT3Yb>))
+Declaration(Class(<http://webprotege.stanford.edu/RdoqIyEoJ1nwk36ChphZWH>))
+Declaration(Class(<http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ>))
+Declaration(Class(<http://webprotege.stanford.edu/RfKtGvGbKq8rtn53ZP85z9>))
+Declaration(Class(<http://webprotege.stanford.edu/RfrL5QxmKULUo1YcAxyMez>))
+Declaration(Class(<http://webprotege.stanford.edu/RhWQcZZvHStT4rYIAxzo4P>))
+Declaration(Class(<http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>))
+Declaration(Class(<http://webprotege.stanford.edu/Rm9Ae8RNrO4NkNGcGw0dlZ>))
+Declaration(Class(<http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs>))
+Declaration(Class(<http://webprotege.stanford.edu/Ro1SIhvg7BhPLclLNsvlFx>))
+Declaration(Class(<http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC>))
+Declaration(Class(<http://webprotege.stanford.edu/RpbhJ65H2dyiuiGcgHF1NB>))
+Declaration(Class(<http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf>))
+Declaration(Class(<http://webprotege.stanford.edu/RqFGD8CxkU7PnB6Ja1YfCa>))
+Declaration(Class(<http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4>))
+Declaration(Class(<http://webprotege.stanford.edu/RqRHJbUjXRyHhB2YKPTIZQ>))
+Declaration(Class(<http://webprotege.stanford.edu/RqvZD7EdntjhmkJbbBPPzn>))
+Declaration(Class(<http://webprotege.stanford.edu/RrUt11kEUgwskKEqpdqVtd>))
+Declaration(Class(<http://webprotege.stanford.edu/RsGkUGvr0Xs2IzSIAuEEoc>))
+Declaration(Class(<http://webprotege.stanford.edu/Rv26I5luFROYEVBtTC9Pws>))
+Declaration(Class(<http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>))
+Declaration(Class(<http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>))
+Declaration(Class(<http://webprotege.stanford.edu/RvcvjuMJiRFZ7kiT7JOwkc>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5>))
+Declaration(ObjectProperty(<http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8348cmVBs5YUwJtKpEsT7b>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8SX67wFGBaAKbAGBl0GeiM>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8SkPgJr97SnhCMB19rapwa>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R94vczSAqLZb1lVD8oMLALy>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9ElB5ShKzn0njAV0xDD3id>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/R9xigQUqe65UbExbzISiNbh>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBU1zzJwOQkGix7dWHnTNJQ>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RCXvYnOiXv562N3bdQk6RV7>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDTSBWvzLVkHDRBbHKAOuEb>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RSypps76kx7Hj12lJz0h1n>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/Rb2mhjhhMa1NVBEDvHc8sN>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RcQytvGFuudxRDwhusnewh>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RcVYbqlI1rVnPWDjBOZEQS>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>))
+Declaration(DataProperty(<http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn>))
+Declaration(NamedIndividual(<http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF>))
+Declaration(AnnotationProperty(<http://purl.org/dc/elements/1.1/description>))
+
+############################
+#   Object Properties
+############################
+
+# Object Property: <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> (benötigt_Teil [object])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> "benötigt_Teil [object]"@de)
+SubObjectPropertyOf(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> owl:topObjectProperty)
+
+# Object Property: <http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> (benötigt_Teil_optional [object])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> "benötigt_Teil_optional [object]"@de)
+SubObjectPropertyOf(<http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> owl:topObjectProperty)
+
+
+############################
+#   Data Properties
+############################
+
+# Data Property: <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr> (AnzahlEingänge)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr> "AnzahlEingänge"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr> <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+
+# Data Property: <http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz> (HerausgabeZeitpunkt [datetime])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz> "HerausgabeZeitpunkt [datetime]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz> <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>)
+DataPropertyRange(<http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz> xsd:dateTime)
+
+# Data Property: <http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX> (ErlaubtTextÜbertragung [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX> "ErlaubtTextÜbertragung [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX> <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX> <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>)
+DataPropertyRange(<http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ> (Überspannungsschutz [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ> "Überspannungsschutz [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ> <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>)
+DataPropertyRange(<http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> (Versorgungsspannung [V])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> "Der Energiebedarf der flüchtigen RAM-Typen hängt stark ab von ihrer Betriebsspannung, im Allgemeinen steigt er quadratisch zu steigender Spannung. Er kann je nach Speichergröße mehrere Watt betragen, was sich insbesondere bei Mobilgeräten spürbar auf die Akkulaufzeit auswirkt. Daher versuchen die Hersteller kontinuierlich, den Energiebedarf zu senken und eine niedrigere Versorgungsspannung zu ermöglichen.
+SDRAM	3,3 V
+DDR-SDRAM	2,5 V
+DDR2-SDRAM	1,8 V
+DDR3-SDRAM	1,5 V
+DDR3-SDRAM LP	1,25 V
+DDR4-SDRAM	1,2 V
+DDR4-SDRAM LV	1,05 V
+DDR5-SDRAM	1,1 V
+[https://de.wikipedia.org/wiki/Random-Access_Memory]"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> "Versorgungsspannung [V]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> (IstFlüchtigerSpeicher [1|0])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> "Flüchtiger Speicher ist eine Art von Computerspeicher, der eine kontinuierliche Stromversorgung benötigt, um die gespeicherten Daten zu erhalten. Sobald die Stromversorgung unterbrochen wird, gehen alle gespeicherten Informationen verloren. 
+Beispiel: RAM, L1/L2/L3 Caches, Register
+
+
+
+[https://techwatch.de/blog/understanding-volatile-memory-definition-and-applications/]"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> "IstFlüchtigerSpeicher [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3> (Bildwiederholrate [Hz])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3> "Bildwiederholrate [Hz]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3> <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3> <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>)
+DataPropertyRange(<http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/R8348cmVBs5YUwJtKpEsT7b> (BitBreite [1])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8348cmVBs5YUwJtKpEsT7b> "BitBreite [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8348cmVBs5YUwJtKpEsT7b> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8348cmVBs5YUwJtKpEsT7b> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8348cmVBs5YUwJtKpEsT7b> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a> (Zugriffszeit [ns])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a> "auch bekannt als Latenz: Die Latenz beschreibt die Zeit, die der RAM benötigt, um auf Anfragen des Prozessors zu reagieren. Niedrigere Latenzzeiten bedeuten schnellere Reaktionszeiten."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a> "Zugriffszeit [ns]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+DataPropertyRange(<http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> (Taktfrequenz [Hz])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> "Büro- und Alltagsanwendungen: CPUs für einfache Aufgaben wie Textverarbeitung, Web-Browsing und E-Mail haben in der Regel Taktraten zwischen 2 und 3 GHz.
+Gaming und anspruchsvolle Anwendungen: Für Gaming und rechenintensive Anwendungen wie Videobearbeitung oder 3D-Modellierung sind Taktraten von 3,5 bis 4 GHz oder höher üblich. Einige High-End-CPUs können sogar Taktraten von über 5 GHz erreichen.
+Server und Workstations: Diese Systeme, die für parallele Verarbeitung und hohe Zuverlässigkeit ausgelegt sind, haben oft CPUs mit Taktraten im Bereich von 2,5 bis 3,5 GHz, wobei die Anzahl der Kerne und die Effizienz der Architektur ebenfalls eine wichtige Rolle spielen.
+[https://www.connect-living.de/ratgeber/prozessor-gigahertz-wie-viel-cpu-takt-3203161.html]"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> "Taktfrequenz [Hz]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> <http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR>)
+DataPropertyRange(<http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4> (Überstromschutz [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4> "Überstromschutz [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4> <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l> (AnzahlAusgänge)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l> "AnzahlAusgänge"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l> <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+
+# Data Property: <http://webprotege.stanford.edu/R8SX67wFGBaAKbAGBl0GeiM> (AnzahlAusgängeQ [1])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8SX67wFGBaAKbAGBl0GeiM> "AnzahlAusgängeQ [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8SX67wFGBaAKbAGBl0GeiM> <http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8SX67wFGBaAKbAGBl0GeiM> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/R8SkPgJr97SnhCMB19rapwa> (HatClockEingang (clk) [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8SkPgJr97SnhCMB19rapwa> "HatClockEingang (clk) [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8SkPgJr97SnhCMB19rapwa> <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8SkPgJr97SnhCMB19rapwa> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> (NameHersteller [str])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> "NameHersteller [str]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> xsd:normalizedString)
+
+# Data Property: <http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE> (Datenübertragungsrate [Bit/s])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE> "Datenübertragungsrate [Bit/s]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3> (IstOpenSource [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3> "IstOpenSource [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3> <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD> (KI-gestützt [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD> "KI-gestützt [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD> <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> (IstAktiveKühlung [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> "IstAktiveKühlung [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>)
+DataPropertyRange(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R94vczSAqLZb1lVD8oMLALy> (IstKostenpflichtig [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R94vczSAqLZb1lVD8oMLALy> "IstKostenpflichtig [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R94vczSAqLZb1lVD8oMLALy> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R94vczSAqLZb1lVD8oMLALy> <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>)
+DataPropertyRange(<http://webprotege.stanford.edu/R94vczSAqLZb1lVD8oMLALy> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid> (ErlaubtBildschirmÜbertragung [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid> "ErlaubtBildschirmÜbertragung [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid> <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid> <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>)
+DataPropertyRange(<http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R9ElB5ShKzn0njAV0xDD3id> (AnzahlRegister [1])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9ElB5ShKzn0njAV0xDD3id> "AnzahlRegister [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9ElB5ShKzn0njAV0xDD3id> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9ElB5ShKzn0njAV0xDD3id> <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>)
+DataPropertyRange(<http://webprotege.stanford.edu/R9ElB5ShKzn0njAV0xDD3id> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu> (Bildschirmdiagonale [Zoll])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu> "Bildschirmdiagonale [Zoll]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu> <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu> <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>)
+DataPropertyRange(<http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P> (Maus)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P> "Maus"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P> owl:topDataProperty)
+
+# Data Property: <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> (ProduktId [str])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> "ProduktId [str]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>)
+DataPropertyRange(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> xsd:normalizedString)
+
+# Data Property: <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB> (Bildschirm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB> "Bildschirm"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB> owl:topDataProperty)
+
+# Data Property: <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT> (Kommunikationssoftware)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT> "Kommunikationssoftware"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT> owl:topDataProperty)
+
+# Data Property: <http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> (Energieverbrauch [W])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> "ALU-Energieverbauch: 
+Der Energieverbrauch einer arithmetisch-logischen Einheit (ALU) kann stark variieren, abhängig von der spezifischen Architektur und den verwendeten Technologien. Im Allgemeinen ist der Energieverbrauch einer ALU relativ gering im Vergleich zu anderen Komponenten eines Prozessors, wie z.B. dem Cache oder den Speicherzugriffen. Insgesamt kann der Energieverbrauch einer ALU in einem modernen Prozessor im Bereich von wenigen Milliwatt bis zu mehreren Watt liegen. 
+[https://www.studysmarter.de/schule/informatik/technische-informatik/alu-design/]
+
+CPU-Energieverbauch: 
+- Desktop-CPUs: Typischerweise zwischen 65 und 125 Watt (TDP - Thermal Design Power).
+- High-End-CPUs: Können bis zu 250 Watt oder mehr verbrauchen, insbesondere bei Übertaktung.
+- Mobile CPUs: Haben oft eine TDP von 15 bis 45 Watt, um die Akkulaufzeit zu maximieren.
+[https://www.pcgameshardware.de/CPU-CPU-154106/Specials/CPU-Verbrauch-Der-Effizienz-Index-fuer-Prozessoren-1341682/]"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> "Energieverbrauch [W]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>)
+DataPropertyRange(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV> (ErlaubtLiveKommunikation [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV> "ErlaubtLiveKommunikation [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV> <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV> <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>)
+DataPropertyRange(<http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> (IstVeraltet [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> "IstVeraltet [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>)
+DataPropertyDomain(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>)
+DataPropertyRange(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/R9xigQUqe65UbExbzISiNbh> (AnzahlEingängeX [1])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9xigQUqe65UbExbzISiNbh> "AnzahlEingängeX [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/R9xigQUqe65UbExbzISiNbh> <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>)
+DataPropertyRange(<http://webprotege.stanford.edu/R9xigQUqe65UbExbzISiNbh> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RBU1zzJwOQkGix7dWHnTNJQ> (AnzahlEingängeD [1])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBU1zzJwOQkGix7dWHnTNJQ> "AnzahlEingängeD [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBU1zzJwOQkGix7dWHnTNJQ> <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBU1zzJwOQkGix7dWHnTNJQ> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf> (ErlaubtAudioÜbertragung [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf> "ErlaubtAudioÜbertragung [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf> <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf> <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq> (Speicher)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq> "Speicher"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq> owl:topDataProperty)
+
+# Data Property: <http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp> (FertigungsprozessGröße [nm])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp> "Moderne ALUs, die in fortschrittlichen Fertigungsprozessen (z.B. 7nm oder 5nm) hergestellt werden, sind energieeffizienter als ältere Technologien. 
+[https://de.wikipedia.org/wiki/Arithmetisch-logische_Einheit]"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp> "FertigungsprozessGröße [nm]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp> <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh> (Kurzschlussschutz [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh> "Kurzschlussschutz [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh> <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> (Geräuschentwicklung [db])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> "Geräuschentwicklung [db]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul> (KernAnzahl [1])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul> "Büro- und Alltagsanwendungen: CPUs für einfache Aufgaben haben oft 2 bis 4 Kerne.
+Gaming und anspruchsvolle Anwendungen: Für Gaming und rechenintensive Anwendungen sind 6 bis 8 Kerne üblich. Einige High-End-CPUs können sogar 10 oder mehr Kerne haben.
+Server und Workstations: Diese Systeme, die für parallele Verarbeitung und hohe Zuverlässigkeit ausgelegt sind, haben oft 12 bis 64 Kerne oder mehr.
+[https://www.connect-living.de/ratgeber/prozessor-gigahertz-wie-viel-cpu-takt-3203161.html]
+Kerne:"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul> "KernAnzahl [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul> <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>)
+DataPropertyRange(<http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y> (SoftwareVersion [str])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y> "SoftwareVersion [str]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y> <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>)
+DataPropertyRange(<http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y> xsd:normalizedString)
+
+# Data Property: <http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6> (ErlaubtVideoÜbertragung [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6> "ErlaubtVideoÜbertragung [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6> <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6> <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>)
+DataPropertyRange(<http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/RCXvYnOiXv562N3bdQk6RV7> (AnzahlAusgängeC (carry bit) [1])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCXvYnOiXv562N3bdQk6RV7> "AnzahlAusgängeC (carry bit) [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RCXvYnOiXv562N3bdQk6RV7> <http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l>)
+DataPropertyRange(<http://webprotege.stanford.edu/RCXvYnOiXv562N3bdQk6RV7> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO> (Überlastungsschutz [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO> "Überlastungsschutz [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO> <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>)
+DataPropertyRange(<http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09> (DotsPerInch (DPI) [1])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09> "Die Bezeichnung DPI steht für \"dots per inch\". Somit gibt sie eine Dichte von Punkten bezogen auf ein Inch an, wobei ein Inch ca. 2,54 cm entspricht."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09> "DotsPerInch (DPI) [1]"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09> <https://praxistipps.chip.de/was-ist-dpi-einfach-erklaert_44369>)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09> <http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09> <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09> <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>)
+DataPropertyRange(<http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7> (Produkt)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7> "Produkt"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7> owl:topDataProperty)
+
+# Data Property: <http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm> (Schreibgeschwindigkeit [Bit/s])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm> "Schreibgeschwindigkeit [Bit/s]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm> <http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm> <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi> (Lesegeschwindigkeit [Bit/s])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi> "Lesegeschwindigkeit [Bit/s]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi> <http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi> <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RDTSBWvzLVkHDRBbHKAOuEb> (AnzahlSteuersignaleS [1])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDTSBWvzLVkHDRBbHKAOuEb> "AnzahlSteuersignaleS [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDTSBWvzLVkHDRBbHKAOuEb> <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDTSBWvzLVkHDRBbHKAOuEb> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq> (MaximaleBildauflösung [pixel])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq> "MaximaleBildauflösung [pixel]"@de)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq> <http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq> <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq> <http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq> <http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq> <http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS>)
+
+# Data Property: <http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z> (BasedOnFramework [str])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z> "BasedOnFramework [str]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z> <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z> xsd:normalizedString)
+
+# Data Property: <http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y> (AnzahlTasten [1])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y> "Maustasten"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y> "AnzahlTasten [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y> <http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y> <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5> (ErlaubtKontrollübernahme [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5> "ErlaubtKontrollübernahme [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5> <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5> <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp> (IstErweiterbar [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp> "IstErweiterbar [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp> <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>)
+DataPropertyRange(<http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J> (Netzteilschutz)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J> "Netzteilschutz"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J> <http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC>)
+
+# Data Property: <http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> (Speicherkapazität [Bit])
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> "Speicherkapazität: Die Kapazität wird in Gigabyte (GB) gemessen und bestimmt, wie viele Daten gleichzeitig im RAM gespeichert werden können."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> "Speicherkapazität [Bit]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> <http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+DataPropertyRange(<http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RSypps76kx7Hj12lJz0h1n> (AnzahlAusgängeZ [1])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RSypps76kx7Hj12lJz0h1n> "AnzahlAusgängeZ [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RSypps76kx7Hj12lJz0h1n> <http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l>)
+DataPropertyRange(<http://webprotege.stanford.edu/RSypps76kx7Hj12lJz0h1n> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k> (BildschirmAuflösung)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k> "BildschirmAuflösung"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k> <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k> <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>)
+DataPropertyRange(<http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k> xsd:normalizedString)
+
+# Data Property: <http://webprotege.stanford.edu/Rb2mhjhhMa1NVBEDvHc8sN> (ErlaubtDebugging [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rb2mhjhhMa1NVBEDvHc8sN> "ErlaubtDebugging [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/Rb2mhjhhMa1NVBEDvHc8sN> owl:topDataProperty)
+DataPropertyDomain(<http://webprotege.stanford.edu/Rb2mhjhhMa1NVBEDvHc8sN> <http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO>)
+DataPropertyRange(<http://webprotege.stanford.edu/Rb2mhjhhMa1NVBEDvHc8sN> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/RcQytvGFuudxRDwhusnewh> (HatEnableEingang [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RcQytvGFuudxRDwhusnewh> "HatEnableEingang [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RcQytvGFuudxRDwhusnewh> <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>)
+DataPropertyRange(<http://webprotege.stanford.edu/RcQytvGFuudxRDwhusnewh> xsd:boolean)
+
+# Data Property: <http://webprotege.stanford.edu/RcVYbqlI1rVnPWDjBOZEQS> (AnzahlEingängeY [1])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RcVYbqlI1rVnPWDjBOZEQS> "AnzahlEingängeY [1]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RcVYbqlI1rVnPWDjBOZEQS> <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>)
+DataPropertyRange(<http://webprotege.stanford.edu/RcVYbqlI1rVnPWDjBOZEQS> xsd:nonNegativeInteger)
+
+# Data Property: <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> (KostenAnkauf [€])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> "KostenAnkauf [€]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7>)
+DataPropertyDomain(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>)
+DataPropertyRange(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> xsd:double)
+
+# Data Property: <http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN> (BildschirmUltrawide [1|0])
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN> "BildschirmUltrawide [1|0]"@de)
+SubDataPropertyOf(<http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN> <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>)
+DataPropertyDomain(<http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN> <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>)
+DataPropertyRange(<http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN> xsd:boolean)
+
+
+
+############################
+#   Classes
+############################
+
+# Class: <http://webprotege.stanford.edu/R11igUuVHwpyFuisYP1E0x> (DDR5-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R11igUuVHwpyFuisYP1E0x> "DDR5-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R11igUuVHwpyFuisYP1E0x> <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>)
+
+# Class: <http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6> (hörbare Ausgabe)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6> "hörbare Ausgabe"@de)
+SubClassOf(<http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6> <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>)
+
+# Class: <http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI> (SDRAM-Teil (Synchronous DRAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI> "SDRAM-Teil (Synchronous DRAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI> <http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS>)
+
+# Class: <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu> (Produktivitätssoftware)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu> "Produktivitätssoftware"@de)
+SubClassOf(<http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu> <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>)
+
+# Class: <http://webprotege.stanford.edu/R5OlFjslBVZ6mvO7ED1gOL> (DDR3-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R5OlFjslBVZ6mvO7ED1gOL> "DDR3-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R5OlFjslBVZ6mvO7ED1gOL> <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>)
+
+# Class: <http://webprotege.stanford.edu/R6R6iRqQdOkH7xleAgsNbH> (Joystick)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R6R6iRqQdOkH7xleAgsNbH> "Joystick"@de)
+SubClassOf(<http://webprotege.stanford.edu/R6R6iRqQdOkH7xleAgsNbH> <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>)
+
+# Class: <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi> (Spezialisierte Anwendungssoftware)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi> "Spezialisierte Anwendungssoftware"@de)
+SubClassOf(<http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi> <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>)
+
+# Class: <http://webprotege.stanford.edu/R71Fu53JlS31LkD40mq5ZMy> (Mozilla Firefox)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R71Fu53JlS31LkD40mq5ZMy> "Mozilla Firefox"@de)
+SubClassOf(<http://webprotege.stanford.edu/R71Fu53JlS31LkD40mq5ZMy> <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>)
+
+# Class: <http://webprotege.stanford.edu/R71iV18I5sJ3GEJMtevUL8s> (E-Mail-Programm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R71iV18I5sJ3GEJMtevUL8s> "E-Mail-Programm"@de)
+SubClassOf(<http://webprotege.stanford.edu/R71iV18I5sJ3GEJMtevUL8s> <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>)
+
+# Class: <http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4> (Touchpad)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4> "Touchpad"@de)
+SubClassOf(<http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4> <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>)
+
+# Class: <http://webprotege.stanford.edu/R77Jdx4wq5J7LJ3FoBhCc5M> (EEPROM-Teil (Electrically Erasable Programmable ROM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R77Jdx4wq5J7LJ3FoBhCc5M> "EEPROM-Teil (Electrically Erasable Programmable ROM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R77Jdx4wq5J7LJ3FoBhCc5M> <http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU>)
+
+# Class: <http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO> (Optische Maus)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO> "Funktionsweise: Verwenden eine LED, um Bewegungen auf einer Oberfläche zu verfolgen.
+Vorteile: Präzise, keine beweglichen Teile.
+Nachteile: Funktioniert nicht gut auf glänzenden oder transparenten Oberflächen."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO> "Optische Maus"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO> <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>)
+
+# Class: <http://webprotege.stanford.edu/R7HjlPFZJ6HiYbtVxkzacJd> (Bitweises Verschiebungs-Teil (Shift))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7HjlPFZJ6HiYbtVxkzacJd> "Bitweises Verschiebungs-Teil (Shift)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7HjlPFZJ6HiYbtVxkzacJd> <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>)
+
+# Class: <http://webprotege.stanford.edu/R7JDiKJ66Ipgbmb5DEYW5v0> (Ontologie_Ortabhängigkeit)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7JDiKJ66Ipgbmb5DEYW5v0> "Ontologie_Ortabhängigkeit"@de)
+
+# Class: <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH> (Steuerlogik-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH> "Steuerlogik-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH> <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>)
+
+# Class: <http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC> (Netzteil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC> "Netzteil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC> <http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF>)
+
+# Class: <http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9> (Carry-Look-Ahead-Addierer-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9> "Carry-Look-Ahead-Addierer-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9> <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>)
+SubClassOf(<http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>))
+SubClassOf(<http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>))
+SubClassOf(<http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>))
+
+# Class: <http://webprotege.stanford.edu/R7QEJApVdOXyNgX1cvITqjz> (Selektives Lasersintern (SLS))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R7QEJApVdOXyNgX1cvITqjz> "Funktionsweise: Verschmelzen von Pulvermaterialien mit einem Laser.
+Anwendungen: Funktionale Prototypen, komplexe Geometrien.
+Vorteile: Keine Stützstrukturen erforderlich, vielseitige Materialauswahl.
+Nachteile: Hohe Kosten, Nachbearbeitung notwendig."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7QEJApVdOXyNgX1cvITqjz> "Selektives Lasersintern (SLS)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7QEJApVdOXyNgX1cvITqjz> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+
+# Class: <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk> (Kühlsystem-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk> "Kühlsystem-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk> <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>)
+SubClassOf(<http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk> <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>)
+
+# Class: <http://webprotege.stanford.edu/R7Ul9vBXj6SXLPMYMNt3lK> (Scheren-Tastatur)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R7Ul9vBXj6SXLPMYMNt3lK> "Funktionsweise: Eine Variante der Membran-Tastatur mit Scherenmechanismus für stabilere Tasten.
+Vorteile: Flaches Design, leise.
+Nachteile: Weniger taktiles Feedback."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7Ul9vBXj6SXLPMYMNt3lK> "Scheren-Tastatur"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7Ul9vBXj6SXLPMYMNt3lK> <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>)
+
+# Class: <http://webprotege.stanford.edu/R7YrmsLjQZkaspROFr7TIOb> (Motorensteuerelektronik-Teil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R7YrmsLjQZkaspROFr7TIOb> "Steuerelektronik für Motoren"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7YrmsLjQZkaspROFr7TIOb> "Motorensteuerelektronik-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7YrmsLjQZkaspROFr7TIOb> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+# Class: <http://webprotege.stanford.edu/R7Zkwn52tzL9bDV7F71h4qG> (Elektromotor-Teil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R7Zkwn52tzL9bDV7F71h4qG> "Elektromotor (als Antrieb der Achse)"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7Zkwn52tzL9bDV7F71h4qG> "Elektromotor-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7Zkwn52tzL9bDV7F71h4qG> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+# Class: <http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7> (Videobearbeitungsprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7> "Videobearbeitungsprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7> <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>)
+
+# Class: <http://webprotege.stanford.edu/R7bdA6OrtfZ3v3O2ZQ40qOd> (Indexregister-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7bdA6OrtfZ3v3O2ZQ40qOd> "Indexregister-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7bdA6OrtfZ3v3O2ZQ40qOd> <http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv>)
+
+# Class: <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK> (Grafik- und Multimedia-Software)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK> "Grafik- und Multimedia-Software"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK> <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>)
+
+# Class: <http://webprotege.stanford.edu/R7o7XqDTXnCzNeftxs5FmSy> (Datenbankprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7o7XqDTXnCzNeftxs5FmSy> "Datenbankprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7o7XqDTXnCzNeftxs5FmSy> <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>)
+
+# Class: <http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF> (Stromversorgungsteil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF> "Stromversorgungsteil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF> <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>)
+
+# Class: <http://webprotege.stanford.edu/R7stuYuuyv7fakMllY4WNF4> (Tabellenverarbeitungsprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7stuYuuyv7fakMllY4WNF4> "Tabellenverarbeitungsprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7stuYuuyv7fakMllY4WNF4> <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>)
+
+# Class: <http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM> (Axialkühler-Teil (Luftkühler))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM> "Geräuschentwicklung: 20-40 dB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM> "Axialkühler-Teil (Luftkühler)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM> <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>)
+
+# Class: <http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB> (Befehlsdecoder-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB> "Befehlsdecoder-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB> <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>)
+
+# Class: <http://webprotege.stanford.edu/R7z8Mi8ScV8qpzdOp0WfYW0> (macOS)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7z8Mi8ScV8qpzdOp0WfYW0> "macOS"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7z8Mi8ScV8qpzdOp0WfYW0> <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>)
+
+# Class: <http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o> (Windows)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o> "Windows"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o> <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>)
+
+# Class: <http://webprotege.stanford.edu/R7zZflAFsYtXidTmUKBQhf> (Multiplexer-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7zZflAFsYtXidTmUKBQhf> "Multiplexer-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R7zZflAFsYtXidTmUKBQhf> <http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4>)
+
+# Class: <http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y> (Festplattenteil (ohne Wechselmedien))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y> "Festplattenteil (ohne Wechselmedien)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y> <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>)
+
+# Class: <http://webprotege.stanford.edu/R81JIHkBDZ0TyvRk7MfYYZ0> (Linux)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R81JIHkBDZ0TyvRk7MfYYZ0> "Linux"@de)
+SubClassOf(<http://webprotege.stanford.edu/R81JIHkBDZ0TyvRk7MfYYZ0> <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>)
+
+# Class: <http://webprotege.stanford.edu/R85i3qMjkgPWLZVrHQmsG51> (In-Ear-Kopfhörer)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R85i3qMjkgPWLZVrHQmsG51> "Werden in den Gehörgang eingeführt, sind sehr tragbar und bieten gute Geräuschisolierung."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R85i3qMjkgPWLZVrHQmsG51> "In-Ear-Kopfhörer"@de)
+SubClassOf(<http://webprotege.stanford.edu/R85i3qMjkgPWLZVrHQmsG51> <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef>)
+
+# Class: <http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU> (XOR-Verknüpfungs-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU> "XOR-Verknüpfungs-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU> <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>)
+SubClassOf(<http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>))
+SubClassOf(<http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>))
+
+# Class: <http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb> (Datenregister-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb> "Datenregister-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+
+# Class: <http://webprotege.stanford.edu/R8EV2sC7NDb9tZYbvfekcQP> (Windows Holographic (AR/VR))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8EV2sC7NDb9tZYbvfekcQP> "Windows Holographic (AR/VR)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8EV2sC7NDb9tZYbvfekcQP> <http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky>)
+
+# Class: <http://webprotege.stanford.edu/R8HvNlco2d5FdVipgBQK6c4> (RDRAM-Teil (Rambus DRAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8HvNlco2d5FdVipgBQK6c4> "RDRAM-Teil (Rambus DRAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8HvNlco2d5FdVipgBQK6c4> <http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS>)
+
+# Class: <http://webprotege.stanford.edu/R8JD0QDY37AVUgPfEB8wZeF> (Ultraschall-Haptik-Gerät)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R8JD0QDY37AVUgPfEB8wZeF> "Diese Technologie verwendet fokussierte Ultraschallwellen, um fühlbare Empfindungen in der Luft zu erzeugen. Benutzer können diese Empfindungen spüren, ohne physisch mit einem Gerät in Kontakt zu sein."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8JD0QDY37AVUgPfEB8wZeF> "Ultraschall-Haptik-Gerät"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8JD0QDY37AVUgPfEB8wZeF> <http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k>)
+
+# Class: <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm> (GDDR-Teil (Graphics DDR))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm> "GDDR-Teil (Graphics DDR)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm> <http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX>)
+
+# Class: <http://webprotege.stanford.edu/R8OJ8Xd1tJuvrqCePbyE90p> (Lager)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R8OJ8Xd1tJuvrqCePbyE90p> "Lager (für Spindel und Aktorachse)"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8OJ8Xd1tJuvrqCePbyE90p> "Lager"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8OJ8Xd1tJuvrqCePbyE90p> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+# Class: <http://webprotege.stanford.edu/R8SVdi4fMrbkoqwks5nzp6A> (GDDR4-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8SVdi4fMrbkoqwks5nzp6A> "GDDR4-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8SVdi4fMrbkoqwks5nzp6A> <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>)
+
+# Class: <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4> (HDD-Teil (Hard Drive Disc))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4> "Verwendet magnetisches Speichersystem, bei dem Dateien durch ein Lese-Schreib-Kopf in konzentrischen Spuren auf rotierende Scheiben abgespeichert werden."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4> "HDD-Teil (Hard Drive Disc)"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4> <https://www.computerwissen.de/hardware/komponenten-peripherie/festplatte/>)
+SubClassOf(<http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4> <http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y>)
+
+# Class: <http://webprotege.stanford.edu/R8XhreoQ6F4DW1Nol3AdZba> (Spiel-Software)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8XhreoQ6F4DW1Nol3AdZba> "Spiel-Software"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8XhreoQ6F4DW1Nol3AdZba> <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>)
+
+# Class: <http://webprotege.stanford.edu/R8YwjDmEOtqdka5qKxy5JRX> (MUL-Teil vorzeichenlos)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8YwjDmEOtqdka5qKxy5JRX> "MUL-Teil vorzeichenlos"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8YwjDmEOtqdka5qKxy5JRX> <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>)
+
+# Class: <http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2> (Spezialregister-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2> "Spezialregister-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+
+# Class: <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6> (ALU-Teil (arithmetisch logische Einheit))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6> "ALU-Teil (arithmetisch logische Einheit)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6> <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>)
+
+# Class: <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E> (Betriebssoftware (OS))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E> "Betriebssoftware (OS)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E> <http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ>)
+
+# Class: <http://webprotege.stanford.edu/R8c1LPnsvCRXy5QpXHCwSLG> (Achse)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R8c1LPnsvCRXy5QpXHCwSLG> "Achse (auch Spindel genannt; darauf ist die Scheibe montiert)"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8c1LPnsvCRXy5QpXHCwSLG> "Achse"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8c1LPnsvCRXy5QpXHCwSLG> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+# Class: <http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4> (Multiplexer-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4> "Multiplexer-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4> <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>)
+SubClassOf(<http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>))
+SubClassOf(<http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>))
+SubClassOf(<http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>))
+SubClassOf(<http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3>))
+
+# Class: <http://webprotege.stanford.edu/R8cjV2kiPO7VihvNIJLzWTh> (L3 Cache-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8cjV2kiPO7VihvNIJLzWTh> "L3 Cache-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8cjV2kiPO7VihvNIJLzWTh> <http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK>)
+
+# Class: <http://webprotege.stanford.edu/R8eQ7u6reOSoUBq0ZJ0sYhF> (Mechanische Maus)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R8eQ7u6reOSoUBq0ZJ0sYhF> "Funktionsweise: Verwenden eine Rollkugel, die Bewegungen auf eine mechanische Achse überträgt.
+Vorteile: Robust und einfach.
+Nachteile: Anfällig für Schmutz und Staub."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8eQ7u6reOSoUBq0ZJ0sYhF> "Mechanische Maus"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8eQ7u6reOSoUBq0ZJ0sYhF> <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>)
+
+# Class: <http://webprotege.stanford.edu/R8ilqliIoVDmdGjWxFP25In> (Grafik-Tablet)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8ilqliIoVDmdGjWxFP25In> "Grafik-Tablet"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8ilqliIoVDmdGjWxFP25In> <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>)
+
+# Class: <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug> (Computer-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug> "Computer-Teil"@de)
+
+# Class: <http://webprotege.stanford.edu/R8p4LjzxAzrBgrmGlJDAYDM> (Headset)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8p4LjzxAzrBgrmGlJDAYDM> "Headset"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8p4LjzxAzrBgrmGlJDAYDM> <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>)
+
+# Class: <http://webprotege.stanford.edu/R8rI3lrmUUxU1avpE2LZu5h> (Lichtstift)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8rI3lrmUUxU1avpE2LZu5h> "Lichtstift"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8rI3lrmUUxU1avpE2LZu5h> <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>)
+
+# Class: <http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv> (Adressregister-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv> "Adressregister-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+
+# Class: <http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k> (fühlbare Ausgabe)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k> "fühlbare Ausgabe"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k> <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>)
+
+# Class: <http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv> (Befehlsencoder-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv> "Befehlsencoder-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv> <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>)
+
+# Class: <http://webprotege.stanford.edu/R8tPzznzmrHrsp34SLxk5eB> (Selective Laser Melting (SLM))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R8tPzznzmrHrsp34SLxk5eB> "Direct Metal Laser Sintering (DMLS) / Selective Laser Melting (SLM):
+
+Funktionsweise: Verschmelzen von Metallpulver mit einem Laser.
+Anwendungen: Metallteile, industrielle Anwendungen.
+Vorteile: Hohe Festigkeit, komplexe Geometrien.
+Nachteile: Sehr teuer, aufwendige Nachbearbeitung."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8tPzznzmrHrsp34SLxk5eB> "Selective Laser Melting (SLM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8tPzznzmrHrsp34SLxk5eB> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+
+# Class: <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r> (Addierer-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r> "Addierer-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r> <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>)
+
+# Class: <http://webprotege.stanford.edu/R8xAxxGnV9nCP2XOVFUA3Ts> (Mechanische Tastatur)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R8xAxxGnV9nCP2XOVFUA3Ts> "Funktionsweise: Jede Taste hat einen eigenen mechanischen Schalter.
+Vorteile: Langlebig, präzises Tippgefühl, verschiedene Schaltertypen (z.B. Cherry MX).
+Nachteile: Lauter, teurer."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8xAxxGnV9nCP2XOVFUA3Ts> "Mechanische Tastatur"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8xAxxGnV9nCP2XOVFUA3Ts> <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>)
+
+# Class: <http://webprotege.stanford.edu/R8xF9aUS4e0qObXeIef9XVb> (Handy)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8xF9aUS4e0qObXeIef9XVb> "Handy"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8xF9aUS4e0qObXeIef9XVb> <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>)
+
+# Class: <http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O> (Akkumulator-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O> "Akkumulator-Teil"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O> <https://de.wikipedia.org/wiki/Akkumulator_(Computer)>)
+SubClassOf(<http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O> <http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb>)
+SubClassOf(<http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>))
+SubClassOf(<http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>))
+
+# Class: <http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E> (Drucker)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E> "Drucker"@de)
+SubClassOf(<http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E> <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>)
+
+# Class: <http://webprotege.stanford.edu/R91C5XA1Of3COeykJlpt8Bd> (Projektmanagement-Software)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R91C5XA1Of3COeykJlpt8Bd> "Projektmanagement-Software"@de)
+SubClassOf(<http://webprotege.stanford.edu/R91C5XA1Of3COeykJlpt8Bd> <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>)
+
+# Class: <http://webprotege.stanford.edu/R93NZkee43Gvnq8DQRLBkGY> (Carry-Ripple-Addierer-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R93NZkee43Gvnq8DQRLBkGY> "Carry-Ripple-Addierer-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R93NZkee43Gvnq8DQRLBkGY> <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>)
+SubClassOf(<http://webprotege.stanford.edu/R93NZkee43Gvnq8DQRLBkGY> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>))
+SubClassOf(<http://webprotege.stanford.edu/R93NZkee43Gvnq8DQRLBkGY> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX>))
+
+# Class: <http://webprotege.stanford.edu/R93pBpkNDhGy2TOvjBhvfZh> (Membran-Tastatur)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R93pBpkNDhGy2TOvjBhvfZh> "Funktionsweise: Tasten drücken auf eine Membran, die den Kontakt schließt.
+Vorteile: Leise, kostengünstig.
+Nachteile: Weniger präzises Tippgefühl, kürzere Lebensdauer."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R93pBpkNDhGy2TOvjBhvfZh> "Membran-Tastatur"@de)
+SubClassOf(<http://webprotege.stanford.edu/R93pBpkNDhGy2TOvjBhvfZh> <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>)
+
+# Class: <http://webprotege.stanford.edu/R9705hqVF7Ee8oGw2eQSsp9> (GDDR3-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9705hqVF7Ee8oGw2eQSsp9> "GDDR3-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9705hqVF7Ee8oGw2eQSsp9> <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>)
+
+# Class: <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI> (NOT-Verknüpfungs-Teil (Negation))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI> "NOT-Verknüpfungs-Teil (Negation)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI> <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>)
+
+# Class: <http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK> (Enable-Signal-Teil E)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK> "Enable-Signal-Teil E"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK> <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>)
+
+# Class: <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l> (Peripherie-Teil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l> "Peripheriegeräte sind externe Geräte, die an einen Computer angeschlossen werden, um dessen Funktionalität zu erweitern. Sie sind nicht essenziell für den Betrieb des Computers, aber sie ermöglichen die Interaktion mit dem Benutzer und anderen Systemen."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l> "Peripherie-Teil"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l> <https://www.computerwissen.de/hardware/komponenten-peripherie/>)
+SubClassOf(<http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l> <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>)
+
+# Class: <http://webprotege.stanford.edu/R9R0rR8vG32YneitywQXvXk> (Eingabe-/Ausgaberegister-Teil (für Peripherie))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9R0rR8vG32YneitywQXvXk> "Eingabe-/Ausgaberegister-Teil (für Peripherie)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9R0rR8vG32YneitywQXvXk> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+
+# Class: <http://webprotege.stanford.edu/R9RktVvCsiYH54VC5ZqNiz0> (Magnetscheibe)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R9RktVvCsiYH54VC5ZqNiz0> "Magnetscheibe (rotierbar; der eigentliche Datenträger, meist mehrere vorhanden)"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9RktVvCsiYH54VC5ZqNiz0> "Magnetscheibe"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9RktVvCsiYH54VC5ZqNiz0> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+# Class: <http://webprotege.stanford.edu/R9XLIilOR4idlgt31a39kz> (Präsentationsprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9XLIilOR4idlgt31a39kz> "Präsentationsprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9XLIilOR4idlgt31a39kz> <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>)
+
+# Class: <http://webprotege.stanford.edu/R9chgD3TmjJV90WMEUuxxU0> (Akku-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9chgD3TmjJV90WMEUuxxU0> "Akku-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9chgD3TmjJV90WMEUuxxU0> <http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF>)
+
+# Class: <http://webprotege.stanford.edu/R9g23PRmQcQQoHQS6V860Ki> (Laser-Maus)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/R9g23PRmQcQQoHQS6V860Ki> "Funktionsweise: Verwenden einen Laserstrahl für die Bewegungserkennung.
+Vorteile: Sehr präzise, funktioniert auf fast allen Oberflächen.
+Nachteile: Teurer als optische Mäuse."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9g23PRmQcQQoHQS6V860Ki> "Laser-Maus"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9g23PRmQcQQoHQS6V860Ki> <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>)
+
+# Class: <http://webprotege.stanford.edu/R9g8eQ8AzLUiEllEpkt61od> (Google Chrome)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9g8eQ8AzLUiEllEpkt61od> "Google Chrome"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9g8eQ8AzLUiEllEpkt61od> <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>)
+
+# Class: <http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s> (Laufwerk mit Wechselmedien)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s> "Laufwerk mit Wechselmedien"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s> <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>)
+
+# Class: <http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX> (VRAM-Teil (Video RAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX> "VRAM-Teil (Video RAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+
+# Class: <http://webprotege.stanford.edu/R9pTJh7zSNVwb4vhbTiFEyX> (Festplattenverwaltungs)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9pTJh7zSNVwb4vhbTiFEyX> "Festplattenverwaltungs"@de)
+SubClassOf(<http://webprotege.stanford.edu/R9pTJh7zSNVwb4vhbTiFEyX> <http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB>)
+
+# Class: <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9> (Eingabeteil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9> "Eingabeteil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9> <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>)
+
+# Class: <http://webprotege.stanford.edu/RB25YOpOo1k1hZfZafHiuoM> (Ontologie_Aktivität)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB25YOpOo1k1hZfZafHiuoM> "Ontologie_Aktivität"@de)
+
+# Class: <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7> (OR-Verknüpfungs-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7> "OR-Verknüpfungs-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7> <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>)
+
+# Class: <http://webprotege.stanford.edu/RB2BJEU4A1EWj6N0FZ3QVR0> (Brailliezeile)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB2BJEU4A1EWj6N0FZ3QVR0> "Brailliezeile"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RB2BJEU4A1EWj6N0FZ3QVR0> <https://de.wikipedia.org/wiki/Braillezeile>)
+SubClassOf(<http://webprotege.stanford.edu/RB2BJEU4A1EWj6N0FZ3QVR0> <http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k>)
+
+# Class: <http://webprotege.stanford.edu/RB2WZux2eJWTzO6819FVtuu> (FRAM-Teil (Ferroelectric RAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB2WZux2eJWTzO6819FVtuu> "FRAM-Teil (Ferroelectric RAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RB2WZux2eJWTzO6819FVtuu> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+
+# Class: <http://webprotege.stanford.edu/RB6XOHm7YA0qLFkBNWj331P> (DDR1-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB6XOHm7YA0qLFkBNWj331P> "DDR1-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RB6XOHm7YA0qLFkBNWj331P> <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>)
+
+# Class: <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8> (CPU-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8> "CPU-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8> <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>)
+
+# Class: <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6> (Kommunikationssoftware)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6> "Kommunikationssoftware"@de)
+SubClassOf(<http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6> <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>)
+
+# Class: <http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR> (Grafikprozessor-Teil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR> "Das Herzstück Ihrer Grafikkarte und somit die wichtigste Komponente ist der Grafikprozessor. Er übernimmt den Großteil der Grafikberechnung und entlastet somit den Hauptprozessor des Computers."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR> "Grafikprozessor-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR> <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>)
+
+# Class: <http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec> (Gehäuse-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec> "Gehäuse-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec> <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>)
+
+# Class: <http://webprotege.stanford.edu/RB9eokRP0JCr24vcJX9aDPb> (Internes Laufwerksteil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB9eokRP0JCr24vcJX9aDPb> "Internes Laufwerksteil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RB9eokRP0JCr24vcJX9aDPb> <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>)
+
+# Class: <http://webprotege.stanford.edu/RBAUCnMkb0jG2L1A9KOQ63h> (Microsoft Edge)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBAUCnMkb0jG2L1A9KOQ63h> "Microsoft Edge"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBAUCnMkb0jG2L1A9KOQ63h> <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>)
+
+# Class: <http://webprotege.stanford.edu/RBGMeLj2nCXnEl6L6i8GFbx> (SIMD-Register-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBGMeLj2nCXnEl6L6i8GFbx> "SIMD-Register-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBGMeLj2nCXnEl6L6i8GFbx> <http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia>)
+
+# Class: <http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm> (HA-Teil (Halb-Addierer))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm> "HA-Teil (Halb-Addierer)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm> <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>)
+SubClassOf(<http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU>))
+SubClassOf(<http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>))
+
+# Class: <http://webprotege.stanford.edu/RBJLNxKGtkuEzRpnICy1LLk> (Mikrofon)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBJLNxKGtkuEzRpnICy1LLk> "Mikrofon"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBJLNxKGtkuEzRpnICy1LLk> <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>)
+
+# Class: <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA> (Anwendungssoftware)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA> "Anwendungssoftware"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA> <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>)
+
+# Class: <http://webprotege.stanford.edu/RBOWLPgCE9kJxuhXMsViwcK> (GDDR5-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBOWLPgCE9kJxuhXMsViwcK> "GDDR5-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBOWLPgCE9kJxuhXMsViwcK> <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>)
+
+# Class: <http://webprotege.stanford.edu/RBbB0nXhuwE1YLYSxBrR2uL> (Datensicherungssoftware)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBbB0nXhuwE1YLYSxBrR2uL> "Datensicherungssoftware"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBbB0nXhuwE1YLYSxBrR2uL> <http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB>)
+
+# Class: <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4> (Bildschirm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4> "Bildschirm"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4> <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>)
+
+# Class: <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB> (XNOR-Verknüpfungs-Teil (Äquivalenz))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB> "XNOR-Verknüpfungs-Teil (Äquivalenz)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB> <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>)
+SubClassOf(<http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>))
+SubClassOf(<http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>))
+
+# Class: <http://webprotege.stanford.edu/RBoZOkVAefQIxNEr8MB8dpW> (On-Ear-Kopfhörer)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RBoZOkVAefQIxNEr8MB8dpW> "Sitzen auf dem Ohr, sind kompakter und leichter."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBoZOkVAefQIxNEr8MB8dpW> "On-Ear-Kopfhörer"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBoZOkVAefQIxNEr8MB8dpW> <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef>)
+
+# Class: <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8> (Grafikkarten-Teil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8> "Die Grafikkarte ist im Computer für die visuelle Ausgabe zuständig. Die Grafikkarte erhält die relevanten Daten vom Prozessor und wandelt sie so um, dass sie auf dem Bildschirm ausgegeben werden können."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8> "Grafikkarten-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8> <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>)
+
+# Class: <http://webprotege.stanford.edu/RBv9dsAt7cnVvtgNmQIXudI> (Projektor)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBv9dsAt7cnVvtgNmQIXudI> "Projektor"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBv9dsAt7cnVvtgNmQIXudI> <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>)
+
+# Class: <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u> (Maus)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u> "Maus"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u> <https://www.helpster.de/computermausarten-wissenswertes_129262>)
+SubClassOf(<http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u> <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>)
+
+# Class: <http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia> (Vektorregister-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia> "Vektorregister-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia> <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>)
+
+# Class: <http://webprotege.stanford.edu/RC21UjlexOw75pWSSudRMaj> (Scanner)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC21UjlexOw75pWSSudRMaj> "Scanner"@de)
+SubClassOf(<http://webprotege.stanford.edu/RC21UjlexOw75pWSSudRMaj> <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>)
+
+# Class: <http://webprotege.stanford.edu/RC3cipnshFkIfMjbmUvRYPu> (DDR4-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC3cipnshFkIfMjbmUvRYPu> "DDR4-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RC3cipnshFkIfMjbmUvRYPu> <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>)
+
+# Class: <http://webprotege.stanford.edu/RC41IhpR8IT3RV6MLLINEdA> (Unternehmens-Windows)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC41IhpR8IT3RV6MLLINEdA> "Unternehmens-Windows"@de)
+SubClassOf(<http://webprotege.stanford.edu/RC41IhpR8IT3RV6MLLINEdA> <http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o>)
+
+# Class: <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6> (Register-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6> "Register-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6> <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>)
+
+# Class: <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef> (Kopfhörer)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef> "Kopfhörer"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef> <https://blog.beyerdynamic.de/20-wichtige-begriffe-der-audiotechnik-die-du-kennen-solltest/>)
+SubClassOf(<http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef> <http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6>)
+
+# Class: <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy> (AND-Verknüpfungs-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy> "AND-Verknüpfungs-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy> <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>)
+
+# Class: <http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo> (Bildbearbeitungsprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo> "Bildbearbeitungsprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo> <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>)
+
+# Class: <http://webprotege.stanford.edu/RCFo4ecEvCCvNCYkkXZ7ZZl> (NAND-Verknüpfungs-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCFo4ecEvCCvNCYkkXZ7ZZl> "NAND-Verknüpfungs-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCFo4ecEvCCvNCYkkXZ7ZZl> <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>)
+SubClassOf(<http://webprotege.stanford.edu/RCFo4ecEvCCvNCYkkXZ7ZZl> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>))
+SubClassOf(<http://webprotege.stanford.edu/RCFo4ecEvCCvNCYkkXZ7ZZl> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>))
+
+# Class: <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB> (Logischer Einheits-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB> "Logischer Einheits-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB> <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>)
+
+# Class: <http://webprotege.stanford.edu/RCM8ZNimiyuEjcSW6SncVbR> (DDR2-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCM8ZNimiyuEjcSW6SncVbR> "DDR2-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCM8ZNimiyuEjcSW6SncVbR> <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>)
+
+# Class: <http://webprotege.stanford.edu/RCQFcNmMBS5wOI7dYWUbDnf> (Windows Phone (Mobile))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCQFcNmMBS5wOI7dYWUbDnf> "Windows Phone (Mobile)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCQFcNmMBS5wOI7dYWUbDnf> <http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky>)
+
+# Class: <http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS> (DRAM-Teil (Dynamic RAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS> "DRAM-Teil (Dynamic RAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+
+# Class: <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu> (Software-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu> "Software-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu> <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>)
+
+# Class: <http://webprotege.stanford.edu/RCZqzvyVwiGoWyu92PyPnkM> (Vergleichsausgang x<y)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCZqzvyVwiGoWyu92PyPnkM> "Vergleichsausgang x<y"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCZqzvyVwiGoWyu92PyPnkM> <http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6>)
+
+# Class: <http://webprotege.stanford.edu/RCbhrrAtcGr0EPklvjUDwXO> (Plotter)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCbhrrAtcGr0EPklvjUDwXO> "Plotter"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCbhrrAtcGr0EPklvjUDwXO> <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>)
+
+# Class: <http://webprotege.stanford.edu/RCf1MCtfbGBSJN64ANRhSAF> (Vergleichsausgang x=y)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCf1MCtfbGBSJN64ANRhSAF> "Vergleichsausgang x=y"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCf1MCtfbGBSJN64ANRhSAF> <http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6>)
+
+# Class: <http://webprotege.stanford.edu/RCfNmue5WbrI4hbJDIa8zRp> (Ecosia)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCfNmue5WbrI4hbJDIa8zRp> "Ecosia"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCfNmue5WbrI4hbJDIa8zRp> <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>)
+
+# Class: <http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky> (Spezialisiertes Windows)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky> "Spezialisiertes Windows"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky> <http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o>)
+
+# Class: <http://webprotege.stanford.edu/RCjCw4XFPYIEPohnaT0LM9B> (Audiobearbeitungsprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCjCw4XFPYIEPohnaT0LM9B> "Audiobearbeitungsprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCjCw4XFPYIEPohnaT0LM9B> <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>)
+
+# Class: <http://webprotege.stanford.edu/RCl2bUL66XDxHpx1HZhnDFh> (L1 Cache-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCl2bUL66XDxHpx1HZhnDFh> "L1 Cache-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCl2bUL66XDxHpx1HZhnDFh> <http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK>)
+
+# Class: <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI> (Tastatur)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI> "Tastatur"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI> <https://de.movilforum.com/Tastaturtypen/>)
+SubClassOf(<http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI> <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>)
+
+# Class: <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm> (DDR SDRAM-Teil (Double Data Rate SDRAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm> "DDR SDRAM-Teil (Double Data Rate SDRAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm> <http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI>)
+
+# Class: <http://webprotege.stanford.edu/RCtEzB8edoAhFiAg8ci4Tv> (Asynchronous SRAM-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCtEzB8edoAhFiAg8ci4Tv> "Asynchronous SRAM-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCtEzB8edoAhFiAg8ci4Tv> <http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4>)
+
+# Class: <http://webprotege.stanford.edu/RCx6XI1twI8BYXxKsU3Dk4p> (Fernschreiber)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RCx6XI1twI8BYXxKsU3Dk4p> "Frühe Computer verwendeten Drucker, um Daten auf Papier auszugeben. Diese Drucker konnten Textzeilen auf Endlospapier drucken, was eine visuelle Darstellung der Daten ermöglichte."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCx6XI1twI8BYXxKsU3Dk4p> "Fernschreiber"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RCx6XI1twI8BYXxKsU3Dk4p> <https://de.wikipedia.org/wiki/Computermonitor>)
+SubClassOf(<http://webprotege.stanford.edu/RCx6XI1twI8BYXxKsU3Dk4p> <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>)
+
+# Class: <http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK> (Synchronous SRAM-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK> "Synchronous SRAM-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK> <http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4>)
+
+# Class: <http://webprotege.stanford.edu/RCyVpeZjxRzfr6HWOBj55vW> (Vergleichsausgang x>y)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RCyVpeZjxRzfr6HWOBj55vW> "Vergleichsausgang x>y"@de)
+SubClassOf(<http://webprotege.stanford.edu/RCyVpeZjxRzfr6HWOBj55vW> <http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6>)
+
+# Class: <http://webprotege.stanford.edu/RD0nPwuYJTUdrcqbp9i0a2l> (Externes Laufwerksteil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RD0nPwuYJTUdrcqbp9i0a2l> "Externes Laufwerksteil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RD0nPwuYJTUdrcqbp9i0a2l> <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>)
+
+# Class: <http://webprotege.stanford.edu/RD2YIDrmiKblsUK5JdyDlcn> (Laminated Object Manufacturing (LOM))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RD2YIDrmiKblsUK5JdyDlcn> "Funktionsweise: Schichtweises Auftragen und Schneiden von Materialbahnen.
+Anwendungen: Große Modelle, Prototypen.
+Vorteile: Geringe Materialkosten, schnelle Herstellung.
+Nachteile: Geringere Detailgenauigkeit, begrenzte Materialauswahl."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RD2YIDrmiKblsUK5JdyDlcn> "Laminated Object Manufacturing (LOM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RD2YIDrmiKblsUK5JdyDlcn> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+
+# Class: <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5> (Webbrowser-Software)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5> "Webbrowser-Software"@de)
+SubClassOf(<http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5> <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>)
+
+# Class: <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O> (Arithmetischer Einheits-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O> "Arithmetischer Einheits-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O> <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>)
+
+# Class: <http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB> (Dienstprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB> "Dienstprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB> <http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ>)
+
+# Class: <http://webprotege.stanford.edu/RDJJrw1widv0EcS6dy88Pb> (Stapelzeiger-Teil (Stack Pointer))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDJJrw1widv0EcS6dy88Pb> "Stapelzeiger-Teil (Stack Pointer)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDJJrw1widv0EcS6dy88Pb> <http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2>)
+
+# Class: <http://webprotege.stanford.edu/RDLo5ZFbAaULdcyRvppsTEy> (Lochkarten und -streifen)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDLo5ZFbAaULdcyRvppsTEy> "Diese wurden verwendet, um Daten einzugeben und auszugeben. Lochkarten wurden durch Lochkartenstanzer erstellt und konnten von Computern gelesen werden."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDLo5ZFbAaULdcyRvppsTEy> "Lochkarten und -streifen"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDLo5ZFbAaULdcyRvppsTEy> <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>)
+
+# Class: <http://webprotege.stanford.edu/RDPPSjypvo7NF4ht7g3goje> (Ontologie_Zeitabhängigkeit)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDPPSjypvo7NF4ht7g3goje> "Ontologie_Zeitabhängigkeit"@de)
+
+# Class: <http://webprotege.stanford.edu/RDPUjy5GMJMBF3krW1l6FFL> (Scheibengehäuse-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDPUjy5GMJMBF3krW1l6FFL> "Scheibengehäuse-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDPUjy5GMJMBF3krW1l6FFL> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+# Class: <http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw> (Videokonferenz-Programm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw> "Videokonferenz-Programm"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw> <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>)
+
+# Class: <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I> (RAM-Teil (Random Access Memory))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I> "RAM-Teil (Random Access Memory)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I> <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>)
+
+# Class: <http://webprotege.stanford.edu/RDT3SUbF4IrWPvlAkbDBbdO> (Lautsprecher)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDT3SUbF4IrWPvlAkbDBbdO> "Lautsprecher"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDT3SUbF4IrWPvlAkbDBbdO> <http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6>)
+
+# Class: <http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek> (Mainboard-Teil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek> "Das Mainboard (oder auch Motherboard) ist die Hauptplatine, sozusagen der Kern und das Zentrum des Rechners."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek> "Mainboard-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek> <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>)
+
+# Class: <http://webprotege.stanford.edu/RDXACVJIQGCDaZFrz3HPJFh> (DSP-Teil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDXACVJIQGCDaZFrz3HPJFh> "DSP (Digitaler Signalprozessor; regelt die Verwaltung und Bedienung)"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDXACVJIQGCDaZFrz3HPJFh> "DSP-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDXACVJIQGCDaZFrz3HPJFh> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+# Class: <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8> (Multiplizierer-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8> "Multiplizierer-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8> <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>)
+SubClassOf(<http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX>))
+
+# Class: <http://webprotege.stanford.edu/RDZQ0ifA0PRJO91BrCvbEja> (Paralleler Matrixmultiplizierer-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDZQ0ifA0PRJO91BrCvbEja> "Paralleler Matrixmultiplizierer-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDZQ0ifA0PRJO91BrCvbEja> <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>)
+SubClassOf(<http://webprotege.stanford.edu/RDZQ0ifA0PRJO91BrCvbEja> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>))
+
+# Class: <http://webprotege.stanford.edu/RDg3kEKG9hSMGvu0k7pJFhZ> (Aktorachsenantrieb-Teil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDg3kEKG9hSMGvu0k7pJFhZ> "Antrieb für Aktorachse"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDg3kEKG9hSMGvu0k7pJFhZ> "Aktorachsenantrieb-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDg3kEKG9hSMGvu0k7pJFhZ> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+# Class: <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY> (Hardware-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY> "Hardware-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY> <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>)
+
+# Class: <http://webprotege.stanford.edu/RDh60rxz8m5JQs9nsmnxIJf> (QR-Code-Leser)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDh60rxz8m5JQs9nsmnxIJf> "QR-Code-Leser"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDh60rxz8m5JQs9nsmnxIJf> <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>)
+
+# Class: <http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH> (SSD-Teil (Solid State Disc))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH> "Verwendet elektrisches Speichersystem und besteht aus Flash-Speicherbausteinen. Realisiert das Speichern über Halbleiter. Besitzen keine beweglichen Teile wie HDD."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH> "SSD-Teil (Solid State Disc)"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH> <https://www.computerwissen.de/hardware/komponenten-peripherie/festplatte/>)
+SubClassOf(<http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH> <http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y>)
+
+# Class: <http://webprotege.stanford.edu/RDklXKjIUxpT14UulYJc49P> (Haptisches Feedback-Gerät)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDklXKjIUxpT14UulYJc49P> "Diese Geräte erzeugen Vibrationen oder andere taktile Empfindungen, um Benutzer über Ereignisse oder Zustände zu informieren. Beispiele sind Smartphones, die bei Benachrichtigungen vibrieren, oder Gaming-Controller, die Rückmeldungen während des Spiels geben. Beispiel: Controller mit Vibrierfunktion"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDklXKjIUxpT14UulYJc49P> "Haptisches Feedback-Gerät"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDklXKjIUxpT14UulYJc49P> <http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k>)
+
+# Class: <http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS> (Animationsprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS> "Animationsprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS> <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>)
+
+# Class: <http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6> (Komparatoren-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6> "Komparatoren-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6> <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>)
+SubClassOf(<http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>))
+SubClassOf(<http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>))
+SubClassOf(<http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>))
+SubClassOf(<http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> <http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK>))
+
+# Class: <http://webprotege.stanford.edu/RDpZ0J034vBpUnzOwQIq2cZ> (Hybridkühlungsteil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDpZ0J034vBpUnzOwQIq2cZ> "Geräuschentwicklung: 25-40 dB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDpZ0J034vBpUnzOwQIq2cZ> "Hybridkühlungsteil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDpZ0J034vBpUnzOwQIq2cZ> <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>)
+
+# Class: <http://webprotege.stanford.edu/RDq6UlnGDp42tz1WptYDJqa> (Lesekopf)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDq6UlnGDp42tz1WptYDJqa> "Schreib-Lese-Köpfe (beweglich; sitzen auf der Aktorachse)"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDq6UlnGDp42tz1WptYDJqa> "Lesekopf"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDq6UlnGDp42tz1WptYDJqa> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+# Class: <http://webprotege.stanford.edu/RDsHOJNs1IL50zDYWxwEL3Z> (CAD-Software (Computer-Aided Design))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDsHOJNs1IL50zDYWxwEL3Z> "CAD-Software (Computer-Aided Design)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDsHOJNs1IL50zDYWxwEL3Z> <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>)
+
+# Class: <http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB> (Textverarbeitungsprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB> "Textverarbeitungsprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB> <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>)
+
+# Class: <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42> (Laufwerk-Teil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42> "Bei einem Laufwerk handelt es sich um ein Gerät, welches den Schreib- oder Lesezugriff auf ein elektronisches Speichermedium ermöglicht."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42> "Laufwerk-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42> <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>)
+
+# Class: <http://webprotege.stanford.edu/RDyiUOXU3mDxESrKRgofRSW> (Blower-Kühler-Teil (Gebläsekühler))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDyiUOXU3mDxESrKRgofRSW> "Geräuschentwicklung: 30-50 dB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDyiUOXU3mDxESrKRgofRSW> "Blower-Kühler-Teil (Gebläsekühler)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RDyiUOXU3mDxESrKRgofRSW> <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>)
+
+# Class: <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N> (3D-Drucker)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N> "3D-Drucker"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N> <https://tipps-3ddrucker.de/3d-drucker-infos/3d-drucker-arten/>)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N> <https://www.3d-grenzenlos.de/3d-drucker-arten/>)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N> <https://zeigdeinekunst.de/3d-drucker-arten-welche-gibt-es/>)
+SubClassOf(<http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N> <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>)
+
+# Class: <http://webprotege.stanford.edu/RFoNz1kmOexYojD6xn0daA> (Buchhaltungssoftware)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RFoNz1kmOexYojD6xn0daA> "Buchhaltungssoftware"@de)
+SubClassOf(<http://webprotege.stanford.edu/RFoNz1kmOexYojD6xn0daA> <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>)
+
+# Class: <http://webprotege.stanford.edu/RITpdAHdSi0SwwtG3JHcFR> (Teletype-Terminal)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RITpdAHdSi0SwwtG3JHcFR> "Teletype-Terminal"@de)
+SubClassOf(<http://webprotege.stanford.edu/RITpdAHdSi0SwwtG3JHcFR> <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>)
+SubClassOf(<http://webprotege.stanford.edu/RITpdAHdSi0SwwtG3JHcFR> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E>))
+SubClassOf(<http://webprotege.stanford.edu/RITpdAHdSi0SwwtG3JHcFR> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>))
+
+# Class: <http://webprotege.stanford.edu/RJDAO6GCQTWi9yElZWc0aJ> (Belichter)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RJDAO6GCQTWi9yElZWc0aJ> "Belichter"@de)
+SubClassOf(<http://webprotege.stanford.edu/RJDAO6GCQTWi9yElZWc0aJ> <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>)
+
+# Class: <http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO> (Entwicklungssoftware)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO> "Entwicklungssoftware"@de)
+SubClassOf(<http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO> <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>)
+
+# Class: <http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2> (Fused Deposition Modeling (FDM))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2> "Funktionsweise: Schichtweises Auftragen von geschmolzenem Kunststofffilament.
+Anwendungen: Prototyping, funktionale Teile, Hobbyprojekte.
+Vorteile: Erschwinglich, große Materialauswahl.
+Nachteile: Geringere Auflösung, sichtbare Schichtlinien."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2> "Fused Deposition Modeling (FDM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+SubClassOf(<http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>))
+SubClassOf(<http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> <http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4>))
+SubClassOf(<http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>))
+SubClassOf(<http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>))
+
+# Class: <http://webprotege.stanford.edu/RMxPS2fXf0lf8RREd1cjlV> (Digital Light Processing (DLP))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RMxPS2fXf0lf8RREd1cjlV> "Funktionsweise: Aushärtung von Harz mit digitaler Lichtprojektion.
+Anwendungen: Ähnlich wie SLA, aber schneller.
+Vorteile: Hohe Auflösung, schnelle Druckzeiten.
+Nachteile: Begrenzte Materialauswahl, teure Drucker."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RMxPS2fXf0lf8RREd1cjlV> "Digital Light Processing (DLP)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RMxPS2fXf0lf8RREd1cjlV> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+
+# Class: <http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3> (Steuersignal-Teil s)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3> "Steuersignal-Teil s"@de)
+SubClassOf(<http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3> <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>)
+
+# Class: <http://webprotege.stanford.edu/RNS1ANEHVjHXqFAHca8Ype> (ECC RAM-Teil (Error-Correcting-Code RAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RNS1ANEHVjHXqFAHca8Ype> "ECC RAM-Teil (Error-Correcting-Code RAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RNS1ANEHVjHXqFAHca8Ype> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+
+# Class: <http://webprotege.stanford.edu/RNfxOcx3fe8YRFazLrzAFl> (Unix)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RNfxOcx3fe8YRFazLrzAFl> "Unix"@de)
+SubClassOf(<http://webprotege.stanford.edu/RNfxOcx3fe8YRFazLrzAFl> <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>)
+
+# Class: <http://webprotege.stanford.edu/RQt2FrMaj7yXm04ahdFTo9> (Windows CE (Embedded Compact))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RQt2FrMaj7yXm04ahdFTo9> "Windows CE (Embedded Compact)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RQt2FrMaj7yXm04ahdFTo9> <http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky>)
+
+# Class: <http://webprotege.stanford.edu/RQxerG1rwegoHvwr4FyEgS> (Passivkühlungsteil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RQxerG1rwegoHvwr4FyEgS> "Geräuschentwicklung: 0 dB (geräuschlos)"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RQxerG1rwegoHvwr4FyEgS> "Passivkühlungsteil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RQxerG1rwegoHvwr4FyEgS> <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>)
+
+# Class: <http://webprotege.stanford.edu/RRLuH4pm0NZzUUwT0QxHuB> (Bitweises Rotations-Teil (Rotate))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RRLuH4pm0NZzUUwT0QxHuB> "Bitweises Rotations-Teil (Rotate)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RRLuH4pm0NZzUUwT0QxHuB> <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>)
+
+# Class: <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc> (Ein- und Ausgabeteil (Hybrid))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc> "Ein- und Ausgabeteil (Hybrid)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc> <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>)
+
+# Class: <http://webprotege.stanford.edu/RTIQkYOr3LP19PCtfgpTgN> (Over-Ear-Kopfhörer)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RTIQkYOr3LP19PCtfgpTgN> "Bedecken das gesamte Ohr, bieten hervorragende Klangqualität und Geräuschisolierung."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RTIQkYOr3LP19PCtfgpTgN> "Over-Ear-Kopfhörer"@de)
+SubClassOf(<http://webprotege.stanford.edu/RTIQkYOr3LP19PCtfgpTgN> <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef>)
+
+# Class: <http://webprotege.stanford.edu/RTbWOqbFBMkj93ixX6TRXi> (Stereolithografie (SLA))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RTbWOqbFBMkj93ixX6TRXi> "Funktionsweise: Aushärtung von flüssigem Harz mit einem UV-Laser.
+Anwendungen: Hochdetaillierte Prototypen, Schmuck, medizinische Modelle.
+Vorteile: Hohe Auflösung, glatte Oberflächen.
+Nachteile: Teure Materialien, Nachbearbeitung erforderlich."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RTbWOqbFBMkj93ixX6TRXi> "Stereolithografie (SLA)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RTbWOqbFBMkj93ixX6TRXi> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+
+# Class: <http://webprotege.stanford.edu/RTulsSYDCz5kK3i4Xx3VMW> (Multi Jet Printing (MJP))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RTulsSYDCz5kK3i4Xx3VMW> "Funktionsweise: Auftragen von flüssigem Material durch Düsen, das anschließend ausgehärtet wird.
+Anwendungen: Hochdetaillierte Modelle, Prototypen.
+Vorteile: Hohe Präzision, glatte Oberflächen.
+Nachteile: Teure Materialien und Drucker."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RTulsSYDCz5kK3i4Xx3VMW> "Multi Jet Printing (MJP)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RTulsSYDCz5kK3i4Xx3VMW> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+
+# Class: <http://webprotege.stanford.edu/RUSSYtZWlFVa0ndhHG5Tbx> (Demultiplexer-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RUSSYtZWlFVa0ndhHG5Tbx> "Demultiplexer-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RUSSYtZWlFVa0ndhHG5Tbx> <http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4>)
+
+# Class: <http://webprotege.stanford.edu/RV2Yg48VXKYNjZbsznkFj> (Direct Metal Laser Sintering (DMLS))
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RV2Yg48VXKYNjZbsznkFj> "Direct Metal Laser Sintering (DMLS) / Selective Laser Melting (SLM):
+
+Funktionsweise: Verschmelzen von Metallpulver mit einem Laser.
+Anwendungen: Metallteile, industrielle Anwendungen.
+Vorteile: Hohe Festigkeit, komplexe Geometrien.
+Nachteile: Sehr teuer, aufwendige Nachbearbeitung."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RV2Yg48VXKYNjZbsznkFj> "Direct Metal Laser Sintering (DMLS)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RV2Yg48VXKYNjZbsznkFj> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+
+# Class: <http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX> (VA-Teil (Voll-Addierer))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX> "VA-Teil (Voll-Addierer)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX> <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>)
+SubClassOf(<http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>))
+SubClassOf(<http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm>))
+SubClassOf(<http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>))
+
+# Class: <http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF> (Wasserkühlungsteil)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF> "Geräuschentwicklung: 20-35 dB"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF> "Wasserkühlungsteil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF> <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>)
+
+# Class: <http://webprotege.stanford.edu/RXepuVySiwfopxiWbqqcYQ> (DVD)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RXepuVySiwfopxiWbqqcYQ> "DVD"@de)
+SubClassOf(<http://webprotege.stanford.edu/RXepuVySiwfopxiWbqqcYQ> <http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s>)
+
+# Class: <http://webprotege.stanford.edu/RXtT3MqJ5viFr6sWJY1EED> (NOR-Verknüpfungs-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RXtT3MqJ5viFr6sWJY1EED> "NOR-Verknüpfungs-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RXtT3MqJ5viFr6sWJY1EED> <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>)
+SubClassOf(<http://webprotege.stanford.edu/RXtT3MqJ5viFr6sWJY1EED> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>))
+SubClassOf(<http://webprotege.stanford.edu/RXtT3MqJ5viFr6sWJY1EED> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>))
+
+# Class: <http://webprotege.stanford.edu/RY4PA7MFCpysEv5fqUwTJL> (MRAM-Teil (Magnetoresistive RAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RY4PA7MFCpysEv5fqUwTJL> "MRAM-Teil (Magnetoresistive RAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RY4PA7MFCpysEv5fqUwTJL> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+
+# Class: <http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU> (NVRAM (Non-Volatile RAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU> "NVRAM (Non-Volatile RAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+
+# Class: <http://webprotege.stanford.edu/RbN6KWKjKV5fFkapZyPv4M> (Antivirenprogramm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RbN6KWKjKV5fFkapZyPv4M> "Antivirenprogramm"@de)
+SubClassOf(<http://webprotege.stanford.edu/RbN6KWKjKV5fFkapZyPv4M> <http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB>)
+
+# Class: <http://webprotege.stanford.edu/RbiRVoMLWP1OfrbH731R41> (GDDR6-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RbiRVoMLWP1OfrbH731R41> "GDDR6-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RbiRVoMLWP1OfrbH731R41> <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>)
+
+# Class: <http://webprotege.stanford.edu/RcPGNeqUIMiE3Ndtra1oAm> (Ontologie_Besitzer)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RcPGNeqUIMiE3Ndtra1oAm> "Ontologie_Besitzer"@de)
+
+# Class: <http://webprotege.stanford.edu/RcyGGmSaRpSzIgtypa4VGY> (Befehlszähler-Teil (Program Counter))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RcyGGmSaRpSzIgtypa4VGY> "Befehlszähler-Teil (Program Counter)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RcyGGmSaRpSzIgtypa4VGY> <http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2>)
+
+# Class: <http://webprotege.stanford.edu/RdaA56JI03hiH3T9rwT3Yb> (Flash Memory-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RdaA56JI03hiH3T9rwT3Yb> "Flash Memory-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RdaA56JI03hiH3T9rwT3Yb> <http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU>)
+
+# Class: <http://webprotege.stanford.edu/RdoqIyEoJ1nwk36ChphZWH> (Lichtgriffeldisplay)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RdoqIyEoJ1nwk36ChphZWH> "In den 1960er Jahren wurden Vektor-Displays und Lichtgriffel verwendet, um grafische Daten darzustellen. Diese Displays konnten Linien und Formen zeichnen, waren jedoch nicht für die Darstellung von Text geeignet."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RdoqIyEoJ1nwk36ChphZWH> "Lichtgriffeldisplay"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RdoqIyEoJ1nwk36ChphZWH> <https://de.wikipedia.org/wiki/Computermonitor>)
+SubClassOf(<http://webprotege.stanford.edu/RdoqIyEoJ1nwk36ChphZWH> <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>)
+
+# Class: <http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ> (Systemsoftware)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ> "Systemsoftware"@de)
+SubClassOf(<http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ> <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>)
+
+# Class: <http://webprotege.stanford.edu/RfKtGvGbKq8rtn53ZP85z9> (Safari)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RfKtGvGbKq8rtn53ZP85z9> "Safari"@de)
+SubClassOf(<http://webprotege.stanford.edu/RfKtGvGbKq8rtn53ZP85z9> <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>)
+
+# Class: <http://webprotege.stanford.edu/RfrL5QxmKULUo1YcAxyMez> (EDO RAM-Teil (Extended Data Out RAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RfrL5QxmKULUo1YcAxyMez> "EDO RAM-Teil (Extended Data Out RAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RfrL5QxmKULUo1YcAxyMez> <http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS>)
+
+# Class: <http://webprotege.stanford.edu/RhWQcZZvHStT4rYIAxzo4P> (Basisregister-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RhWQcZZvHStT4rYIAxzo4P> "Basisregister-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RhWQcZZvHStT4rYIAxzo4P> <http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv>)
+
+# Class: <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg> (Permament-sichtbare Ausgabe)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg> "Permament-sichtbare Ausgabe"@de)
+SubClassOf(<http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg> <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>)
+
+# Class: <http://webprotege.stanford.edu/Rm9Ae8RNrO4NkNGcGw0dlZ> (MUL-Teil vorzeichenbehaftet im 2er-Komplement)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rm9Ae8RNrO4NkNGcGw0dlZ> "MUL-Teil vorzeichenbehaftet im 2er-Komplement"@de)
+SubClassOf(<http://webprotege.stanford.edu/Rm9Ae8RNrO4NkNGcGw0dlZ> <http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf>)
+
+# Class: <http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs> (Barcodeleser)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs> "Barcodeleser"@de)
+SubClassOf(<http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs> <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>)
+
+# Class: <http://webprotege.stanford.edu/Ro1SIhvg7BhPLclLNsvlFx> (Instant-Messaging-Programm)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Ro1SIhvg7BhPLclLNsvlFx> "Instant-Messaging-Programm"@de)
+SubClassOf(<http://webprotege.stanford.edu/Ro1SIhvg7BhPLclLNsvlFx> <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>)
+
+# Class: <http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC> (Endverbraucher-Windows)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC> "Endverbraucher-Windows"@de)
+SubClassOf(<http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC> <http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o>)
+
+# Class: <http://webprotege.stanford.edu/RpbhJ65H2dyiuiGcgHF1NB> (L2 Cache-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RpbhJ65H2dyiuiGcgHF1NB> "L2 Cache-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RpbhJ65H2dyiuiGcgHF1NB> <http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK>)
+
+# Class: <http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf> (MUL-Teil vorzeichenbehaftet)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf> "MUL-Teil vorzeichenbehaftet"@de)
+SubClassOf(<http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf> <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>)
+SubClassOf(<http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB>))
+SubClassOf(<http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv>))
+SubClassOf(<http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf> ObjectSomeValuesFrom(<http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>))
+
+# Class: <http://webprotege.stanford.edu/RqFGD8CxkU7PnB6Ja1YfCa> (Allgemeiner Register-Teil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RqFGD8CxkU7PnB6Ja1YfCa> "Allgemeiner Register-Teil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RqFGD8CxkU7PnB6Ja1YfCa> <http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb>)
+
+# Class: <http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4> (SRAM-Teil (Static RAM))
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4> "SRAM-Teil (Static RAM)"@de)
+SubClassOf(<http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4> <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>)
+
+# Class: <http://webprotege.stanford.edu/RqRHJbUjXRyHhB2YKPTIZQ> (Binder Jetting)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RqRHJbUjXRyHhB2YKPTIZQ> "Funktionsweise: Auftragen eines flüssigen Bindemittels auf Pulverschichten.
+Anwendungen: Metallteile, Sandformen.
+Vorteile: Schnelle Druckzeiten, große Bauteile möglich.
+Nachteile: Nachbearbeitung erforderlich, begrenzte Materialauswahl."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RqRHJbUjXRyHhB2YKPTIZQ> "Binder Jetting"@de)
+SubClassOf(<http://webprotege.stanford.edu/RqRHJbUjXRyHhB2YKPTIZQ> <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>)
+
+# Class: <http://webprotege.stanford.edu/RqvZD7EdntjhmkJbbBPPzn> (CD)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RqvZD7EdntjhmkJbbBPPzn> "CD"@de)
+SubClassOf(<http://webprotege.stanford.edu/RqvZD7EdntjhmkJbbBPPzn> <http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s>)
+
+# Class: <http://webprotege.stanford.edu/RrUt11kEUgwskKEqpdqVtd> (Blu-ray)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RrUt11kEUgwskKEqpdqVtd> "Blu-ray"@de)
+SubClassOf(<http://webprotege.stanford.edu/RrUt11kEUgwskKEqpdqVtd> <http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s>)
+
+# Class: <http://webprotege.stanford.edu/RsGkUGvr0Xs2IzSIAuEEoc> (MUL-Teil vorzeichenbehaftet im 1er-Komplement)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RsGkUGvr0Xs2IzSIAuEEoc> "MUL-Teil vorzeichenbehaftet im 1er-Komplement"@de)
+SubClassOf(<http://webprotege.stanford.edu/RsGkUGvr0Xs2IzSIAuEEoc> <http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf>)
+
+# Class: <http://webprotege.stanford.edu/Rv26I5luFROYEVBtTC9Pws> (Vektordisplay)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/Rv26I5luFROYEVBtTC9Pws> "In den 1960er Jahren wurden Vektor-Displays und Lichtgriffel verwendet, um grafische Daten darzustellen. Diese Displays konnten Linien und Formen zeichnen, waren jedoch nicht für die Darstellung von Text geeignet."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/Rv26I5luFROYEVBtTC9Pws> "Vektordisplay"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/Rv26I5luFROYEVBtTC9Pws> <https://de.wikipedia.org/wiki/Computermonitor>)
+SubClassOf(<http://webprotege.stanford.edu/Rv26I5luFROYEVBtTC9Pws> <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>)
+
+# Class: <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj> (Flüchtig-sichtbare-Ausgabe)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj> "Flüchtig-sichtbare-Ausgabe"@de)
+SubClassOf(<http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj> <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>)
+
+# Class: <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo> (Ausgabeteil)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo> "Ausgabeteil"@de)
+SubClassOf(<http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo> <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>)
+
+# Class: <http://webprotege.stanford.edu/RvcvjuMJiRFZ7kiT7JOwkc> (Schreibkopf)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RvcvjuMJiRFZ7kiT7JOwkc> "Schreib-Lese-Köpfe (beweglich; sitzen auf der Aktorachse)"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RvcvjuMJiRFZ7kiT7JOwkc> "Schreibkopf"@de)
+SubClassOf(<http://webprotege.stanford.edu/RvcvjuMJiRFZ7kiT7JOwkc> <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>)
+
+
+############################
+#   Named Individuals
+############################
+
+# Individual: <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> (Bildschirm_LG_UltraWide)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "LG 49WQ95C-W UltraWide Dual QHD Nano IPS Curved Monitor"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "Bildschirm_LG_UltraWide"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> <https://www.kamera-express.de/lg-49wq95c-w-ultrawide-dual-qhd-nano-ips-cu?msclkid=83d264ecd2fa18260e3b037b3c465928&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping%20-%20DE&utm_term=4576236145078159&utm_content=Overig>)
+ClassAssertion(<http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "144"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "'LG'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "49"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "'---.---.---.431.253'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "70"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "70"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "1189.00"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN> <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS> "true"^^xsd:boolean)
+
+# Individual: <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8> (Gehäuse_bequiet!_PureBase501Airflow)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8> "be quiet! Pure Base 501 Airflow Black PC-Gehäuse, 2 vorinstallierte Pure Wings 3 140mm PWM-Lüfter, hoher statischer Druck, geräumiges Design, kompakte Abmessungen, USB 3.2 Gen. 2 Type C"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8> "Gehäuse_bequiet!_PureBase501Airflow"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8> <https://www.amazon.de/quiet-PC-Geh%C3%A4use-vorinstallierte-PWM-L%C3%BCfter-Abmessungen/dp/B0DGXR6TTD/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.gyXsgC3ywctYbzR2bTNomV00f-XvC-ZW7nklXYAHfs9sKM4As8D08jaz2Ye_R5VYzpPehR-5hfYcKvY24iHethal583a-OfDMi_bk_zuBppUPWkLtZCN4LpLLMqvNUPFuG4ZQgt0lni33CEwPY71XTNdqWUbFDqul2GJ2dqPrRsM0ixnqj7THOZtgwiIW-GaD4bRgssm0kP84XGNGZguT-NULSlAt1o4afucxr-TzMA.lC-6NuPruQtRiJUKcXiKwORn7JBmw0_UpK0gNw67EoA&dib_tag=se&keywords=pc%2Bgeh%C3%A4use%2Bbequiet&qid=1737990372&sr=8-3&th=1>)
+ClassAssertion(<http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec> <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8> "'be quiet!'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8> "#000.000.011.456'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8> "78.67"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> (3D_Drucker_FDM_BambuLab_X1E)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "BambuLab X1E Combo 3D Drucker inkl. Software, integrierte Kamera, beheizbares Druckbett. [Fused Deposition Modeling (FDM)]"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "3D_Drucker_FDM_BambuLab_X1E"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> <https://www.conrad.de/de/p/bambulab-x1e-combo-3d-drucker-inkl-software-integrierte-kamera-beheizbares-druckbett-3123315.html?hk=SEM&+B%C3%BCro=&+B%C3%BCro=&B2C+Experience=&ef_id=df138bb73a4f19525fe1ec20c80ad5c9%3AG%3As&s_kwcid=AL%21222%2110%2172293299822756%214575892546088651&msclkid=df138bb73a4f19525fe1ec20c80ad5c9&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping_All+Products_Bad+Performer&utm_term=4575892546088651&utm_content=Shopping_All+Products_Bad+Performer>)
+ClassAssertion(<http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "230"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "0.5"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "'b8-9a-2c-5f-21-53'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "52"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "'1280x720'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs> "2699.00"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG> (Tastatur_Rii)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG> "Rii Tastatur Kabelgebunden, PC Tastatur USB, Business Slim Tastatur mit Kabel für Computer, Laptop, Mac, Windows, macOS, QWERTZ Deutsches Layout– Schwarz"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG> "Tastatur_Rii"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG> <https://www.amazon.de/Rii-Tastatur-Windows-Microsoft-Deutsches/dp/B07VK1P4C9/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=39BHXL71BFYM9&dib=eyJ2IjoiMSJ9.WStaaagcQDMSKb_ZNCx1rWyaDrFbDHHEhd8h9UtsdiP53m1zkzJL5Wzvvby7MFgAknvSK64Mk_jwyUeigwLQWjMJMA9CESO4S9M8JVxaw8Q2G-WPh88syGpe7yanxy85_buCyMUEgV3ooHmBvq6BB57SGUsG1VFQDBNBSiksAFMB1iJOxpDT1NrrEwRlQrNJIMolfwfqnXsjoHmtgrHlNEG0iO47j-mbWSn3D1S0Ogg.PnEJApUK2DHpqytjtPY4jXeO6SLL5I1pWm88N6yoEu0&dib_tag=se&keywords=tastatur&qid=1737988763&sprefix=braillezeile%2Btastatur%2Caps%2C180&sr=8-3&th=1>)
+ClassAssertion(<http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI> <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG> "'Rii'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG> "'a1-b5-34-c7-8f-j2'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG> "10.99"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> (Wasserkühler_Arctic_LiquidFreezerIII)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> "ARCTIC Liquid Freezer III 240 A-RGB - Wasserkühlung PC, AIO CPU Wasserkühler, Intel & AMD, effiziente PWM-gesteuerte Pumpe, Lüfter: 200–2000 RPM, LGA1851 und LGA1700 Contact Frame - Schwarz"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> "Wasserkühler_Arctic_LiquidFreezerIII"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> <https://www.amazon.de/ARCTIC-Liquid-Freezer-RGB-PWM-gesteuerte/dp/B09VH4M76W/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=36HJS42VILI55&dib=eyJ2IjoiMSJ9.rIO4cr7DdhzQMXSR3zAA_QOoYsiBsHH5rvy-w-b--BZX7U4utTaZTb4vXV6LelQumbzQC2q_nU4GswuVsr0syAIJyln7lA1KdT3Y9yvjf9E4dIWbTBNkp3HqWFDoNsf0K3rTw-M52XpowJok2Hqmo8VMR3sBPkIGAAdc2HmGBJh13dsJ2IJswUwYI9LDhNUQsoZK31ytVYg8UU3fsyyrbnlo4Wuc1pejbIv7VlS0I50.tIlRMQaSl8VH1BcYE6uyAzPA2ofR6su_hsxLkkNBZXQ&dib_tag=se&keywords=wasserk%C3%BChler%2Bpc&qid=1737990511&sprefix=wasserk%C3%BChler%2Bpc%2Caps%2C164&sr=8-3&th=1>)
+ClassAssertion(<http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1>)
+ClassAssertion(<http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> "12"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> "Arctic"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> "'###-###-123-##2-123-654'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> "25"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1> "70.06"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> (SSD_64GB_Transcend)
+
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "SSD_64GB_Transcend"@de)
+ClassAssertion(<http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "'Transcend'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "'0001235312'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "0"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "4000000000"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "4480000000"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "512000000000"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc> "21.26"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> (RAM_8GB_Corsair_Vengeance)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> "Corsair VENGEANCELPX16GB (2x 8GB) DDR4 3200(Pc4-25600) C16 1.35V Desktop Memory - Schwarz"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> "RAM_8GB_Corsair_Vengeance"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> <https://www.amazon.de/Corsair-Vengeance-3200MHz-Performance-Arbeitsspeicher/dp/B07RS1G6XW/ref=sr_1_3?dib=eyJ2IjoiMSJ9.PyoFKd7S4ljtAVkGsvd4b1mUPWu1Jdpxnta-KdKex_iO02kHg9R620Uoft1_Y4BdEDsvjgdxIvIDIc7P4OYk3pi57GVZq7iPI7yhq0UFKqHm8eb4fnTMqj8y-H5mUvqNimx_Dds9tbzymgkoxe7-vvDZaaGQFSViHzUb4Dcm3OsbpHHK1-7C6FUveBmlqn-TZkr5fpFqY3_4C-FoRdXXRaq9ntWu7Jag257RcjD8eyE.ngKrO-jDGZXAcVqVKVg45UA1utE938FF23kJ9-wRc5U&dib_tag=se&keywords=ram&qid=1737989248&sr=8-3&th=1>)
+ClassAssertion(<http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm> <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> "1.35"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> "3200000000"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE> <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> "8589934592"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> "'......623412'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF> "18.95"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> (Grafikkarte_Nvidia_AsusRTX_4080)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "ASUS ProArt GeForce RTX 4080 SUPER OC Edition 16GB GDDR6X Gaming Grafikkarte (NVIDIA GeForce RTX4080 DLSS 3, PCIe 4.0, 1x HDMI 2.1a, 3X DisplayPort 1.4a, PROART-RTX4080S-O16G)"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "Grafikkarte_Nvidia_AsusRTX_4080"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> <https://www.amazon.de/ASUS-GeForce-Grafikkarte-DisplayPort-PROART-RTX4080S-O16G/dp/B0CS3V7ZKJ/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1OYTAHY9J3JP7&dib=eyJ2IjoiMSJ9.rge7k9zyACedTZ7m0nyXVuOSAry-55vRCRDC8_AOLuxlqwvNUgr9IHdRuAhwFW-7sZP9_AY5yGADLMMsny15G7rAWZdPw9hrD0ytHGgDpM48pYkrLPMzTVDHf47eqmGc9IANRo7Pn9WhVipgqMXW42RhMYk8e9PG4PGkiguyLlNxiGeHDoogrna4VfV90qrv-eIvXQoEUlyPPz1F2NLoyuLtg1bFLsEJC4jUyiFkEEQ.rxD8nhoi8cakyA9LFG6zdrImwz543pCdj-p7NxBY8-Y&dib_tag=se&keywords=grafikkarte+nvidia+rtx+4080&qid=1737990082&sprefix=grafikkarte+nvidia+rtx+4080%2Caps%2C142&sr=8-2>)
+ClassAssertion(<http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "2610000000"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "Nvidia"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "137438953472"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "'134.123.124.234'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "850"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "0"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb> "1199.00"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> (Netzteil_Thermaltake_Axialkühler)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "Thermaltake TR2 S 700W | PC-ATX-Netzteil | 80-Plus | leiser 120 Lüfter | EU zertifiziert | schwarz"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "Netzteil_Thermaltake_Axialkühler"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> <https://www.amazon.de/Thermaltake-TR2-S-700W-PC-Netzteil/dp/B016WFYCFU/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=383INO7IYRAN8&dib=eyJ2IjoiMSJ9.KxKMHgyrCEFXWeyVcqVKZmsKE7tvAd0NvjV4RUCQ9z6hsGfmQReD4VLan2vs9NbGxciCgUomwiad3_xSaWX2YMpTkcl9VlqJ_vW-LrOsQdRkjqVimVu_rPgOg5Rbr8dJGF1NPDc0JH8TbWIf6jR-gpEHoLvMHDkssT-u2OwLaE0Kmcmh6S94hZbpBizHvFOoBG-RGLHp1IRLLTZ67kGHQ22fTLTGDEUqA9IwX1uk6To.nb2unBFscOr_9_pLsnv0MWMmPTTGE_GpVTdSCojaRIo&dib_tag=se&keywords=pc%2Bnetzteil&qid=1737989725&sprefix=pc%2B%2Caps%2C331&sr=8-3&th=1>)
+ClassAssertion(<http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p>)
+ClassAssertion(<http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "230"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "'Thermaltake'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "'943626732469237'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "700"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "35"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p> "48.90"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> (MS_Word_v2412)
+
+AnnotationAssertion(rdfs:comment <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "Microsoft 365 Apps-Update: Qualitätsupdate für aktuellen Kanal (Vorschau) für die x86-basierte Edition, Version 2412 (Build 18324.20092)
+Letzte Änderung: 16.12.2024
+Größe: 12 KB
+UpdateID: da169a9c-4aad-4c4d-9434-649f23f3881f"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "MS_Word_v2412"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> <https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=da169a9c-4aad-4c4d-9434-649f23f3881f>)
+ClassAssertion(<http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "2024-12-16T00:00:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "Microsoft"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "'Version 2412 (Build 18324.20092)'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "'.NET'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp> <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2> "true"^^xsd:boolean)
+
+# Individual: <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> (MS_Teams_24335.207.3345.5574)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "Veröffentlichungsjahr	Veröffentlichungsdatum	Teams-Version	Slimcore-Version
+2025	16. Januar	24335.207.3345.5574	2024.47.0-1.10-h452ab"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "MS_Teams_24335.207.3345.5574"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> <https://learn.microsoft.com/de-de/officeupdates/teams-app-versioning>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "2025-01-16T00:00:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "'Microsoft'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "'1872345676'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "'24335.207.3345.5574'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "'1080p'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "'.NET'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5> <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq> "true"^^xsd:boolean)
+
+# Individual: <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> (Mainboard_MSI_MPG_B550)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> "MSI MPG B550 GAMING PLUS"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> "Mainboard_MSI_MPG_B550"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> <https://www.coolblue.de/produkt/864609/msi-mpg-b550-gaming-plus.html?cmt=c_b%2Ccp_532530061%2Caid_1354600906373878%2Ct_pla-4588262031974841%2Cn_o%2Cd_c%2Clp_&msclkid=950606667a3918f635c961f18b153b83&utm_source=bing&utm_medium=cpc&utm_campaign=[Bing]+[PT%3AALL]+[RL1%3AGermany]+[PTID%3A0]+[CO%3ADE]+[LAN%3ADE]+[DEV%3AALL]+[FL%3AALL]+[CH%3AShopping]&utm_term=4588262031974841&utm_content=[PT%3AAll+other+products]>)
+ClassAssertion(<http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek> <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> "4400000000"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> "'MSI'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> "'b8ab439c53'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> "0"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6> "133.00"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> (Optische_Maus_Logitech_M90)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> "Logitech Maus M90 optische Kabelmaus, 3 Tasten, 1000 dpi, schwarz"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> "Optische_Maus_Logitech_M90"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> <https://www.bueromarkt-ag.de/maus_logitech_m90_optische_kabelmaus,p-910-001794,l-bing-prd,pd-b2c.html?msclkid=442d8e1f16f0176de7f9e988fb8653a9>)
+ClassAssertion(<http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO> <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> "'Logitech'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> "'8543557'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09> <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> "1000"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y> <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> "3"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah> "9.51"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL> (Barcodeleser_Tera)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL> "Tera Barcode Scanner 1D 2D QR Wireless Kabellos 2,4 GHz + Wired USB 2,0 Kabelgebunden Handscanner Barcodelesegerät 5 Mil Auflösung 100m Reichweite, Bildschirm-Scannen Unterstützt, Upgrade-Modell D5100"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL> "Barcodeleser_Tera"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL> <https://www.amazon.de/Tera-Kabelgebunden-Barcodeleseger%C3%A4t-Bildschirm-Scannen-Upgrade-Modell-Orange-Neu/dp/B098DCGK91/ref=asc_df_B098DCGK91?tag=bingshoppin0b-21&linkCode=df0&hvadid=80676792510543&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4584276312271876&th=1>)
+ClassAssertion(<http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs> <http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL> "'Tera'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL> "43.60"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> (CPU_AMD_Ryzen_Threadripper)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "AMD Ryzen Threadripper 7970X 32 x 4 GHz 32-Core Prozessor (CPU) WOF Sockel (PC): AMD® sTR5 350 W"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "CPU_AMD_Ryzen_Threadripper"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> <https://www.conrad.de/de/p/amd-ryzen-threadripper-7970x-32-x-4-ghz-32-core-prozessor-cpu-wof-sockel-pc-amd-str5-350-w-3062065.html?hk=SEM&+B%C3%BCro=&+B%C3%BCro=&B2C+Experience=&ef_id=e0bea59a4cbc10587515c20db5c8c797%3AG%3As&s_kwcid=AL%21222%2110%2172293299822756%214575892546088651&msclkid=e0bea59a4cbc10587515c20db5c8c797&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping_All+Products_Bad+Performer&utm_term=4575892546088651&utm_content=Shopping_All+Products_Bad+Performer>)
+ClassAssertion(<http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "4000000000"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "'AMD'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "'100-100001351WOF'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "350"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "32"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "1024000000"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ> "2875.00"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> (MS_Windows_11_Home_v24H2)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "Windows 11 ist ein Dienst, was bedeutet, dass er durch regelmäßige Featureupdates besser wird. Wir verfolgen einen stufenweisen und gemessenen Ansatz, um jedes Featureupdate auszurollen. Dies bedeutet, dass Sie Windows 11 Version 24H2 erhalten, wenn Daten zeigen, dass Ihr Gerät bereit ist und Dass Sie über eine hervorragende Updateerfahrung verfügen."^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "MS_Windows_11_Home_v24H2"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> <https://lizenzguru.de/windows-11-home.html?msclkid=558bfa5f6acb16e8e1949dc89cefc6cf>)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> <https://support.microsoft.com/de-de/topic/windows-11-version-24h2-update-history-0929c747-1815-4543-8461-0160d16f15e5>)
+ClassAssertion(<http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "13.08.2024"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "2024-08-13T00:00:00"^^xsd:dateTime)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "'Microsoft'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "'ghjshhgdhgfg'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "true"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "'11 24H2'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "'.NET'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn> "39.95"^^xsd:decimal)
+
+# Individual: <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> (HDD_Seagate_Barracuda_2TB)
+
+AnnotationAssertion(<http://purl.org/dc/elements/1.1/description> <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> "Seagate Barracuda 2TB interne Festplatte HDD, 3.5 Zoll, 7200 U/Min, 256 MB Cache, SATA 6GB/s, silber, Data Rescue ServiceModellnr.: ST2000DMZ08"^^xsd:string)
+AnnotationAssertion(rdfs:label <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> "HDD_Seagate_Barracuda_2TB"@de)
+AnnotationAssertion(rdfs:seeAlso <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> <https://www.amazon.de/Seagate-ST2000DMZ08-BarraCuda-Festplatte-silberfarben/dp/B07H2RR55Q/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=13QMRJPWK2IO7&dib=eyJ2IjoiMSJ9.C6KanzdhTJdQpW_rUoO3hDTANY88C1WhaEVsIVBSCs0N36sFWbuoHVfRGhgtueNP5LYLg5_ggtqdfIscvYp9Mv4Z9D4xQCatCZHcNCPfIpMta0mtbr_YHSSpccIPP9Q7n6lCL5GWZFb_ZShlYBBVcAOWL9Rmy5P96qVkb9UyHX7EnkvM2TMzZv042CYUA-YAtZDO1GATkt3uX_yiZgFbNmF8l93CQvKCnHR7ga5dIZA.N5zj2f0gQ17tnuMWH-UG4LAbxxFV13X9vf1mlvRfNl8&dib_tag=se&keywords=hdd%2Bfestplatte&qid=1738009522&sprefix=hdd%2Bfestplatte%2Caps%2C106&sr=8-3&th=1>)
+ClassAssertion(<http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4> <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF>)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW> <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> "'Seagate'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj> <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> "'dncuaicueuu'"^^xsd:string)
+DataPropertyAssertion(<http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT> <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> "false"^^xsd:boolean)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN> <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> "25"^^xsd:integer)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc> <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> "16000000000000"^^xsd:decimal)
+DataPropertyAssertion(<http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe> <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF> "69.99"^^xsd:decimal)
+
+
+)

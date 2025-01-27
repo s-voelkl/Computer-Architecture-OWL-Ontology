@@ -1,0 +1,3386 @@
+Prefix: owl: <http://www.w3.org/2002/07/owl#>
+Prefix: rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#>
+Prefix: rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+Prefix: xml: <http://www.w3.org/XML/1998/namespace>
+Prefix: xsd: <http://www.w3.org/2001/XMLSchema#>
+
+
+
+Ontology: <urn:webprotege:ontology:96477fc3-2e59-4b1d-b1fb-b5b0680971c2>
+
+
+AnnotationProperty: <http://purl.org/dc/elements/1.1/description>
+
+    
+AnnotationProperty: rdfs:comment
+
+    
+AnnotationProperty: rdfs:label
+
+    
+AnnotationProperty: rdfs:seeAlso
+
+    
+Datatype: rdf:PlainLiteral
+
+    
+Datatype: xsd:boolean
+
+    
+Datatype: xsd:dateTime
+
+    
+Datatype: xsd:decimal
+
+    
+Datatype: xsd:double
+
+    
+Datatype: xsd:integer
+
+    
+Datatype: xsd:nonNegativeInteger
+
+    
+Datatype: xsd:normalizedString
+
+    
+Datatype: xsd:string
+
+    
+ObjectProperty: <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5>
+
+    Annotations: 
+        rdfs:label "benötigt_Teil [object]"@de
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: <http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB>
+
+    Annotations: 
+        rdfs:label "benötigt_Teil_optional [object]"@de
+    
+    SubPropertyOf: 
+        owl:topObjectProperty
+    
+    
+ObjectProperty: owl:topObjectProperty
+
+    
+DataProperty: <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>
+
+    Annotations: 
+        rdfs:label "AnzahlEingänge"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>,
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz>
+
+    Annotations: 
+        rdfs:label "HerausgabeZeitpunkt [datetime]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>
+    
+    Range: 
+        xsd:dateTime
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX>
+
+    Annotations: 
+        rdfs:label "ErlaubtTextÜbertragung [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ>
+
+    Annotations: 
+        rdfs:label "Überspannungsschutz [1|0]"@de
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Der Energiebedarf der flüchtigen RAM-Typen hängt stark ab von ihrer Betriebsspannung, im Allgemeinen steigt er quadratisch zu steigender Spannung. Er kann je nach Speichergröße mehrere Watt betragen, was sich insbesondere bei Mobilgeräten spürbar auf die Akkulaufzeit auswirkt. Daher versuchen die Hersteller kontinuierlich, den Energiebedarf zu senken und eine niedrigere Versorgungsspannung zu ermöglichen.
+SDRAM	3,3 V
+DDR-SDRAM	2,5 V
+DDR2-SDRAM	1,8 V
+DDR3-SDRAM	1,5 V
+DDR3-SDRAM LP	1,25 V
+DDR4-SDRAM	1,2 V
+DDR4-SDRAM LV	1,05 V
+DDR5-SDRAM	1,1 V
+[https://de.wikipedia.org/wiki/Random-Access_Memory]"^^xsd:string,
+        rdfs:label "Versorgungsspannung [V]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Flüchtiger Speicher ist eine Art von Computerspeicher, der eine kontinuierliche Stromversorgung benötigt, um die gespeicherten Daten zu erhalten. Sobald die Stromversorgung unterbrochen wird, gehen alle gespeicherten Informationen verloren. 
+Beispiel: RAM, L1/L2/L3 Caches, Register
+
+
+
+[https://techwatch.de/blog/understanding-volatile-memory-definition-and-applications/]"^^xsd:string,
+        rdfs:label "IstFlüchtigerSpeicher [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>,
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3>
+
+    Annotations: 
+        rdfs:label "Bildwiederholrate [Hz]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8348cmVBs5YUwJtKpEsT7b>
+
+    Annotations: 
+        rdfs:label "BitBreite [1]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "auch bekannt als Latenz: Die Latenz beschreibt die Zeit, die der RAM benötigt, um auf Anfragen des Prozessors zu reagieren. Niedrigere Latenzzeiten bedeuten schnellere Reaktionszeiten."^^xsd:string,
+        rdfs:label "Zugriffszeit [ns]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>,
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Büro- und Alltagsanwendungen: CPUs für einfache Aufgaben wie Textverarbeitung, Web-Browsing und E-Mail haben in der Regel Taktraten zwischen 2 und 3 GHz.
+Gaming und anspruchsvolle Anwendungen: Für Gaming und rechenintensive Anwendungen wie Videobearbeitung oder 3D-Modellierung sind Taktraten von 3,5 bis 4 GHz oder höher üblich. Einige High-End-CPUs können sogar Taktraten von über 5 GHz erreichen.
+Server und Workstations: Diese Systeme, die für parallele Verarbeitung und hohe Zuverlässigkeit ausgelegt sind, haben oft CPUs mit Taktraten im Bereich von 2,5 bis 3,5 GHz, wobei die Anzahl der Kerne und die Effizienz der Architektur ebenfalls eine wichtige Rolle spielen.
+[https://www.connect-living.de/ratgeber/prozessor-gigahertz-wie-viel-cpu-takt-3203161.html]"^^xsd:string,
+        rdfs:label "Taktfrequenz [Hz]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>,
+        <http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4>
+
+    Annotations: 
+        rdfs:label "Überstromschutz [1|0]"@de
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l>
+
+    Annotations: 
+        rdfs:label "AnzahlAusgänge"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>,
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8SX67wFGBaAKbAGBl0GeiM>
+
+    Annotations: 
+        rdfs:label "AnzahlAusgängeQ [1]"@de
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8SkPgJr97SnhCMB19rapwa>
+
+    Annotations: 
+        rdfs:label "HatClockEingang (clk) [1|0]"@de
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>
+
+    Annotations: 
+        rdfs:label "NameHersteller [str]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>
+    
+    Range: 
+        xsd:normalizedString
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE>
+
+    Annotations: 
+        rdfs:label "Datenübertragungsrate [Bit/s]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3>
+
+    Annotations: 
+        rdfs:label "IstOpenSource [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD>
+
+    Annotations: 
+        rdfs:label "KI-gestützt [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW>
+
+    Annotations: 
+        rdfs:label "IstAktiveKühlung [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>,
+        <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R94vczSAqLZb1lVD8oMLALy>
+
+    Annotations: 
+        rdfs:label "IstKostenpflichtig [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid>
+
+    Annotations: 
+        rdfs:label "ErlaubtBildschirmÜbertragung [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9ElB5ShKzn0njAV0xDD3id>
+
+    Annotations: 
+        rdfs:label "AnzahlRegister [1]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu>
+
+    Annotations: 
+        rdfs:label "Bildschirmdiagonale [Zoll]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P>
+
+    Annotations: 
+        rdfs:label "Maus"@de
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>
+
+    Annotations: 
+        rdfs:label "ProduktId [str]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>
+    
+    Range: 
+        xsd:normalizedString
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>
+
+    Annotations: 
+        rdfs:label "Bildschirm"@de
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>
+
+    Annotations: 
+        rdfs:label "Kommunikationssoftware"@de
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "ALU-Energieverbauch: 
+Der Energieverbrauch einer arithmetisch-logischen Einheit (ALU) kann stark variieren, abhängig von der spezifischen Architektur und den verwendeten Technologien. Im Allgemeinen ist der Energieverbrauch einer ALU relativ gering im Vergleich zu anderen Komponenten eines Prozessors, wie z.B. dem Cache oder den Speicherzugriffen. Insgesamt kann der Energieverbrauch einer ALU in einem modernen Prozessor im Bereich von wenigen Milliwatt bis zu mehreren Watt liegen. 
+[https://www.studysmarter.de/schule/informatik/technische-informatik/alu-design/]
+
+CPU-Energieverbauch: 
+- Desktop-CPUs: Typischerweise zwischen 65 und 125 Watt (TDP - Thermal Design Power).
+- High-End-CPUs: Können bis zu 250 Watt oder mehr verbrauchen, insbesondere bei Übertaktung.
+- Mobile CPUs: Haben oft eine TDP von 15 bis 45 Watt, um die Akkulaufzeit zu maximieren.
+[https://www.pcgameshardware.de/CPU-CPU-154106/Specials/CPU-Verbrauch-Der-Effizienz-Index-fuer-Prozessoren-1341682/]"^^xsd:string,
+        rdfs:label "Energieverbrauch [W]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>,
+        <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>,
+        <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>,
+        <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV>
+
+    Annotations: 
+        rdfs:label "ErlaubtLiveKommunikation [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>
+
+    Annotations: 
+        rdfs:label "IstVeraltet [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>,
+        <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/R9xigQUqe65UbExbzISiNbh>
+
+    Annotations: 
+        rdfs:label "AnzahlEingängeX [1]"@de
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RBU1zzJwOQkGix7dWHnTNJQ>
+
+    Annotations: 
+        rdfs:label "AnzahlEingängeD [1]"@de
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf>
+
+    Annotations: 
+        rdfs:label "ErlaubtAudioÜbertragung [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq>
+
+    Annotations: 
+        rdfs:label "Speicher"@de
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Moderne ALUs, die in fortschrittlichen Fertigungsprozessen (z.B. 7nm oder 5nm) hergestellt werden, sind energieeffizienter als ältere Technologien. 
+[https://de.wikipedia.org/wiki/Arithmetisch-logische_Einheit]"^^xsd:string,
+        rdfs:label "FertigungsprozessGröße [nm]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh>
+
+    Annotations: 
+        rdfs:label "Kurzschlussschutz [1|0]"@de
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN>
+
+    Annotations: 
+        rdfs:label "Geräuschentwicklung [db]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>,
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>,
+        <http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E>,
+        <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>,
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Büro- und Alltagsanwendungen: CPUs für einfache Aufgaben haben oft 2 bis 4 Kerne.
+Gaming und anspruchsvolle Anwendungen: Für Gaming und rechenintensive Anwendungen sind 6 bis 8 Kerne üblich. Einige High-End-CPUs können sogar 10 oder mehr Kerne haben.
+Server und Workstations: Diese Systeme, die für parallele Verarbeitung und hohe Zuverlässigkeit ausgelegt sind, haben oft 12 bis 64 Kerne oder mehr.
+[https://www.connect-living.de/ratgeber/prozessor-gigahertz-wie-viel-cpu-takt-3203161.html]
+Kerne:"^^xsd:string,
+        rdfs:label "KernAnzahl [1]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y>
+
+    Annotations: 
+        rdfs:label "SoftwareVersion [str]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>
+    
+    Range: 
+        xsd:normalizedString
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6>
+
+    Annotations: 
+        rdfs:label "ErlaubtVideoÜbertragung [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RCXvYnOiXv562N3bdQk6RV7>
+
+    Annotations: 
+        rdfs:label "AnzahlAusgängeC (carry bit) [1]"@de
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO>
+
+    Annotations: 
+        rdfs:label "Überlastungsschutz [1|0]"@de
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Die Bezeichnung DPI steht für \"dots per inch\". Somit gibt sie eine Dichte von Punkten bezogen auf ein Inch an, wobei ein Inch ca. 2,54 cm entspricht."^^xsd:string,
+        rdfs:label "DotsPerInch (DPI) [1]"@de,
+        rdfs:seeAlso <https://praxistipps.chip.de/was-ist-dpi-einfach-erklaert_44369>
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>,
+        <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7>
+
+    Annotations: 
+        rdfs:label "Produkt"@de
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm>
+
+    Annotations: 
+        rdfs:label "Schreibgeschwindigkeit [Bit/s]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi>
+
+    Annotations: 
+        rdfs:label "Lesegeschwindigkeit [Bit/s]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDTSBWvzLVkHDRBbHKAOuEb>
+
+    Annotations: 
+        rdfs:label "AnzahlSteuersignaleS [1]"@de
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq>
+
+    Annotations: 
+        rdfs:label "MaximaleBildauflösung [pixel]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7>,
+        <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>,
+        <http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo>,
+        <http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw>,
+        <http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z>
+
+    Annotations: 
+        rdfs:label "BasedOnFramework [str]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>
+    
+    Range: 
+        xsd:normalizedString
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Maustasten"^^xsd:string,
+        rdfs:label "AnzahlTasten [1]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5>
+
+    Annotations: 
+        rdfs:label "ErlaubtKontrollübernahme [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp>
+
+    Annotations: 
+        rdfs:label "IstErweiterbar [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J>
+
+    Annotations: 
+        rdfs:label "Netzteilschutz"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC>
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Speicherkapazität: Die Kapazität wird in Gigabyte (GB) gemessen und bestimmt, wie viele Daten gleichzeitig im RAM gespeichert werden können."^^xsd:string,
+        rdfs:label "Speicherkapazität [Bit]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR>,
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RSypps76kx7Hj12lJz0h1n>
+
+    Annotations: 
+        rdfs:label "AnzahlAusgängeZ [1]"@de
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k>
+
+    Annotations: 
+        rdfs:label "BildschirmAuflösung"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>
+    
+    Range: 
+        xsd:normalizedString
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/Rb2mhjhhMa1NVBEDvHc8sN>
+
+    Annotations: 
+        rdfs:label "ErlaubtDebugging [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        owl:topDataProperty
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RcQytvGFuudxRDwhusnewh>
+
+    Annotations: 
+        rdfs:label "HatEnableEingang [1|0]"@de
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RcVYbqlI1rVnPWDjBOZEQS>
+
+    Annotations: 
+        rdfs:label "AnzahlEingängeY [1]"@de
+    
+    Range: 
+        xsd:nonNegativeInteger
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>
+
+    Annotations: 
+        rdfs:label "KostenAnkauf [€]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>
+    
+    Range: 
+        xsd:double
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7>
+    
+    
+DataProperty: <http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN>
+
+    Annotations: 
+        rdfs:label "BildschirmUltrawide [1|0]"@de
+    
+    Domain: 
+        <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>
+    
+    Range: 
+        xsd:boolean
+    
+    SubPropertyOf: 
+        <http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB>
+    
+    
+DataProperty: owl:topDataProperty
+
+    
+Class: <http://webprotege.stanford.edu/R11igUuVHwpyFuisYP1E0x>
+
+    Annotations: 
+        rdfs:label "DDR5-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>
+    
+    
+Class: <http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6>
+
+    Annotations: 
+        rdfs:label "hörbare Ausgabe"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>
+    
+    
+Class: <http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI>
+
+    Annotations: 
+        rdfs:label "SDRAM-Teil (Synchronous DRAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS>
+    
+    
+Class: <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>
+
+    Annotations: 
+        rdfs:label "Produktivitätssoftware"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>
+    
+    
+Class: <http://webprotege.stanford.edu/R5OlFjslBVZ6mvO7ED1gOL>
+
+    Annotations: 
+        rdfs:label "DDR3-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>
+    
+    
+Class: <http://webprotege.stanford.edu/R6R6iRqQdOkH7xleAgsNbH>
+
+    Annotations: 
+        rdfs:label "Joystick"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+    
+    
+Class: <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>
+
+    Annotations: 
+        rdfs:label "Spezialisierte Anwendungssoftware"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>
+    
+    
+Class: <http://webprotege.stanford.edu/R71Fu53JlS31LkD40mq5ZMy>
+
+    Annotations: 
+        rdfs:label "Mozilla Firefox"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>
+    
+    
+Class: <http://webprotege.stanford.edu/R71iV18I5sJ3GEJMtevUL8s>
+
+    Annotations: 
+        rdfs:label "E-Mail-Programm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+    
+    
+Class: <http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4>
+
+    Annotations: 
+        rdfs:label "Touchpad"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+    
+    
+Class: <http://webprotege.stanford.edu/R77Jdx4wq5J7LJ3FoBhCc5M>
+
+    Annotations: 
+        rdfs:label "EEPROM-Teil (Electrically Erasable Programmable ROM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU>
+    
+    
+Class: <http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Verwenden eine LED, um Bewegungen auf einer Oberfläche zu verfolgen.
+Vorteile: Präzise, keine beweglichen Teile.
+Nachteile: Funktioniert nicht gut auf glänzenden oder transparenten Oberflächen."^^xsd:string,
+        rdfs:label "Optische Maus"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>
+    
+    
+Class: <http://webprotege.stanford.edu/R7HjlPFZJ6HiYbtVxkzacJd>
+
+    Annotations: 
+        rdfs:label "Bitweises Verschiebungs-Teil (Shift)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>
+    
+    
+Class: <http://webprotege.stanford.edu/R7JDiKJ66Ipgbmb5DEYW5v0>
+
+    Annotations: 
+        rdfs:label "Ontologie_Ortabhängigkeit"@de
+    
+    
+Class: <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>
+
+    Annotations: 
+        rdfs:label "Steuerlogik-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>
+    
+    
+Class: <http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC>
+
+    Annotations: 
+        rdfs:label "Netzteil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF>
+    
+    
+Class: <http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9>
+
+    Annotations: 
+        rdfs:label "Carry-Look-Ahead-Addierer-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>
+    
+    
+Class: <http://webprotege.stanford.edu/R7QEJApVdOXyNgX1cvITqjz>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Verschmelzen von Pulvermaterialien mit einem Laser.
+Anwendungen: Funktionale Prototypen, komplexe Geometrien.
+Vorteile: Keine Stützstrukturen erforderlich, vielseitige Materialauswahl.
+Nachteile: Hohe Kosten, Nachbearbeitung notwendig."^^xsd:string,
+        rdfs:label "Selektives Lasersintern (SLS)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+    
+    
+Class: <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>
+
+    Annotations: 
+        rdfs:label "Kühlsystem-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>,
+        <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>
+    
+    
+Class: <http://webprotege.stanford.edu/R7Ul9vBXj6SXLPMYMNt3lK>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Eine Variante der Membran-Tastatur mit Scherenmechanismus für stabilere Tasten.
+Vorteile: Flaches Design, leise.
+Nachteile: Weniger taktiles Feedback."^^xsd:string,
+        rdfs:label "Scheren-Tastatur"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>
+    
+    
+Class: <http://webprotege.stanford.edu/R7YrmsLjQZkaspROFr7TIOb>
+
+    Annotations: 
+        rdfs:comment "Steuerelektronik für Motoren"^^xsd:string,
+        rdfs:label "Motorensteuerelektronik-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Class: <http://webprotege.stanford.edu/R7Zkwn52tzL9bDV7F71h4qG>
+
+    Annotations: 
+        rdfs:comment "Elektromotor (als Antrieb der Achse)"^^xsd:string,
+        rdfs:label "Elektromotor-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Class: <http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7>
+
+    Annotations: 
+        rdfs:label "Videobearbeitungsprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>
+    
+    
+Class: <http://webprotege.stanford.edu/R7bdA6OrtfZ3v3O2ZQ40qOd>
+
+    Annotations: 
+        rdfs:label "Indexregister-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv>
+    
+    
+Class: <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>
+
+    Annotations: 
+        rdfs:label "Grafik- und Multimedia-Software"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>
+    
+    
+Class: <http://webprotege.stanford.edu/R7o7XqDTXnCzNeftxs5FmSy>
+
+    Annotations: 
+        rdfs:label "Datenbankprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>
+    
+    
+Class: <http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF>
+
+    Annotations: 
+        rdfs:label "Stromversorgungsteil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>
+    
+    
+Class: <http://webprotege.stanford.edu/R7stuYuuyv7fakMllY4WNF4>
+
+    Annotations: 
+        rdfs:label "Tabellenverarbeitungsprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>
+    
+    
+Class: <http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM>
+
+    Annotations: 
+        rdfs:comment "Geräuschentwicklung: 20-40 dB"^^xsd:string,
+        rdfs:label "Axialkühler-Teil (Luftkühler)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>
+    
+    
+Class: <http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB>
+
+    Annotations: 
+        rdfs:label "Befehlsdecoder-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>
+    
+    
+Class: <http://webprotege.stanford.edu/R7z8Mi8ScV8qpzdOp0WfYW0>
+
+    Annotations: 
+        rdfs:label "macOS"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>
+    
+    
+Class: <http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o>
+
+    Annotations: 
+        rdfs:label "Windows"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>
+    
+    
+Class: <http://webprotege.stanford.edu/R7zZflAFsYtXidTmUKBQhf>
+
+    Annotations: 
+        rdfs:label "Multiplexer-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4>
+    
+    
+Class: <http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y>
+
+    Annotations: 
+        rdfs:label "Festplattenteil (ohne Wechselmedien)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>
+    
+    
+Class: <http://webprotege.stanford.edu/R81JIHkBDZ0TyvRk7MfYYZ0>
+
+    Annotations: 
+        rdfs:label "Linux"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>
+    
+    
+Class: <http://webprotege.stanford.edu/R85i3qMjkgPWLZVrHQmsG51>
+
+    Annotations: 
+        rdfs:comment "Werden in den Gehörgang eingeführt, sind sehr tragbar und bieten gute Geräuschisolierung."^^xsd:string,
+        rdfs:label "In-Ear-Kopfhörer"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef>
+    
+    
+Class: <http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU>
+
+    Annotations: 
+        rdfs:label "XOR-Verknüpfungs-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>
+    
+    
+Class: <http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb>
+
+    Annotations: 
+        rdfs:label "Datenregister-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>
+    
+    
+Class: <http://webprotege.stanford.edu/R8EV2sC7NDb9tZYbvfekcQP>
+
+    Annotations: 
+        rdfs:label "Windows Holographic (AR/VR)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky>
+    
+    
+Class: <http://webprotege.stanford.edu/R8HvNlco2d5FdVipgBQK6c4>
+
+    Annotations: 
+        rdfs:label "RDRAM-Teil (Rambus DRAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS>
+    
+    
+Class: <http://webprotege.stanford.edu/R8JD0QDY37AVUgPfEB8wZeF>
+
+    Annotations: 
+        rdfs:comment "Diese Technologie verwendet fokussierte Ultraschallwellen, um fühlbare Empfindungen in der Luft zu erzeugen. Benutzer können diese Empfindungen spüren, ohne physisch mit einem Gerät in Kontakt zu sein."^^xsd:string,
+        rdfs:label "Ultraschall-Haptik-Gerät"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k>
+    
+    
+Class: <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>
+
+    Annotations: 
+        rdfs:label "GDDR-Teil (Graphics DDR)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX>
+    
+    
+Class: <http://webprotege.stanford.edu/R8OJ8Xd1tJuvrqCePbyE90p>
+
+    Annotations: 
+        rdfs:comment "Lager (für Spindel und Aktorachse)"^^xsd:string,
+        rdfs:label "Lager"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Class: <http://webprotege.stanford.edu/R8SVdi4fMrbkoqwks5nzp6A>
+
+    Annotations: 
+        rdfs:label "GDDR4-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>
+    
+    
+Class: <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+
+    Annotations: 
+        rdfs:comment "Verwendet magnetisches Speichersystem, bei dem Dateien durch ein Lese-Schreib-Kopf in konzentrischen Spuren auf rotierende Scheiben abgespeichert werden."^^xsd:string,
+        rdfs:label "HDD-Teil (Hard Drive Disc)"@de,
+        rdfs:seeAlso <https://www.computerwissen.de/hardware/komponenten-peripherie/festplatte/>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y>
+    
+    
+Class: <http://webprotege.stanford.edu/R8XhreoQ6F4DW1Nol3AdZba>
+
+    Annotations: 
+        rdfs:label "Spiel-Software"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>
+    
+    
+Class: <http://webprotege.stanford.edu/R8YwjDmEOtqdka5qKxy5JRX>
+
+    Annotations: 
+        rdfs:label "MUL-Teil vorzeichenlos"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>
+    
+    
+Class: <http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2>
+
+    Annotations: 
+        rdfs:label "Spezialregister-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>
+    
+    
+Class: <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>
+
+    Annotations: 
+        rdfs:label "ALU-Teil (arithmetisch logische Einheit)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>
+    
+    
+Class: <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>
+
+    Annotations: 
+        rdfs:label "Betriebssoftware (OS)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ>
+    
+    
+Class: <http://webprotege.stanford.edu/R8c1LPnsvCRXy5QpXHCwSLG>
+
+    Annotations: 
+        rdfs:comment "Achse (auch Spindel genannt; darauf ist die Scheibe montiert)"^^xsd:string,
+        rdfs:label "Achse"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Class: <http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4>
+
+    Annotations: 
+        rdfs:label "Multiplexer-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3>
+    
+    
+Class: <http://webprotege.stanford.edu/R8cjV2kiPO7VihvNIJLzWTh>
+
+    Annotations: 
+        rdfs:label "L3 Cache-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK>
+    
+    
+Class: <http://webprotege.stanford.edu/R8eQ7u6reOSoUBq0ZJ0sYhF>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Verwenden eine Rollkugel, die Bewegungen auf eine mechanische Achse überträgt.
+Vorteile: Robust und einfach.
+Nachteile: Anfällig für Schmutz und Staub."^^xsd:string,
+        rdfs:label "Mechanische Maus"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>
+    
+    
+Class: <http://webprotege.stanford.edu/R8ilqliIoVDmdGjWxFP25In>
+
+    Annotations: 
+        rdfs:label "Grafik-Tablet"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>
+    
+    
+Class: <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>
+
+    Annotations: 
+        rdfs:label "Computer-Teil"@de
+    
+    
+Class: <http://webprotege.stanford.edu/R8p4LjzxAzrBgrmGlJDAYDM>
+
+    Annotations: 
+        rdfs:label "Headset"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>
+    
+    
+Class: <http://webprotege.stanford.edu/R8rI3lrmUUxU1avpE2LZu5h>
+
+    Annotations: 
+        rdfs:label "Lichtstift"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+    
+    
+Class: <http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv>
+
+    Annotations: 
+        rdfs:label "Adressregister-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>
+    
+    
+Class: <http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k>
+
+    Annotations: 
+        rdfs:label "fühlbare Ausgabe"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>
+    
+    
+Class: <http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv>
+
+    Annotations: 
+        rdfs:label "Befehlsencoder-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>
+    
+    
+Class: <http://webprotege.stanford.edu/R8tPzznzmrHrsp34SLxk5eB>
+
+    Annotations: 
+        rdfs:comment "Direct Metal Laser Sintering (DMLS) / Selective Laser Melting (SLM):
+
+Funktionsweise: Verschmelzen von Metallpulver mit einem Laser.
+Anwendungen: Metallteile, industrielle Anwendungen.
+Vorteile: Hohe Festigkeit, komplexe Geometrien.
+Nachteile: Sehr teuer, aufwendige Nachbearbeitung."^^xsd:string,
+        rdfs:label "Selective Laser Melting (SLM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+    
+    
+Class: <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>
+
+    Annotations: 
+        rdfs:label "Addierer-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>
+    
+    
+Class: <http://webprotege.stanford.edu/R8xAxxGnV9nCP2XOVFUA3Ts>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Jede Taste hat einen eigenen mechanischen Schalter.
+Vorteile: Langlebig, präzises Tippgefühl, verschiedene Schaltertypen (z.B. Cherry MX).
+Nachteile: Lauter, teurer."^^xsd:string,
+        rdfs:label "Mechanische Tastatur"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>
+    
+    
+Class: <http://webprotege.stanford.edu/R8xF9aUS4e0qObXeIef9XVb>
+
+    Annotations: 
+        rdfs:label "Handy"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>
+    
+    
+Class: <http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O>
+
+    Annotations: 
+        rdfs:label "Akkumulator-Teil"@de,
+        rdfs:seeAlso <https://de.wikipedia.org/wiki/Akkumulator_(Computer)>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>
+    
+    
+Class: <http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E>
+
+    Annotations: 
+        rdfs:label "Drucker"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>
+    
+    
+Class: <http://webprotege.stanford.edu/R91C5XA1Of3COeykJlpt8Bd>
+
+    Annotations: 
+        rdfs:label "Projektmanagement-Software"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>
+    
+    
+Class: <http://webprotege.stanford.edu/R93NZkee43Gvnq8DQRLBkGY>
+
+    Annotations: 
+        rdfs:label "Carry-Ripple-Addierer-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX>
+    
+    
+Class: <http://webprotege.stanford.edu/R93pBpkNDhGy2TOvjBhvfZh>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Tasten drücken auf eine Membran, die den Kontakt schließt.
+Vorteile: Leise, kostengünstig.
+Nachteile: Weniger präzises Tippgefühl, kürzere Lebensdauer."^^xsd:string,
+        rdfs:label "Membran-Tastatur"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>
+    
+    
+Class: <http://webprotege.stanford.edu/R9705hqVF7Ee8oGw2eQSsp9>
+
+    Annotations: 
+        rdfs:label "GDDR3-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>
+    
+    
+Class: <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>
+
+    Annotations: 
+        rdfs:label "NOT-Verknüpfungs-Teil (Negation)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>
+    
+    
+Class: <http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK>
+
+    Annotations: 
+        rdfs:label "Enable-Signal-Teil E"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>
+    
+    
+Class: <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>
+
+    Annotations: 
+        rdfs:comment "Peripheriegeräte sind externe Geräte, die an einen Computer angeschlossen werden, um dessen Funktionalität zu erweitern. Sie sind nicht essenziell für den Betrieb des Computers, aber sie ermöglichen die Interaktion mit dem Benutzer und anderen Systemen."^^xsd:string,
+        rdfs:label "Peripherie-Teil"@de,
+        rdfs:seeAlso <https://www.computerwissen.de/hardware/komponenten-peripherie/>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>
+    
+    
+Class: <http://webprotege.stanford.edu/R9R0rR8vG32YneitywQXvXk>
+
+    Annotations: 
+        rdfs:label "Eingabe-/Ausgaberegister-Teil (für Peripherie)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>
+    
+    
+Class: <http://webprotege.stanford.edu/R9RktVvCsiYH54VC5ZqNiz0>
+
+    Annotations: 
+        rdfs:comment "Magnetscheibe (rotierbar; der eigentliche Datenträger, meist mehrere vorhanden)"^^xsd:string,
+        rdfs:label "Magnetscheibe"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Class: <http://webprotege.stanford.edu/R9XLIilOR4idlgt31a39kz>
+
+    Annotations: 
+        rdfs:label "Präsentationsprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>
+    
+    
+Class: <http://webprotege.stanford.edu/R9chgD3TmjJV90WMEUuxxU0>
+
+    Annotations: 
+        rdfs:label "Akku-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF>
+    
+    
+Class: <http://webprotege.stanford.edu/R9g23PRmQcQQoHQS6V860Ki>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Verwenden einen Laserstrahl für die Bewegungserkennung.
+Vorteile: Sehr präzise, funktioniert auf fast allen Oberflächen.
+Nachteile: Teurer als optische Mäuse."^^xsd:string,
+        rdfs:label "Laser-Maus"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>
+    
+    
+Class: <http://webprotege.stanford.edu/R9g8eQ8AzLUiEllEpkt61od>
+
+    Annotations: 
+        rdfs:label "Google Chrome"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>
+    
+    
+Class: <http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s>
+
+    Annotations: 
+        rdfs:label "Laufwerk mit Wechselmedien"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>
+    
+    
+Class: <http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX>
+
+    Annotations: 
+        rdfs:label "VRAM-Teil (Video RAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    
+Class: <http://webprotege.stanford.edu/R9pTJh7zSNVwb4vhbTiFEyX>
+
+    Annotations: 
+        rdfs:label "Festplattenverwaltungs"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB>
+    
+    
+Class: <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+
+    Annotations: 
+        rdfs:label "Eingabeteil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>
+    
+    
+Class: <http://webprotege.stanford.edu/RB25YOpOo1k1hZfZafHiuoM>
+
+    Annotations: 
+        rdfs:label "Ontologie_Aktivität"@de
+    
+    
+Class: <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>
+
+    Annotations: 
+        rdfs:label "OR-Verknüpfungs-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>
+    
+    
+Class: <http://webprotege.stanford.edu/RB2BJEU4A1EWj6N0FZ3QVR0>
+
+    Annotations: 
+        rdfs:label "Brailliezeile"@de,
+        rdfs:seeAlso <https://de.wikipedia.org/wiki/Braillezeile>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k>
+    
+    
+Class: <http://webprotege.stanford.edu/RB2WZux2eJWTzO6819FVtuu>
+
+    Annotations: 
+        rdfs:label "FRAM-Teil (Ferroelectric RAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    
+Class: <http://webprotege.stanford.edu/RB6XOHm7YA0qLFkBNWj331P>
+
+    Annotations: 
+        rdfs:label "DDR1-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>
+    
+    
+Class: <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>
+
+    Annotations: 
+        rdfs:label "CPU-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>
+    
+    
+Class: <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+
+    Annotations: 
+        rdfs:label "Kommunikationssoftware"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>
+    
+    
+Class: <http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR>
+
+    Annotations: 
+        rdfs:comment "Das Herzstück Ihrer Grafikkarte und somit die wichtigste Komponente ist der Grafikprozessor. Er übernimmt den Großteil der Grafikberechnung und entlastet somit den Hauptprozessor des Computers."^^xsd:string,
+        rdfs:label "Grafikprozessor-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>
+    
+    
+Class: <http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec>
+
+    Annotations: 
+        rdfs:label "Gehäuse-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>
+    
+    
+Class: <http://webprotege.stanford.edu/RB9eokRP0JCr24vcJX9aDPb>
+
+    Annotations: 
+        rdfs:label "Internes Laufwerksteil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>
+    
+    
+Class: <http://webprotege.stanford.edu/RBAUCnMkb0jG2L1A9KOQ63h>
+
+    Annotations: 
+        rdfs:label "Microsoft Edge"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>
+    
+    
+Class: <http://webprotege.stanford.edu/RBGMeLj2nCXnEl6L6i8GFbx>
+
+    Annotations: 
+        rdfs:label "SIMD-Register-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia>
+    
+    
+Class: <http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm>
+
+    Annotations: 
+        rdfs:label "HA-Teil (Halb-Addierer)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>
+    
+    
+Class: <http://webprotege.stanford.edu/RBJLNxKGtkuEzRpnICy1LLk>
+
+    Annotations: 
+        rdfs:label "Mikrofon"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+    
+    
+Class: <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>
+
+    Annotations: 
+        rdfs:label "Anwendungssoftware"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>
+    
+    
+Class: <http://webprotege.stanford.edu/RBOWLPgCE9kJxuhXMsViwcK>
+
+    Annotations: 
+        rdfs:label "GDDR5-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>
+    
+    
+Class: <http://webprotege.stanford.edu/RBbB0nXhuwE1YLYSxBrR2uL>
+
+    Annotations: 
+        rdfs:label "Datensicherungssoftware"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB>
+    
+    
+Class: <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>
+
+    Annotations: 
+        rdfs:label "Bildschirm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>
+    
+    
+Class: <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>
+
+    Annotations: 
+        rdfs:label "XNOR-Verknüpfungs-Teil (Äquivalenz)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>
+    
+    
+Class: <http://webprotege.stanford.edu/RBoZOkVAefQIxNEr8MB8dpW>
+
+    Annotations: 
+        rdfs:comment "Sitzen auf dem Ohr, sind kompakter und leichter."^^xsd:string,
+        rdfs:label "On-Ear-Kopfhörer"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef>
+    
+    
+Class: <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>
+
+    Annotations: 
+        rdfs:comment "Die Grafikkarte ist im Computer für die visuelle Ausgabe zuständig. Die Grafikkarte erhält die relevanten Daten vom Prozessor und wandelt sie so um, dass sie auf dem Bildschirm ausgegeben werden können."^^xsd:string,
+        rdfs:label "Grafikkarten-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>
+    
+    
+Class: <http://webprotege.stanford.edu/RBv9dsAt7cnVvtgNmQIXudI>
+
+    Annotations: 
+        rdfs:label "Projektor"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>
+    
+    
+Class: <http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u>
+
+    Annotations: 
+        rdfs:label "Maus"@de,
+        rdfs:seeAlso <https://www.helpster.de/computermausarten-wissenswertes_129262>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+    
+    
+Class: <http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia>
+
+    Annotations: 
+        rdfs:label "Vektorregister-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>
+    
+    
+Class: <http://webprotege.stanford.edu/RC21UjlexOw75pWSSudRMaj>
+
+    Annotations: 
+        rdfs:label "Scanner"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+    
+    
+Class: <http://webprotege.stanford.edu/RC3cipnshFkIfMjbmUvRYPu>
+
+    Annotations: 
+        rdfs:label "DDR4-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>
+    
+    
+Class: <http://webprotege.stanford.edu/RC41IhpR8IT3RV6MLLINEdA>
+
+    Annotations: 
+        rdfs:label "Unternehmens-Windows"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o>
+    
+    
+Class: <http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6>
+
+    Annotations: 
+        rdfs:label "Register-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>
+    
+    
+Class: <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef>
+
+    Annotations: 
+        rdfs:label "Kopfhörer"@de,
+        rdfs:seeAlso <https://blog.beyerdynamic.de/20-wichtige-begriffe-der-audiotechnik-die-du-kennen-solltest/>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6>
+    
+    
+Class: <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>
+
+    Annotations: 
+        rdfs:label "AND-Verknüpfungs-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>
+    
+    
+Class: <http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo>
+
+    Annotations: 
+        rdfs:label "Bildbearbeitungsprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>
+    
+    
+Class: <http://webprotege.stanford.edu/RCFo4ecEvCCvNCYkkXZ7ZZl>
+
+    Annotations: 
+        rdfs:label "NAND-Verknüpfungs-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>
+    
+    
+Class: <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>
+
+    Annotations: 
+        rdfs:label "Logischer Einheits-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>
+    
+    
+Class: <http://webprotege.stanford.edu/RCM8ZNimiyuEjcSW6SncVbR>
+
+    Annotations: 
+        rdfs:label "DDR2-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>
+    
+    
+Class: <http://webprotege.stanford.edu/RCQFcNmMBS5wOI7dYWUbDnf>
+
+    Annotations: 
+        rdfs:label "Windows Phone (Mobile)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky>
+    
+    
+Class: <http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS>
+
+    Annotations: 
+        rdfs:label "DRAM-Teil (Dynamic RAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    
+Class: <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>
+
+    Annotations: 
+        rdfs:label "Software-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>
+    
+    
+Class: <http://webprotege.stanford.edu/RCZqzvyVwiGoWyu92PyPnkM>
+
+    Annotations: 
+        rdfs:label "Vergleichsausgang x<y"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6>
+    
+    
+Class: <http://webprotege.stanford.edu/RCbhrrAtcGr0EPklvjUDwXO>
+
+    Annotations: 
+        rdfs:label "Plotter"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>
+    
+    
+Class: <http://webprotege.stanford.edu/RCf1MCtfbGBSJN64ANRhSAF>
+
+    Annotations: 
+        rdfs:label "Vergleichsausgang x=y"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6>
+    
+    
+Class: <http://webprotege.stanford.edu/RCfNmue5WbrI4hbJDIa8zRp>
+
+    Annotations: 
+        rdfs:label "Ecosia"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>
+    
+    
+Class: <http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky>
+
+    Annotations: 
+        rdfs:label "Spezialisiertes Windows"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o>
+    
+    
+Class: <http://webprotege.stanford.edu/RCjCw4XFPYIEPohnaT0LM9B>
+
+    Annotations: 
+        rdfs:label "Audiobearbeitungsprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>
+    
+    
+Class: <http://webprotege.stanford.edu/RCl2bUL66XDxHpx1HZhnDFh>
+
+    Annotations: 
+        rdfs:label "L1 Cache-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK>
+    
+    
+Class: <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>
+
+    Annotations: 
+        rdfs:label "Tastatur"@de,
+        rdfs:seeAlso <https://de.movilforum.com/Tastaturtypen/>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+    
+    
+Class: <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>
+
+    Annotations: 
+        rdfs:label "DDR SDRAM-Teil (Double Data Rate SDRAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI>
+    
+    
+Class: <http://webprotege.stanford.edu/RCtEzB8edoAhFiAg8ci4Tv>
+
+    Annotations: 
+        rdfs:label "Asynchronous SRAM-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4>
+    
+    
+Class: <http://webprotege.stanford.edu/RCx6XI1twI8BYXxKsU3Dk4p>
+
+    Annotations: 
+        rdfs:comment "Frühe Computer verwendeten Drucker, um Daten auf Papier auszugeben. Diese Drucker konnten Textzeilen auf Endlospapier drucken, was eine visuelle Darstellung der Daten ermöglichte."^^xsd:string,
+        rdfs:label "Fernschreiber"@de,
+        rdfs:seeAlso <https://de.wikipedia.org/wiki/Computermonitor>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>
+    
+    
+Class: <http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK>
+
+    Annotations: 
+        rdfs:label "Synchronous SRAM-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4>
+    
+    
+Class: <http://webprotege.stanford.edu/RCyVpeZjxRzfr6HWOBj55vW>
+
+    Annotations: 
+        rdfs:label "Vergleichsausgang x>y"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6>
+    
+    
+Class: <http://webprotege.stanford.edu/RD0nPwuYJTUdrcqbp9i0a2l>
+
+    Annotations: 
+        rdfs:label "Externes Laufwerksteil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>
+    
+    
+Class: <http://webprotege.stanford.edu/RD2YIDrmiKblsUK5JdyDlcn>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Schichtweises Auftragen und Schneiden von Materialbahnen.
+Anwendungen: Große Modelle, Prototypen.
+Vorteile: Geringe Materialkosten, schnelle Herstellung.
+Nachteile: Geringere Detailgenauigkeit, begrenzte Materialauswahl."^^xsd:string,
+        rdfs:label "Laminated Object Manufacturing (LOM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+    
+    
+Class: <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>
+
+    Annotations: 
+        rdfs:label "Webbrowser-Software"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA>
+    
+    
+Class: <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>
+
+    Annotations: 
+        rdfs:label "Arithmetischer Einheits-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6>
+    
+    
+Class: <http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB>
+
+    Annotations: 
+        rdfs:label "Dienstprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ>
+    
+    
+Class: <http://webprotege.stanford.edu/RDJJrw1widv0EcS6dy88Pb>
+
+    Annotations: 
+        rdfs:label "Stapelzeiger-Teil (Stack Pointer)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2>
+    
+    
+Class: <http://webprotege.stanford.edu/RDLo5ZFbAaULdcyRvppsTEy>
+
+    Annotations: 
+        rdfs:comment "Diese wurden verwendet, um Daten einzugeben und auszugeben. Lochkarten wurden durch Lochkartenstanzer erstellt und konnten von Computern gelesen werden."^^xsd:string,
+        rdfs:label "Lochkarten und -streifen"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>
+    
+    
+Class: <http://webprotege.stanford.edu/RDPPSjypvo7NF4ht7g3goje>
+
+    Annotations: 
+        rdfs:label "Ontologie_Zeitabhängigkeit"@de
+    
+    
+Class: <http://webprotege.stanford.edu/RDPUjy5GMJMBF3krW1l6FFL>
+
+    Annotations: 
+        rdfs:label "Scheibengehäuse-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Class: <http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw>
+
+    Annotations: 
+        rdfs:label "Videokonferenz-Programm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+    
+    
+Class: <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+
+    Annotations: 
+        rdfs:label "RAM-Teil (Random Access Memory)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>
+    
+    
+Class: <http://webprotege.stanford.edu/RDT3SUbF4IrWPvlAkbDBbdO>
+
+    Annotations: 
+        rdfs:label "Lautsprecher"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6>
+    
+    
+Class: <http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek>
+
+    Annotations: 
+        rdfs:comment "Das Mainboard (oder auch Motherboard) ist die Hauptplatine, sozusagen der Kern und das Zentrum des Rechners."^^xsd:string,
+        rdfs:label "Mainboard-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>
+    
+    
+Class: <http://webprotege.stanford.edu/RDXACVJIQGCDaZFrz3HPJFh>
+
+    Annotations: 
+        rdfs:comment "DSP (Digitaler Signalprozessor; regelt die Verwaltung und Bedienung)"^^xsd:string,
+        rdfs:label "DSP-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Class: <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>
+
+    Annotations: 
+        rdfs:label "Multiplizierer-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX>
+    
+    
+Class: <http://webprotege.stanford.edu/RDZQ0ifA0PRJO91BrCvbEja>
+
+    Annotations: 
+        rdfs:label "Paralleler Matrixmultiplizierer-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>
+    
+    
+Class: <http://webprotege.stanford.edu/RDg3kEKG9hSMGvu0k7pJFhZ>
+
+    Annotations: 
+        rdfs:comment "Antrieb für Aktorachse"^^xsd:string,
+        rdfs:label "Aktorachsenantrieb-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Class: <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>
+
+    Annotations: 
+        rdfs:label "Hardware-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug>
+    
+    
+Class: <http://webprotege.stanford.edu/RDh60rxz8m5JQs9nsmnxIJf>
+
+    Annotations: 
+        rdfs:label "QR-Code-Leser"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+    
+    
+Class: <http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH>
+
+    Annotations: 
+        rdfs:comment "Verwendet elektrisches Speichersystem und besteht aus Flash-Speicherbausteinen. Realisiert das Speichern über Halbleiter. Besitzen keine beweglichen Teile wie HDD."^^xsd:string,
+        rdfs:label "SSD-Teil (Solid State Disc)"@de,
+        rdfs:seeAlso <https://www.computerwissen.de/hardware/komponenten-peripherie/festplatte/>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y>
+    
+    
+Class: <http://webprotege.stanford.edu/RDklXKjIUxpT14UulYJc49P>
+
+    Annotations: 
+        rdfs:comment "Diese Geräte erzeugen Vibrationen oder andere taktile Empfindungen, um Benutzer über Ereignisse oder Zustände zu informieren. Beispiele sind Smartphones, die bei Benachrichtigungen vibrieren, oder Gaming-Controller, die Rückmeldungen während des Spiels geben. Beispiel: Controller mit Vibrierfunktion"^^xsd:string,
+        rdfs:label "Haptisches Feedback-Gerät"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k>
+    
+    
+Class: <http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS>
+
+    Annotations: 
+        rdfs:label "Animationsprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK>
+    
+    
+Class: <http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6>
+
+    Annotations: 
+        rdfs:label "Komparatoren-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy>,
+        <http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> some <http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK>
+    
+    
+Class: <http://webprotege.stanford.edu/RDpZ0J034vBpUnzOwQIq2cZ>
+
+    Annotations: 
+        rdfs:comment "Geräuschentwicklung: 25-40 dB"^^xsd:string,
+        rdfs:label "Hybridkühlungsteil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>
+    
+    
+Class: <http://webprotege.stanford.edu/RDq6UlnGDp42tz1WptYDJqa>
+
+    Annotations: 
+        rdfs:comment "Schreib-Lese-Köpfe (beweglich; sitzen auf der Aktorachse)"^^xsd:string,
+        rdfs:label "Lesekopf"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Class: <http://webprotege.stanford.edu/RDsHOJNs1IL50zDYWxwEL3Z>
+
+    Annotations: 
+        rdfs:label "CAD-Software (Computer-Aided Design)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>
+    
+    
+Class: <http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB>
+
+    Annotations: 
+        rdfs:label "Textverarbeitungsprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu>
+    
+    
+Class: <http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42>
+
+    Annotations: 
+        rdfs:comment "Bei einem Laufwerk handelt es sich um ein Gerät, welches den Schreib- oder Lesezugriff auf ein elektronisches Speichermedium ermöglicht."^^xsd:string,
+        rdfs:label "Laufwerk-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY>
+    
+    
+Class: <http://webprotege.stanford.edu/RDyiUOXU3mDxESrKRgofRSW>
+
+    Annotations: 
+        rdfs:comment "Geräuschentwicklung: 30-50 dB"^^xsd:string,
+        rdfs:label "Blower-Kühler-Teil (Gebläsekühler)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>
+    
+    
+Class: <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+
+    Annotations: 
+        rdfs:label "3D-Drucker"@de,
+        rdfs:seeAlso <https://tipps-3ddrucker.de/3d-drucker-infos/3d-drucker-arten/>,
+        rdfs:seeAlso <https://www.3d-grenzenlos.de/3d-drucker-arten/>,
+        rdfs:seeAlso <https://zeigdeinekunst.de/3d-drucker-arten-welche-gibt-es/>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>
+    
+    
+Class: <http://webprotege.stanford.edu/RFoNz1kmOexYojD6xn0daA>
+
+    Annotations: 
+        rdfs:label "Buchhaltungssoftware"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>
+    
+    
+Class: <http://webprotege.stanford.edu/RITpdAHdSi0SwwtG3JHcFR>
+
+    Annotations: 
+        rdfs:label "Teletype-Terminal"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>
+    
+    
+Class: <http://webprotege.stanford.edu/RJDAO6GCQTWi9yElZWc0aJ>
+
+    Annotations: 
+        rdfs:label "Belichter"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>
+    
+    
+Class: <http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO>
+
+    Annotations: 
+        rdfs:label "Entwicklungssoftware"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi>
+    
+    
+Class: <http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Schichtweises Auftragen von geschmolzenem Kunststofffilament.
+Anwendungen: Prototyping, funktionale Teile, Hobbyprojekte.
+Vorteile: Erschwinglich, große Materialauswahl.
+Nachteile: Geringere Auflösung, sichtbare Schichtlinien."^^xsd:string,
+        rdfs:label "Fused Deposition Modeling (FDM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>,
+        <http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> some <http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4>,
+        <http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> some <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>,
+        <http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB> some <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>
+    
+    
+Class: <http://webprotege.stanford.edu/RMxPS2fXf0lf8RREd1cjlV>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Aushärtung von Harz mit digitaler Lichtprojektion.
+Anwendungen: Ähnlich wie SLA, aber schneller.
+Vorteile: Hohe Auflösung, schnelle Druckzeiten.
+Nachteile: Begrenzte Materialauswahl, teure Drucker."^^xsd:string,
+        rdfs:label "Digital Light Processing (DLP)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+    
+    
+Class: <http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3>
+
+    Annotations: 
+        rdfs:label "Steuersignal-Teil s"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH>
+    
+    
+Class: <http://webprotege.stanford.edu/RNS1ANEHVjHXqFAHca8Ype>
+
+    Annotations: 
+        rdfs:label "ECC RAM-Teil (Error-Correcting-Code RAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    
+Class: <http://webprotege.stanford.edu/RNfxOcx3fe8YRFazLrzAFl>
+
+    Annotations: 
+        rdfs:label "Unix"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E>
+    
+    
+Class: <http://webprotege.stanford.edu/RQt2FrMaj7yXm04ahdFTo9>
+
+    Annotations: 
+        rdfs:label "Windows CE (Embedded Compact)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky>
+    
+    
+Class: <http://webprotege.stanford.edu/RQxerG1rwegoHvwr4FyEgS>
+
+    Annotations: 
+        rdfs:comment "Geräuschentwicklung: 0 dB (geräuschlos)"^^xsd:string,
+        rdfs:label "Passivkühlungsteil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>
+    
+    
+Class: <http://webprotege.stanford.edu/RRLuH4pm0NZzUUwT0QxHuB>
+
+    Annotations: 
+        rdfs:label "Bitweises Rotations-Teil (Rotate)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>
+    
+    
+Class: <http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc>
+
+    Annotations: 
+        rdfs:label "Ein- und Ausgabeteil (Hybrid)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>
+    
+    
+Class: <http://webprotege.stanford.edu/RTIQkYOr3LP19PCtfgpTgN>
+
+    Annotations: 
+        rdfs:comment "Bedecken das gesamte Ohr, bieten hervorragende Klangqualität und Geräuschisolierung."^^xsd:string,
+        rdfs:label "Over-Ear-Kopfhörer"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef>
+    
+    
+Class: <http://webprotege.stanford.edu/RTbWOqbFBMkj93ixX6TRXi>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Aushärtung von flüssigem Harz mit einem UV-Laser.
+Anwendungen: Hochdetaillierte Prototypen, Schmuck, medizinische Modelle.
+Vorteile: Hohe Auflösung, glatte Oberflächen.
+Nachteile: Teure Materialien, Nachbearbeitung erforderlich."^^xsd:string,
+        rdfs:label "Stereolithografie (SLA)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+    
+    
+Class: <http://webprotege.stanford.edu/RTulsSYDCz5kK3i4Xx3VMW>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Auftragen von flüssigem Material durch Düsen, das anschließend ausgehärtet wird.
+Anwendungen: Hochdetaillierte Modelle, Prototypen.
+Vorteile: Hohe Präzision, glatte Oberflächen.
+Nachteile: Teure Materialien und Drucker."^^xsd:string,
+        rdfs:label "Multi Jet Printing (MJP)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+    
+    
+Class: <http://webprotege.stanford.edu/RUSSYtZWlFVa0ndhHG5Tbx>
+
+    Annotations: 
+        rdfs:label "Demultiplexer-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4>
+    
+    
+Class: <http://webprotege.stanford.edu/RV2Yg48VXKYNjZbsznkFj>
+
+    Annotations: 
+        rdfs:comment "Direct Metal Laser Sintering (DMLS) / Selective Laser Melting (SLM):
+
+Funktionsweise: Verschmelzen von Metallpulver mit einem Laser.
+Anwendungen: Metallteile, industrielle Anwendungen.
+Vorteile: Hohe Festigkeit, komplexe Geometrien.
+Nachteile: Sehr teuer, aufwendige Nachbearbeitung."^^xsd:string,
+        rdfs:label "Direct Metal Laser Sintering (DMLS)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+    
+    
+Class: <http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX>
+
+    Annotations: 
+        rdfs:label "VA-Teil (Voll-Addierer)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>
+    
+    
+Class: <http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF>
+
+    Annotations: 
+        rdfs:comment "Geräuschentwicklung: 20-35 dB"^^xsd:string,
+        rdfs:label "Wasserkühlungsteil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>
+    
+    
+Class: <http://webprotege.stanford.edu/RXepuVySiwfopxiWbqqcYQ>
+
+    Annotations: 
+        rdfs:label "DVD"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s>
+    
+    
+Class: <http://webprotege.stanford.edu/RXtT3MqJ5viFr6sWJY1EED>
+
+    Annotations: 
+        rdfs:label "NOR-Verknüpfungs-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7>
+    
+    
+Class: <http://webprotege.stanford.edu/RY4PA7MFCpysEv5fqUwTJL>
+
+    Annotations: 
+        rdfs:label "MRAM-Teil (Magnetoresistive RAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    
+Class: <http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU>
+
+    Annotations: 
+        rdfs:label "NVRAM (Non-Volatile RAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    
+Class: <http://webprotege.stanford.edu/RbN6KWKjKV5fFkapZyPv4M>
+
+    Annotations: 
+        rdfs:label "Antivirenprogramm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB>
+    
+    
+Class: <http://webprotege.stanford.edu/RbiRVoMLWP1OfrbH731R41>
+
+    Annotations: 
+        rdfs:label "GDDR6-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm>
+    
+    
+Class: <http://webprotege.stanford.edu/RcPGNeqUIMiE3Ndtra1oAm>
+
+    Annotations: 
+        rdfs:label "Ontologie_Besitzer"@de
+    
+    
+Class: <http://webprotege.stanford.edu/RcyGGmSaRpSzIgtypa4VGY>
+
+    Annotations: 
+        rdfs:label "Befehlszähler-Teil (Program Counter)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2>
+    
+    
+Class: <http://webprotege.stanford.edu/RdaA56JI03hiH3T9rwT3Yb>
+
+    Annotations: 
+        rdfs:label "Flash Memory-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU>
+    
+    
+Class: <http://webprotege.stanford.edu/RdoqIyEoJ1nwk36ChphZWH>
+
+    Annotations: 
+        rdfs:comment "In den 1960er Jahren wurden Vektor-Displays und Lichtgriffel verwendet, um grafische Daten darzustellen. Diese Displays konnten Linien und Formen zeichnen, waren jedoch nicht für die Darstellung von Text geeignet."^^xsd:string,
+        rdfs:label "Lichtgriffeldisplay"@de,
+        rdfs:seeAlso <https://de.wikipedia.org/wiki/Computermonitor>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>
+    
+    
+Class: <http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ>
+
+    Annotations: 
+        rdfs:label "Systemsoftware"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu>
+    
+    
+Class: <http://webprotege.stanford.edu/RfKtGvGbKq8rtn53ZP85z9>
+
+    Annotations: 
+        rdfs:label "Safari"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5>
+    
+    
+Class: <http://webprotege.stanford.edu/RfrL5QxmKULUo1YcAxyMez>
+
+    Annotations: 
+        rdfs:label "EDO RAM-Teil (Extended Data Out RAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS>
+    
+    
+Class: <http://webprotege.stanford.edu/RhWQcZZvHStT4rYIAxzo4P>
+
+    Annotations: 
+        rdfs:label "Basisregister-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv>
+    
+    
+Class: <http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg>
+
+    Annotations: 
+        rdfs:label "Permament-sichtbare Ausgabe"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>
+    
+    
+Class: <http://webprotege.stanford.edu/Rm9Ae8RNrO4NkNGcGw0dlZ>
+
+    Annotations: 
+        rdfs:label "MUL-Teil vorzeichenbehaftet im 2er-Komplement"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf>
+    
+    
+Class: <http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs>
+
+    Annotations: 
+        rdfs:label "Barcodeleser"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9>
+    
+    
+Class: <http://webprotege.stanford.edu/Ro1SIhvg7BhPLclLNsvlFx>
+
+    Annotations: 
+        rdfs:label "Instant-Messaging-Programm"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6>
+    
+    
+Class: <http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC>
+
+    Annotations: 
+        rdfs:label "Endverbraucher-Windows"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o>
+    
+    
+Class: <http://webprotege.stanford.edu/RpbhJ65H2dyiuiGcgHF1NB>
+
+    Annotations: 
+        rdfs:label "L2 Cache-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK>
+    
+    
+Class: <http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf>
+
+    Annotations: 
+        rdfs:label "MUL-Teil vorzeichenbehaftet"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv>,
+        <http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5> some <http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB>
+    
+    
+Class: <http://webprotege.stanford.edu/RqFGD8CxkU7PnB6Ja1YfCa>
+
+    Annotations: 
+        rdfs:label "Allgemeiner Register-Teil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb>
+    
+    
+Class: <http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4>
+
+    Annotations: 
+        rdfs:label "SRAM-Teil (Static RAM)"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I>
+    
+    
+Class: <http://webprotege.stanford.edu/RqRHJbUjXRyHhB2YKPTIZQ>
+
+    Annotations: 
+        rdfs:comment "Funktionsweise: Auftragen eines flüssigen Bindemittels auf Pulverschichten.
+Anwendungen: Metallteile, Sandformen.
+Vorteile: Schnelle Druckzeiten, große Bauteile möglich.
+Nachteile: Nachbearbeitung erforderlich, begrenzte Materialauswahl."^^xsd:string,
+        rdfs:label "Binder Jetting"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N>
+    
+    
+Class: <http://webprotege.stanford.edu/RqvZD7EdntjhmkJbbBPPzn>
+
+    Annotations: 
+        rdfs:label "CD"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s>
+    
+    
+Class: <http://webprotege.stanford.edu/RrUt11kEUgwskKEqpdqVtd>
+
+    Annotations: 
+        rdfs:label "Blu-ray"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s>
+    
+    
+Class: <http://webprotege.stanford.edu/RsGkUGvr0Xs2IzSIAuEEoc>
+
+    Annotations: 
+        rdfs:label "MUL-Teil vorzeichenbehaftet im 1er-Komplement"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf>
+    
+    
+Class: <http://webprotege.stanford.edu/Rv26I5luFROYEVBtTC9Pws>
+
+    Annotations: 
+        rdfs:comment "In den 1960er Jahren wurden Vektor-Displays und Lichtgriffel verwendet, um grafische Daten darzustellen. Diese Displays konnten Linien und Formen zeichnen, waren jedoch nicht für die Darstellung von Text geeignet."^^xsd:string,
+        rdfs:label "Vektordisplay"@de,
+        rdfs:seeAlso <https://de.wikipedia.org/wiki/Computermonitor>
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>
+    
+    
+Class: <http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj>
+
+    Annotations: 
+        rdfs:label "Flüchtig-sichtbare-Ausgabe"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>
+    
+    
+Class: <http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo>
+
+    Annotations: 
+        rdfs:label "Ausgabeteil"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l>
+    
+    
+Class: <http://webprotege.stanford.edu/RvcvjuMJiRFZ7kiT7JOwkc>
+
+    Annotations: 
+        rdfs:comment "Schreib-Lese-Köpfe (beweglich; sitzen auf der Aktorachse)"^^xsd:string,
+        rdfs:label "Schreibkopf"@de
+    
+    SubClassOf: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    
+Individual: <http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "LG 49WQ95C-W UltraWide Dual QHD Nano IPS Curved Monitor"^^xsd:string,
+        rdfs:label "Bildschirm_LG_UltraWide"@de,
+        rdfs:seeAlso <https://www.kamera-express.de/lg-49wq95c-w-ultrawide-dual-qhd-nano-ips-cu?msclkid=83d264ecd2fa18260e3b037b3c465928&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping%20-%20DE&utm_term=4576236145078159&utm_content=Overig>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3>  144,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'LG'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu>  49,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'---.---.---.431.253'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk>  70,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN>  70,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  1189.00,
+     <http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN>  true
+    
+    
+Individual: <http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "be quiet! Pure Base 501 Airflow Black PC-Gehäuse, 2 vorinstallierte Pure Wings 3 140mm PWM-Lüfter, hoher statischer Druck, geräumiges Design, kompakte Abmessungen, USB 3.2 Gen. 2 Type C"^^xsd:string,
+        rdfs:label "Gehäuse_bequiet!_PureBase501Airflow"@de,
+        rdfs:seeAlso <https://www.amazon.de/quiet-PC-Geh%C3%A4use-vorinstallierte-PWM-L%C3%BCfter-Abmessungen/dp/B0DGXR6TTD/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&dib=eyJ2IjoiMSJ9.gyXsgC3ywctYbzR2bTNomV00f-XvC-ZW7nklXYAHfs9sKM4As8D08jaz2Ye_R5VYzpPehR-5hfYcKvY24iHethal583a-OfDMi_bk_zuBppUPWkLtZCN4LpLLMqvNUPFuG4ZQgt0lni33CEwPY71XTNdqWUbFDqul2GJ2dqPrRsM0ixnqj7THOZtgwiIW-GaD4bRgssm0kP84XGNGZguT-NULSlAt1o4afucxr-TzMA.lC-6NuPruQtRiJUKcXiKwORn7JBmw0_UpK0gNw67EoA&dib_tag=se&keywords=pc%2Bgeh%C3%A4use%2Bbequiet&qid=1737990372&sr=8-3&th=1>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'be quiet!'"^^xsd:string,
+     <http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW>  false,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "#000.000.011.456'"^^xsd:string,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  78.67
+    
+    
+Individual: <http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "BambuLab X1E Combo 3D Drucker inkl. Software, integrierte Kamera, beheizbares Druckbett. [Fused Deposition Modeling (FDM)]"^^xsd:string,
+        rdfs:label "3D_Drucker_FDM_BambuLab_X1E"@de,
+        rdfs:seeAlso <https://www.conrad.de/de/p/bambulab-x1e-combo-3d-drucker-inkl-software-integrierte-kamera-beheizbares-druckbett-3123315.html?hk=SEM&+B%C3%BCro=&+B%C3%BCro=&B2C+Experience=&ef_id=df138bb73a4f19525fe1ec20c80ad5c9%3AG%3As&s_kwcid=AL%21222%2110%2172293299822756%214575892546088651&msclkid=df138bb73a4f19525fe1ec20c80ad5c9&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping_All+Products_Bad+Performer&utm_term=4575892546088651&utm_content=Shopping_All+Products_Bad+Performer>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa>  230,
+     <http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3>  0.5,
+     <http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW>  true,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'b8-9a-2c-5f-21-53'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk>  52,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k>  "'1280x720'"^^xsd:string,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  2699.00
+    
+    
+Individual: <http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Rii Tastatur Kabelgebunden, PC Tastatur USB, Business Slim Tastatur mit Kabel für Computer, Laptop, Mac, Windows, macOS, QWERTZ Deutsches Layout– Schwarz"^^xsd:string,
+        rdfs:label "Tastatur_Rii"@de,
+        rdfs:seeAlso <https://www.amazon.de/Rii-Tastatur-Windows-Microsoft-Deutsches/dp/B07VK1P4C9/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=39BHXL71BFYM9&dib=eyJ2IjoiMSJ9.WStaaagcQDMSKb_ZNCx1rWyaDrFbDHHEhd8h9UtsdiP53m1zkzJL5Wzvvby7MFgAknvSK64Mk_jwyUeigwLQWjMJMA9CESO4S9M8JVxaw8Q2G-WPh88syGpe7yanxy85_buCyMUEgV3ooHmBvq6BB57SGUsG1VFQDBNBSiksAFMB1iJOxpDT1NrrEwRlQrNJIMolfwfqnXsjoHmtgrHlNEG0iO47j-mbWSn3D1S0Ogg.PnEJApUK2DHpqytjtPY4jXeO6SLL5I1pWm88N6yoEu0&dib_tag=se&keywords=tastatur&qid=1737988763&sprefix=braillezeile%2Btastatur%2Caps%2C180&sr=8-3&th=1>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'Rii'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'a1-b5-34-c7-8f-j2'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  10.99
+    
+    
+Individual: <http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "ARCTIC Liquid Freezer III 240 A-RGB - Wasserkühlung PC, AIO CPU Wasserkühler, Intel & AMD, effiziente PWM-gesteuerte Pumpe, Lüfter: 200–2000 RPM, LGA1851 und LGA1700 Contact Frame - Schwarz"^^xsd:string,
+        rdfs:label "Wasserkühler_Arctic_LiquidFreezerIII"@de,
+        rdfs:seeAlso <https://www.amazon.de/ARCTIC-Liquid-Freezer-RGB-PWM-gesteuerte/dp/B09VH4M76W/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=36HJS42VILI55&dib=eyJ2IjoiMSJ9.rIO4cr7DdhzQMXSR3zAA_QOoYsiBsHH5rvy-w-b--BZX7U4utTaZTb4vXV6LelQumbzQC2q_nU4GswuVsr0syAIJyln7lA1KdT3Y9yvjf9E4dIWbTBNkp3HqWFDoNsf0K3rTw-M52XpowJok2Hqmo8VMR3sBPkIGAAdc2HmGBJh13dsJ2IJswUwYI9LDhNUQsoZK31ytVYg8UU3fsyyrbnlo4Wuc1pejbIv7VlS0I50.tIlRMQaSl8VH1BcYE6uyAzPA2ofR6su_hsxLkkNBZXQ&dib_tag=se&keywords=wasserk%C3%BChler%2Bpc&qid=1737990511&sprefix=wasserk%C3%BChler%2Bpc%2Caps%2C164&sr=8-3&th=1>
+    
+    Types: 
+        <http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk>,
+        <http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa>  12,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "Arctic"^^xsd:string,
+     <http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW>  true,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'###-###-123-##2-123-654'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN>  25,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  70.06
+    
+    
+Individual: <http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc>
+
+    Annotations: 
+        rdfs:label "SSD_64GB_Transcend"@de
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj>  false,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'Transcend'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'0001235312'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  true,
+     <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN>  0,
+     <http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm>  4000000000,
+     <http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi>  4480000000,
+     <http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc>  512000000000,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  21.26
+    
+    
+Individual: <http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Corsair VENGEANCELPX16GB (2x 8GB) DDR4 3200(Pc4-25600) C16 1.35V Desktop Memory - Schwarz"^^xsd:string,
+        rdfs:label "RAM_8GB_Corsair_Vengeance"@de,
+        rdfs:seeAlso <https://www.amazon.de/Corsair-Vengeance-3200MHz-Performance-Arbeitsspeicher/dp/B07RS1G6XW/ref=sr_1_3?dib=eyJ2IjoiMSJ9.PyoFKd7S4ljtAVkGsvd4b1mUPWu1Jdpxnta-KdKex_iO02kHg9R620Uoft1_Y4BdEDsvjgdxIvIDIc7P4OYk3pi57GVZq7iPI7yhq0UFKqHm8eb4fnTMqj8y-H5mUvqNimx_Dds9tbzymgkoxe7-vvDZaaGQFSViHzUb4Dcm3OsbpHHK1-7C6FUveBmlqn-TZkr5fpFqY3_4C-FoRdXXRaq9ntWu7Jag257RcjD8eyE.ngKrO-jDGZXAcVqVKVg45UA1utE938FF23kJ9-wRc5U&dib_tag=se&keywords=ram&qid=1737989248&sr=8-3&th=1>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa>  1.35,
+     <http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj>  true,
+     <http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7>  3200000000,
+     <http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE>  8589934592,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'......623412'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  18.95
+    
+    
+Individual: <http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "ASUS ProArt GeForce RTX 4080 SUPER OC Edition 16GB GDDR6X Gaming Grafikkarte (NVIDIA GeForce RTX4080 DLSS 3, PCIe 4.0, 1x HDMI 2.1a, 3X DisplayPort 1.4a, PROART-RTX4080S-O16G)"^^xsd:string,
+        rdfs:label "Grafikkarte_Nvidia_AsusRTX_4080"@de,
+        rdfs:seeAlso <https://www.amazon.de/ASUS-GeForce-Grafikkarte-DisplayPort-PROART-RTX4080S-O16G/dp/B0CS3V7ZKJ/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=1OYTAHY9J3JP7&dib=eyJ2IjoiMSJ9.rge7k9zyACedTZ7m0nyXVuOSAry-55vRCRDC8_AOLuxlqwvNUgr9IHdRuAhwFW-7sZP9_AY5yGADLMMsny15G7rAWZdPw9hrD0ytHGgDpM48pYkrLPMzTVDHf47eqmGc9IANRo7Pn9WhVipgqMXW42RhMYk8e9PG4PGkiguyLlNxiGeHDoogrna4VfV90qrv-eIvXQoEUlyPPz1F2NLoyuLtg1bFLsEJC4jUyiFkEEQ.rxD8nhoi8cakyA9LFG6zdrImwz543pCdj-p7NxBY8-Y&dib_tag=se&keywords=grafikkarte+nvidia+rtx+4080&qid=1737990082&sprefix=grafikkarte+nvidia+rtx+4080%2Caps%2C142&sr=8-2>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj>  true,
+     <http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7>  2610000000,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "Nvidia"^^xsd:string,
+     <http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE>  137438953472,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'134.123.124.234'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk>  850,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN>  0,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  1199.00
+    
+    
+Individual: <http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Thermaltake TR2 S 700W | PC-ATX-Netzteil | 80-Plus | leiser 120 Lüfter | EU zertifiziert | schwarz"^^xsd:string,
+        rdfs:label "Netzteil_Thermaltake_Axialkühler"@de,
+        rdfs:seeAlso <https://www.amazon.de/Thermaltake-TR2-S-700W-PC-Netzteil/dp/B016WFYCFU/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=383INO7IYRAN8&dib=eyJ2IjoiMSJ9.KxKMHgyrCEFXWeyVcqVKZmsKE7tvAd0NvjV4RUCQ9z6hsGfmQReD4VLan2vs9NbGxciCgUomwiad3_xSaWX2YMpTkcl9VlqJ_vW-LrOsQdRkjqVimVu_rPgOg5Rbr8dJGF1NPDc0JH8TbWIf6jR-gpEHoLvMHDkssT-u2OwLaE0Kmcmh6S94hZbpBizHvFOoBG-RGLHp1IRLLTZ67kGHQ22fTLTGDEUqA9IwX1uk6To.nb2unBFscOr_9_pLsnv0MWMmPTTGE_GpVTdSCojaRIo&dib_tag=se&keywords=pc%2Bnetzteil&qid=1737989725&sprefix=pc%2B%2Caps%2C331&sr=8-3&th=1>
+    
+    Types: 
+        <http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC>,
+        <http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ>  true,
+     <http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa>  230,
+     <http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4>  true,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'Thermaltake'"^^xsd:string,
+     <http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW>  true,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'943626732469237'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk>  700,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh>  true,
+     <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN>  35,
+     <http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO>  true,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  48.90
+    
+    
+Individual: <http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2>
+
+    Annotations: 
+        rdfs:comment "Microsoft 365 Apps-Update: Qualitätsupdate für aktuellen Kanal (Vorschau) für die x86-basierte Edition, Version 2412 (Build 18324.20092)
+Letzte Änderung: 16.12.2024
+Größe: 12 KB
+UpdateID: da169a9c-4aad-4c4d-9434-649f23f3881f"^^xsd:string,
+        rdfs:label "MS_Word_v2412"@de,
+        rdfs:seeAlso <https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=da169a9c-4aad-4c4d-9434-649f23f3881f>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz>  "2024-12-16T00:00:00"^^xsd:dateTime,
+     <http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX>  true,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "Microsoft"^^xsd:string,
+     <http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3>  false,
+     <http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD>  false,
+     <http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV>  true,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y>  "'Version 2412 (Build 18324.20092)'"^^xsd:string,
+     <http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z>  "'.NET'"^^xsd:string,
+     <http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp>  true
+    
+    
+Individual: <http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Veröffentlichungsjahr	Veröffentlichungsdatum	Teams-Version	Slimcore-Version
+2025	16. Januar	24335.207.3345.5574	2024.47.0-1.10-h452ab"^^xsd:string,
+        rdfs:label "MS_Teams_24335.207.3345.5574"@de,
+        rdfs:seeAlso <https://learn.microsoft.com/de-de/officeupdates/teams-app-versioning>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz>  "2025-01-16T00:00:00"^^xsd:dateTime,
+     <http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX>  true,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'Microsoft'"^^xsd:string,
+     <http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3>  false,
+     <http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD>  true,
+     <http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid>  true,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'1872345676'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV>  true,
+     <http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf>  true,
+     <http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y>  "'24335.207.3345.5574'"^^xsd:string,
+     <http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6>  true,
+     <http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq>  "'1080p'"^^xsd:string,
+     <http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z>  "'.NET'"^^xsd:string,
+     <http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5>  true
+    
+    
+Individual: <http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "MSI MPG B550 GAMING PLUS"^^xsd:string,
+        rdfs:label "Mainboard_MSI_MPG_B550"@de,
+        rdfs:seeAlso <https://www.coolblue.de/produkt/864609/msi-mpg-b550-gaming-plus.html?cmt=c_b%2Ccp_532530061%2Caid_1354600906373878%2Ct_pla-4588262031974841%2Cn_o%2Cd_c%2Clp_&msclkid=950606667a3918f635c961f18b153b83&utm_source=bing&utm_medium=cpc&utm_campaign=[Bing]+[PT%3AALL]+[RL1%3AGermany]+[PTID%3A0]+[CO%3ADE]+[LAN%3ADE]+[DEV%3AALL]+[FL%3AALL]+[CH%3AShopping]&utm_term=4588262031974841&utm_content=[PT%3AAll+other+products]>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7>  4400000000,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'MSI'"^^xsd:string,
+     <http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW>  false,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'b8ab439c53'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN>  0,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  133.00
+    
+    
+Individual: <http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Logitech Maus M90 optische Kabelmaus, 3 Tasten, 1000 dpi, schwarz"^^xsd:string,
+        rdfs:label "Optische_Maus_Logitech_M90"@de,
+        rdfs:seeAlso <https://www.bueromarkt-ag.de/maus_logitech_m90_optische_kabelmaus,p-910-001794,l-bing-prd,pd-b2c.html?msclkid=442d8e1f16f0176de7f9e988fb8653a9>
+    
+    Types: 
+        <http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'Logitech'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'8543557'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09>  1000,
+     <http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y>  3,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  9.51
+    
+    
+Individual: <http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Tera Barcode Scanner 1D 2D QR Wireless Kabellos 2,4 GHz + Wired USB 2,0 Kabelgebunden Handscanner Barcodelesegerät 5 Mil Auflösung 100m Reichweite, Bildschirm-Scannen Unterstützt, Upgrade-Modell D5100"^^xsd:string,
+        rdfs:label "Barcodeleser_Tera"@de,
+        rdfs:seeAlso <https://www.amazon.de/Tera-Kabelgebunden-Barcodeleseger%C3%A4t-Bildschirm-Scannen-Upgrade-Modell-Orange-Neu/dp/B098DCGK91/ref=asc_df_B098DCGK91?tag=bingshoppin0b-21&linkCode=df0&hvadid=80676792510543&hvnetw=o&hvqmt=e&hvbmt=be&hvdev=c&hvlocint=&hvlocphy=&hvtargid=pla-4584276312271876&th=1>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'Tera'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  43.60
+    
+    
+Individual: <http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "AMD Ryzen Threadripper 7970X 32 x 4 GHz 32-Core Prozessor (CPU) WOF Sockel (PC): AMD® sTR5 350 W"^^xsd:string,
+        rdfs:label "CPU_AMD_Ryzen_Threadripper"@de,
+        rdfs:seeAlso <https://www.conrad.de/de/p/amd-ryzen-threadripper-7970x-32-x-4-ghz-32-core-prozessor-cpu-wof-sockel-pc-amd-str5-350-w-3062065.html?hk=SEM&+B%C3%BCro=&+B%C3%BCro=&B2C+Experience=&ef_id=e0bea59a4cbc10587515c20db5c8c797%3AG%3As&s_kwcid=AL%21222%2110%2172293299822756%214575892546088651&msclkid=e0bea59a4cbc10587515c20db5c8c797&utm_source=bing&utm_medium=cpc&utm_campaign=Shopping_All+Products_Bad+Performer&utm_term=4575892546088651&utm_content=Shopping_All+Products_Bad+Performer>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj>  true,
+     <http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7>  4000000000,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'AMD'"^^xsd:string,
+     <http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW>  false,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'100-100001351WOF'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk>  350,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul>  32,
+     <http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc>  1024000000,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  2875.00
+    
+    
+Individual: <http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Windows 11 ist ein Dienst, was bedeutet, dass er durch regelmäßige Featureupdates besser wird. Wir verfolgen einen stufenweisen und gemessenen Ansatz, um jedes Featureupdate auszurollen. Dies bedeutet, dass Sie Windows 11 Version 24H2 erhalten, wenn Daten zeigen, dass Ihr Gerät bereit ist und Dass Sie über eine hervorragende Updateerfahrung verfügen."^^xsd:string,
+        rdfs:label "MS_Windows_11_Home_v24H2"@de,
+        rdfs:seeAlso <https://lizenzguru.de/windows-11-home.html?msclkid=558bfa5f6acb16e8e1949dc89cefc6cf>,
+        rdfs:seeAlso <https://support.microsoft.com/de-de/topic/windows-11-version-24h2-update-history-0929c747-1815-4543-8461-0160d16f15e5>
+    
+    Types: 
+        <http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz>  "13.08.2024"^^xsd:string,
+     <http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz>  "2024-08-13T00:00:00"^^xsd:dateTime,
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'Microsoft'"^^xsd:string,
+     <http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3>  false,
+     <http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD>  false,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'ghjshhgdhgfg'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  true,
+     <http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y>  "'11 24H2'"^^xsd:string,
+     <http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z>  "'.NET'"^^xsd:string,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  39.95
+    
+    
+Individual: <http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF>
+
+    Annotations: 
+        <http://purl.org/dc/elements/1.1/description> "Seagate Barracuda 2TB interne Festplatte HDD, 3.5 Zoll, 7200 U/Min, 256 MB Cache, SATA 6GB/s, silber, Data Rescue ServiceModellnr.: ST2000DMZ08"^^xsd:string,
+        rdfs:label "HDD_Seagate_Barracuda_2TB"@de,
+        rdfs:seeAlso <https://www.amazon.de/Seagate-ST2000DMZ08-BarraCuda-Festplatte-silberfarben/dp/B07H2RR55Q/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&crid=13QMRJPWK2IO7&dib=eyJ2IjoiMSJ9.C6KanzdhTJdQpW_rUoO3hDTANY88C1WhaEVsIVBSCs0N36sFWbuoHVfRGhgtueNP5LYLg5_ggtqdfIscvYp9Mv4Z9D4xQCatCZHcNCPfIpMta0mtbr_YHSSpccIPP9Q7n6lCL5GWZFb_ZShlYBBVcAOWL9Rmy5P96qVkb9UyHX7EnkvM2TMzZv042CYUA-YAtZDO1GATkt3uX_yiZgFbNmF8l93CQvKCnHR7ga5dIZA.N5zj2f0gQ17tnuMWH-UG4LAbxxFV13X9vf1mlvRfNl8&dib_tag=se&keywords=hdd%2Bfestplatte&qid=1738009522&sprefix=hdd%2Bfestplatte%2Caps%2C106&sr=8-3&th=1>
+    
+    Types: 
+        <http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4>
+    
+    Facts:  
+     <http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW>  "'Seagate'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj>  "'dncuaicueuu'"^^xsd:string,
+     <http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT>  false,
+     <http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN>  25,
+     <http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc>  16000000000000,
+     <http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe>  69.99
+    
+    

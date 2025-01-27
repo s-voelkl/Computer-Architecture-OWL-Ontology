@@ -1,0 +1,3393 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="urn:webprotege:ontology:96477fc3-2e59-4b1d-b1fb-b5b0680971c2#"
+     xml:base="urn:webprotege:ontology:96477fc3-2e59-4b1d-b1fb-b5b0680971c2"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:webprotege="http://webprotege.stanford.edu/">
+    <owl:Ontology rdf:about="urn:webprotege:ontology:96477fc3-2e59-4b1d-b1fb-b5b0680971c2"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.org/dc/elements/1.1/description -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.org/dc/elements/1.1/description"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5 -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="de">benötigt_Teil [object]</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB -->
+
+    <owl:ObjectProperty rdf:about="http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topObjectProperty"/>
+        <rdfs:label xml:lang="de">benötigt_Teil_optional [object]</rdfs:label>
+    </owl:ObjectProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Data properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:label xml:lang="de">AnzahlEingänge</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R35tvgStoILFLIn34mRDz">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#dateTime"/>
+        <rdfs:label xml:lang="de">HerausgabeZeitpunkt [datetime]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R4ARc50bFI4mItm4ZZOHCX">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">ErlaubtTextÜbertragung [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R74K5h90xr1XdDjfalpfaNZ">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">Überspannungsschutz [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7XxfhroYAoL6Q8Gk4HDxEa">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Der Energiebedarf der flüchtigen RAM-Typen hängt stark ab von ihrer Betriebsspannung, im Allgemeinen steigt er quadratisch zu steigender Spannung. Er kann je nach Speichergröße mehrere Watt betragen, was sich insbesondere bei Mobilgeräten spürbar auf die Akkulaufzeit auswirkt. Daher versuchen die Hersteller kontinuierlich, den Energiebedarf zu senken und eine niedrigere Versorgungsspannung zu ermöglichen.
+SDRAM	3,3 V
+DDR-SDRAM	2,5 V
+DDR2-SDRAM	1,8 V
+DDR3-SDRAM	1,5 V
+DDR3-SDRAM LP	1,25 V
+DDR4-SDRAM	1,2 V
+DDR4-SDRAM LV	1,05 V
+DDR5-SDRAM	1,1 V
+[https://de.wikipedia.org/wiki/Random-Access_Memory]</dc:description>
+        <rdfs:label xml:lang="de">Versorgungsspannung [V]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7wdHfhvGV0UKGTxM8G87nj">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Flüchtiger Speicher ist eine Art von Computerspeicher, der eine kontinuierliche Stromversorgung benötigt, um die gespeicherten Daten zu erhalten. Sobald die Stromversorgung unterbrochen wird, gehen alle gespeicherten Informationen verloren. 
+Beispiel: RAM, L1/L2/L3 Caches, Register
+
+
+
+[https://techwatch.de/blog/understanding-volatile-memory-definition-and-applications/]</dc:description>
+        <rdfs:label xml:lang="de">IstFlüchtigerSpeicher [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R7xFoyicRLr8k3SgtiGcUW3">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="de">Bildwiederholrate [Hz]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8348cmVBs5YUwJtKpEsT7b -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8348cmVBs5YUwJtKpEsT7b">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">BitBreite [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R84dac06VpM3IH3MDi440a">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">auch bekannt als Latenz: Die Latenz beschreibt die Zeit, die der RAM benötigt, um auf Anfragen des Prozessors zu reagieren. Niedrigere Latenzzeiten bedeuten schnellere Reaktionszeiten.</dc:description>
+        <rdfs:label xml:lang="de">Zugriffszeit [ns]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R88wreIDfSSn53PeDfXRIa7">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Büro- und Alltagsanwendungen: CPUs für einfache Aufgaben wie Textverarbeitung, Web-Browsing und E-Mail haben in der Regel Taktraten zwischen 2 und 3 GHz.
+Gaming und anspruchsvolle Anwendungen: Für Gaming und rechenintensive Anwendungen wie Videobearbeitung oder 3D-Modellierung sind Taktraten von 3,5 bis 4 GHz oder höher üblich. Einige High-End-CPUs können sogar Taktraten von über 5 GHz erreichen.
+Server und Workstations: Diese Systeme, die für parallele Verarbeitung und hohe Zuverlässigkeit ausgelegt sind, haben oft CPUs mit Taktraten im Bereich von 2,5 bis 3,5 GHz, wobei die Anzahl der Kerne und die Effizienz der Architektur ebenfalls eine wichtige Rolle spielen.
+[https://www.connect-living.de/ratgeber/prozessor-gigahertz-wie-viel-cpu-takt-3203161.html]</dc:description>
+        <rdfs:label xml:lang="de">Taktfrequenz [Hz]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8IHRxDaDqVqJM1UvS4xJD4">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">Überstromschutz [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:label xml:lang="de">AnzahlAusgänge</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SX67wFGBaAKbAGBl0GeiM -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8SX67wFGBaAKbAGBl0GeiM">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">AnzahlAusgängeQ [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SkPgJr97SnhCMB19rapwa -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8SkPgJr97SnhCMB19rapwa">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">HatClockEingang (clk) [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8Wz1qsIqmHg4N783Nq57XW">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+        <rdfs:label xml:lang="de">NameHersteller [str]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8XM2k3rtBda1CcLciLloDE">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">Datenübertragungsrate [Bit/s]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8XxJlWSAf2BbwgFcnW2Yp3">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">IstOpenSource [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8j3kX9uLbPnhcit5XPoUiD">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">KI-gestützt [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R8kiAr6oqubivZQUE56vRkW">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">IstAktiveKühlung [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R94vczSAqLZb1lVD8oMLALy -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R94vczSAqLZb1lVD8oMLALy">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">IstKostenpflichtig [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R98dnqHI3bRhQstjMGIEaid">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">ErlaubtBildschirmÜbertragung [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9ElB5ShKzn0njAV0xDD3id -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9ElB5ShKzn0njAV0xDD3id">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">AnzahlRegister [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9Of7qt0Yn3RgMYZGHQKlu">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="de">Bildschirmdiagonale [Zoll]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="de">Maus</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9anvE89dav0tnBIjQnAkCj">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+        <rdfs:label xml:lang="de">ProduktId [str]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="de">Bildschirm</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="de">Kommunikationssoftware</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9qGk3Za3wDs3DN91tRJ3Hk">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ALU-Energieverbauch: 
+Der Energieverbrauch einer arithmetisch-logischen Einheit (ALU) kann stark variieren, abhängig von der spezifischen Architektur und den verwendeten Technologien. Im Allgemeinen ist der Energieverbrauch einer ALU relativ gering im Vergleich zu anderen Komponenten eines Prozessors, wie z.B. dem Cache oder den Speicherzugriffen. Insgesamt kann der Energieverbrauch einer ALU in einem modernen Prozessor im Bereich von wenigen Milliwatt bis zu mehreren Watt liegen. 
+[https://www.studysmarter.de/schule/informatik/technische-informatik/alu-design/]
+
+CPU-Energieverbauch: 
+- Desktop-CPUs: Typischerweise zwischen 65 und 125 Watt (TDP - Thermal Design Power).
+- High-End-CPUs: Können bis zu 250 Watt oder mehr verbrauchen, insbesondere bei Übertaktung.
+- Mobile CPUs: Haben oft eine TDP von 15 bis 45 Watt, um die Akkulaufzeit zu maximieren.
+[https://www.pcgameshardware.de/CPU-CPU-154106/Specials/CPU-Verbrauch-Der-Effizienz-Index-fuer-Prozessoren-1341682/]</dc:description>
+        <rdfs:label xml:lang="de">Energieverbrauch [W]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9rLXylVdPe6O4b8Qpru6OV">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">ErlaubtLiveKommunikation [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9t2gDNun4cKbMt1JrINvcT">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">IstVeraltet [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9xigQUqe65UbExbzISiNbh -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/R9xigQUqe65UbExbzISiNbh">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">AnzahlEingängeX [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBU1zzJwOQkGix7dWHnTNJQ -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBU1zzJwOQkGix7dWHnTNJQ">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">AnzahlEingängeD [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBf59dSP9gj8r2V12nqrsIf">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">ErlaubtAudioÜbertragung [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="de">Speicher</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBrUwYPSrP55dbT73GjHFcp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Moderne ALUs, die in fortschrittlichen Fertigungsprozessen (z.B. 7nm oder 5nm) hergestellt werden, sind energieeffizienter als ältere Technologien. 
+[https://de.wikipedia.org/wiki/Arithmetisch-logische_Einheit]</dc:description>
+        <rdfs:label xml:lang="de">FertigungsprozessGröße [nm]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBsYcVz2tIg9NJeXBsMmlhh">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">Kurzschlussschutz [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBtnvTfsUncqy0kV5M3V7IN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="de">Geräuschentwicklung [db]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RBy39ttmeGT5AgOuuVPr2Ul">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Büro- und Alltagsanwendungen: CPUs für einfache Aufgaben haben oft 2 bis 4 Kerne.
+Gaming und anspruchsvolle Anwendungen: Für Gaming und rechenintensive Anwendungen sind 6 bis 8 Kerne üblich. Einige High-End-CPUs können sogar 10 oder mehr Kerne haben.
+Server und Workstations: Diese Systeme, die für parallele Verarbeitung und hohe Zuverlässigkeit ausgelegt sind, haben oft 12 bis 64 Kerne oder mehr.
+[https://www.connect-living.de/ratgeber/prozessor-gigahertz-wie-viel-cpu-takt-3203161.html]
+Kerne:</dc:description>
+        <rdfs:label xml:lang="de">KernAnzahl [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RC2FOq15laxAU0x92swF89y">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+        <rdfs:label xml:lang="de">SoftwareVersion [str]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCBkgrZDOGXsHjzUrxJJzZ6">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">ErlaubtVideoÜbertragung [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCXvYnOiXv562N3bdQk6RV7 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCXvYnOiXv562N3bdQk6RV7">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">AnzahlAusgängeC (carry bit) [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCiRbaaOFE2HlCKV9wMPTtO">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">Überlastungsschutz [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RCnw0GkDxF0MPlRk18qlk09">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die Bezeichnung DPI steht für &quot;dots per inch&quot;. Somit gibt sie eine Dichte von Punkten bezogen auf ein Inch an, wobei ein Inch ca. 2,54 cm entspricht.</dc:description>
+        <rdfs:label xml:lang="de">DotsPerInch (DPI) [1]</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://praxistipps.chip.de/was-ist-dpi-einfach-erklaert_44369"/>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:label xml:lang="de">Produkt</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDL7XETk8p0EHzrkITAxAQm">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">Schreibgeschwindigkeit [Bit/s]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDMKm6E8s8NoKUwee3PowRi">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RBoRXp7xnNdjcqb6KVWljDq"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">Lesegeschwindigkeit [Bit/s]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTSBWvzLVkHDRBbHKAOuEb -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDTSBWvzLVkHDRBbHKAOuEb">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">AnzahlSteuersignaleS [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDjc88dNWKKv4hXVPIAzkZq">
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS"/>
+        <rdfs:label xml:lang="de">MaximaleBildauflösung [pixel]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDoYMBZA3gZBQJoLCKwRV8z">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+        <rdfs:label xml:lang="de">BasedOnFramework [str]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDu235EzVWsaGkBpQXdn58y">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9RdGe1jkz9m0F1yQonrB2P"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Maustasten</dc:description>
+        <rdfs:label xml:lang="de">AnzahlTasten [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5 -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDwZIHFBEAXQsVF2p12cem5">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9prHNcXTdqzSejf4T1WAyT"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">ErlaubtKontrollübernahme [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RDxlrJB0gG7yj8V2szZ9NOp">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">IstErweiterbar [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RMY8sUWLv5CWcifUZaye1J">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC"/>
+        <rdfs:label xml:lang="de">Netzteilschutz</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RNBtbcwwcCxpiSA1VAYyWc">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Speicherkapazität: Die Kapazität wird in Gigabyte (GB) gemessen und bestimmt, wie viele Daten gleichzeitig im RAM gespeichert werden können.</dc:description>
+        <rdfs:label xml:lang="de">Speicherkapazität [Bit]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSypps76kx7Hj12lJz0h1n -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RSypps76kx7Hj12lJz0h1n">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R8JII4IdvbbtTz1juzuaL8l"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">AnzahlAusgängeZ [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RarrynxDv2eM7175Mmgt4k">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#normalizedString"/>
+        <rdfs:label xml:lang="de">BildschirmAuflösung</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rb2mhjhhMa1NVBEDvHc8sN -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rb2mhjhhMa1NVBEDvHc8sN">
+        <rdfs:subPropertyOf rdf:resource="http://www.w3.org/2002/07/owl#topDataProperty"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">ErlaubtDebugging [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcQytvGFuudxRDwhusnewh -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RcQytvGFuudxRDwhusnewh">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">HatEnableEingang [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcVYbqlI1rVnPWDjBOZEQS -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RcVYbqlI1rVnPWDjBOZEQS">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R01jdXjZ1vdWEBf1kzZ3pr"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#nonNegativeInteger"/>
+        <rdfs:label xml:lang="de">AnzahlEingängeY [1]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/RpYu3n3hhvm56zq8ZSXlBe">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/RDJTLO2F7hwmuRBaUNy7VQ7"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#double"/>
+        <rdfs:label xml:lang="de">KostenAnkauf [€]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN -->
+
+    <owl:DatatypeProperty rdf:about="http://webprotege.stanford.edu/Rud8opx4HjvBoP7Xu68VsN">
+        <rdfs:subPropertyOf rdf:resource="http://webprotege.stanford.edu/R9iohlPjQrGe81MWduPn8CB"/>
+        <rdfs:domain rdf:resource="http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4"/>
+        <rdfs:range rdf:resource="http://www.w3.org/2001/XMLSchema#boolean"/>
+        <rdfs:label xml:lang="de">BildschirmUltrawide [1|0]</rdfs:label>
+    </owl:DatatypeProperty>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R11igUuVHwpyFuisYP1E0x -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R11igUuVHwpyFuisYP1E0x">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm"/>
+        <rdfs:label xml:lang="de">DDR5-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo"/>
+        <rdfs:label xml:lang="de">hörbare Ausgabe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS"/>
+        <rdfs:label xml:lang="de">SDRAM-Teil (Synchronous DRAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA"/>
+        <rdfs:label xml:lang="de">Produktivitätssoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R5OlFjslBVZ6mvO7ED1gOL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R5OlFjslBVZ6mvO7ED1gOL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm"/>
+        <rdfs:label xml:lang="de">DDR3-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R6R6iRqQdOkH7xleAgsNbH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R6R6iRqQdOkH7xleAgsNbH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9"/>
+        <rdfs:label xml:lang="de">Joystick</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA"/>
+        <rdfs:label xml:lang="de">Spezialisierte Anwendungssoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71Fu53JlS31LkD40mq5ZMy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R71Fu53JlS31LkD40mq5ZMy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5"/>
+        <rdfs:label xml:lang="de">Mozilla Firefox</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R71iV18I5sJ3GEJMtevUL8s -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R71iV18I5sJ3GEJMtevUL8s">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6"/>
+        <rdfs:label xml:lang="de">E-Mail-Programm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9"/>
+        <rdfs:label xml:lang="de">Touchpad</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R77Jdx4wq5J7LJ3FoBhCc5M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R77Jdx4wq5J7LJ3FoBhCc5M">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU"/>
+        <rdfs:label xml:lang="de">EEPROM-Teil (Electrically Erasable Programmable ROM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Verwenden eine LED, um Bewegungen auf einer Oberfläche zu verfolgen.
+Vorteile: Präzise, keine beweglichen Teile.
+Nachteile: Funktioniert nicht gut auf glänzenden oder transparenten Oberflächen.</rdfs:comment>
+        <rdfs:label xml:lang="de">Optische Maus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7HjlPFZJ6HiYbtVxkzacJd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7HjlPFZJ6HiYbtVxkzacJd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB"/>
+        <rdfs:label xml:lang="de">Bitweises Verschiebungs-Teil (Shift)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JDiKJ66Ipgbmb5DEYW5v0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7JDiKJ66Ipgbmb5DEYW5v0">
+        <rdfs:label xml:lang="de">Ontologie_Ortabhängigkeit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6"/>
+        <rdfs:label xml:lang="de">Steuerlogik-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF"/>
+        <rdfs:label xml:lang="de">Netzteil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7NfLuhIP8190732SdcXuu9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Carry-Look-Ahead-Addierer-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7QEJApVdOXyNgX1cvITqjz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7QEJApVdOXyNgX1cvITqjz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Verschmelzen von Pulvermaterialien mit einem Laser.
+Anwendungen: Funktionale Prototypen, komplexe Geometrien.
+Vorteile: Keine Stützstrukturen erforderlich, vielseitige Materialauswahl.
+Nachteile: Hohe Kosten, Nachbearbeitung notwendig.</rdfs:comment>
+        <rdfs:label xml:lang="de">Selektives Lasersintern (SLS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8"/>
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY"/>
+        <rdfs:label xml:lang="de">Kühlsystem-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Ul9vBXj6SXLPMYMNt3lK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Ul9vBXj6SXLPMYMNt3lK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Eine Variante der Membran-Tastatur mit Scherenmechanismus für stabilere Tasten.
+Vorteile: Flaches Design, leise.
+Nachteile: Weniger taktiles Feedback.</rdfs:comment>
+        <rdfs:label xml:lang="de">Scheren-Tastatur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7YrmsLjQZkaspROFr7TIOb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7YrmsLjQZkaspROFr7TIOb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Steuerelektronik für Motoren</rdfs:comment>
+        <rdfs:label xml:lang="de">Motorensteuerelektronik-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7Zkwn52tzL9bDV7F71h4qG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7Zkwn52tzL9bDV7F71h4qG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Elektromotor (als Antrieb der Achse)</rdfs:comment>
+        <rdfs:label xml:lang="de">Elektromotor-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7a4XJLOteD1XSAkgDiOfw7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK"/>
+        <rdfs:label xml:lang="de">Videobearbeitungsprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7bdA6OrtfZ3v3O2ZQ40qOd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7bdA6OrtfZ3v3O2ZQ40qOd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv"/>
+        <rdfs:label xml:lang="de">Indexregister-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA"/>
+        <rdfs:label xml:lang="de">Grafik- und Multimedia-Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7o7XqDTXnCzNeftxs5FmSy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7o7XqDTXnCzNeftxs5FmSy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu"/>
+        <rdfs:label xml:lang="de">Datenbankprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY"/>
+        <rdfs:label xml:lang="de">Stromversorgungsteil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7stuYuuyv7fakMllY4WNF4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7stuYuuyv7fakMllY4WNF4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu"/>
+        <rdfs:label xml:lang="de">Tabellenverarbeitungsprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geräuschentwicklung: 20-40 dB</rdfs:comment>
+        <rdfs:label xml:lang="de">Axialkühler-Teil (Luftkühler)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH"/>
+        <rdfs:label xml:lang="de">Befehlsdecoder-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7z8Mi8ScV8qpzdOp0WfYW0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7z8Mi8ScV8qpzdOp0WfYW0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E"/>
+        <rdfs:label xml:lang="de">macOS</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E"/>
+        <rdfs:label xml:lang="de">Windows</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7zZflAFsYtXidTmUKBQhf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R7zZflAFsYtXidTmUKBQhf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4"/>
+        <rdfs:label xml:lang="de">Multiplexer-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42"/>
+        <rdfs:label xml:lang="de">Festplattenteil (ohne Wechselmedien)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81JIHkBDZ0TyvRk7MfYYZ0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R81JIHkBDZ0TyvRk7MfYYZ0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E"/>
+        <rdfs:label xml:lang="de">Linux</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R85i3qMjkgPWLZVrHQmsG51 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R85i3qMjkgPWLZVrHQmsG51">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Werden in den Gehörgang eingeführt, sind sehr tragbar und bieten gute Geräuschisolierung.</rdfs:comment>
+        <rdfs:label xml:lang="de">In-Ear-Kopfhörer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">XOR-Verknüpfungs-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:label xml:lang="de">Datenregister-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8EV2sC7NDb9tZYbvfekcQP -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8EV2sC7NDb9tZYbvfekcQP">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky"/>
+        <rdfs:label xml:lang="de">Windows Holographic (AR/VR)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8HvNlco2d5FdVipgBQK6c4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8HvNlco2d5FdVipgBQK6c4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS"/>
+        <rdfs:label xml:lang="de">RDRAM-Teil (Rambus DRAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8JD0QDY37AVUgPfEB8wZeF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8JD0QDY37AVUgPfEB8wZeF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diese Technologie verwendet fokussierte Ultraschallwellen, um fühlbare Empfindungen in der Luft zu erzeugen. Benutzer können diese Empfindungen spüren, ohne physisch mit einem Gerät in Kontakt zu sein.</rdfs:comment>
+        <rdfs:label xml:lang="de">Ultraschall-Haptik-Gerät</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX"/>
+        <rdfs:label xml:lang="de">GDDR-Teil (Graphics DDR)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8OJ8Xd1tJuvrqCePbyE90p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8OJ8Xd1tJuvrqCePbyE90p">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Lager (für Spindel und Aktorachse)</rdfs:comment>
+        <rdfs:label xml:lang="de">Lager</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8SVdi4fMrbkoqwks5nzp6A -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8SVdi4fMrbkoqwks5nzp6A">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm"/>
+        <rdfs:label xml:lang="de">GDDR4-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwendet magnetisches Speichersystem, bei dem Dateien durch ein Lese-Schreib-Kopf in konzentrischen Spuren auf rotierende Scheiben abgespeichert werden.</rdfs:comment>
+        <rdfs:label xml:lang="de">HDD-Teil (Hard Drive Disc)</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.computerwissen.de/hardware/komponenten-peripherie/festplatte/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8XhreoQ6F4DW1Nol3AdZba -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8XhreoQ6F4DW1Nol3AdZba">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA"/>
+        <rdfs:label xml:lang="de">Spiel-Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8YwjDmEOtqdka5qKxy5JRX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8YwjDmEOtqdka5qKxy5JRX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8"/>
+        <rdfs:label xml:lang="de">MUL-Teil vorzeichenlos</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:label xml:lang="de">Spezialregister-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8"/>
+        <rdfs:label xml:lang="de">ALU-Teil (arithmetisch logische Einheit)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ"/>
+        <rdfs:label xml:lang="de">Betriebssoftware (OS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8c1LPnsvCRXy5QpXHCwSLG -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8c1LPnsvCRXy5QpXHCwSLG">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Achse (auch Spindel genannt; darauf ist die Scheibe montiert)</rdfs:comment>
+        <rdfs:label xml:lang="de">Achse</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Multiplexer-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8cjV2kiPO7VihvNIJLzWTh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8cjV2kiPO7VihvNIJLzWTh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK"/>
+        <rdfs:label xml:lang="de">L3 Cache-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8eQ7u6reOSoUBq0ZJ0sYhF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8eQ7u6reOSoUBq0ZJ0sYhF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Verwenden eine Rollkugel, die Bewegungen auf eine mechanische Achse überträgt.
+Vorteile: Robust und einfach.
+Nachteile: Anfällig für Schmutz und Staub.</rdfs:comment>
+        <rdfs:label xml:lang="de">Mechanische Maus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8ilqliIoVDmdGjWxFP25In -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8ilqliIoVDmdGjWxFP25In">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc"/>
+        <rdfs:label xml:lang="de">Grafik-Tablet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug">
+        <rdfs:label xml:lang="de">Computer-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8p4LjzxAzrBgrmGlJDAYDM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8p4LjzxAzrBgrmGlJDAYDM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc"/>
+        <rdfs:label xml:lang="de">Headset</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8rI3lrmUUxU1avpE2LZu5h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8rI3lrmUUxU1avpE2LZu5h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9"/>
+        <rdfs:label xml:lang="de">Lichtstift</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:label xml:lang="de">Adressregister-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo"/>
+        <rdfs:label xml:lang="de">fühlbare Ausgabe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH"/>
+        <rdfs:label xml:lang="de">Befehlsencoder-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8tPzznzmrHrsp34SLxk5eB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8tPzznzmrHrsp34SLxk5eB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Metal Laser Sintering (DMLS) / Selective Laser Melting (SLM):
+
+Funktionsweise: Verschmelzen von Metallpulver mit einem Laser.
+Anwendungen: Metallteile, industrielle Anwendungen.
+Vorteile: Hohe Festigkeit, komplexe Geometrien.
+Nachteile: Sehr teuer, aufwendige Nachbearbeitung.</rdfs:comment>
+        <rdfs:label xml:lang="de">Selective Laser Melting (SLM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O"/>
+        <rdfs:label xml:lang="de">Addierer-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xAxxGnV9nCP2XOVFUA3Ts -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xAxxGnV9nCP2XOVFUA3Ts">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Jede Taste hat einen eigenen mechanischen Schalter.
+Vorteile: Langlebig, präzises Tippgefühl, verschiedene Schaltertypen (z.B. Cherry MX).
+Nachteile: Lauter, teurer.</rdfs:comment>
+        <rdfs:label xml:lang="de">Mechanische Tastatur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xF9aUS4e0qObXeIef9XVb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xF9aUS4e0qObXeIef9XVb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc"/>
+        <rdfs:label xml:lang="de">Handy</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8xKpPc4aAO6OjSmATg0N3O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Akkumulator-Teil</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://de.wikipedia.org/wiki/Akkumulator_(Computer)"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg"/>
+        <rdfs:label xml:lang="de">Drucker</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R91C5XA1Of3COeykJlpt8Bd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R91C5XA1Of3COeykJlpt8Bd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi"/>
+        <rdfs:label xml:lang="de">Projektmanagement-Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93NZkee43Gvnq8DQRLBkGY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R93NZkee43Gvnq8DQRLBkGY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Carry-Ripple-Addierer-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R93pBpkNDhGy2TOvjBhvfZh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R93pBpkNDhGy2TOvjBhvfZh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Tasten drücken auf eine Membran, die den Kontakt schließt.
+Vorteile: Leise, kostengünstig.
+Nachteile: Weniger präzises Tippgefühl, kürzere Lebensdauer.</rdfs:comment>
+        <rdfs:label xml:lang="de">Membran-Tastatur</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9705hqVF7Ee8oGw2eQSsp9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9705hqVF7Ee8oGw2eQSsp9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm"/>
+        <rdfs:label xml:lang="de">GDDR3-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB"/>
+        <rdfs:label xml:lang="de">NOT-Verknüpfungs-Teil (Negation)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH"/>
+        <rdfs:label xml:lang="de">Enable-Signal-Teil E</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Peripheriegeräte sind externe Geräte, die an einen Computer angeschlossen werden, um dessen Funktionalität zu erweitern. Sie sind nicht essenziell für den Betrieb des Computers, aber sie ermöglichen die Interaktion mit dem Benutzer und anderen Systemen.</rdfs:comment>
+        <rdfs:label xml:lang="de">Peripherie-Teil</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.computerwissen.de/hardware/komponenten-peripherie/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9R0rR8vG32YneitywQXvXk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9R0rR8vG32YneitywQXvXk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:label xml:lang="de">Eingabe-/Ausgaberegister-Teil (für Peripherie)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9RktVvCsiYH54VC5ZqNiz0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9RktVvCsiYH54VC5ZqNiz0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Magnetscheibe (rotierbar; der eigentliche Datenträger, meist mehrere vorhanden)</rdfs:comment>
+        <rdfs:label xml:lang="de">Magnetscheibe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9XLIilOR4idlgt31a39kz -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9XLIilOR4idlgt31a39kz">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu"/>
+        <rdfs:label xml:lang="de">Präsentationsprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9chgD3TmjJV90WMEUuxxU0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9chgD3TmjJV90WMEUuxxU0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7rrMpt2KkiuiZ0YEn0P3EF"/>
+        <rdfs:label xml:lang="de">Akku-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9g23PRmQcQQoHQS6V860Ki -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9g23PRmQcQQoHQS6V860Ki">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Verwenden einen Laserstrahl für die Bewegungserkennung.
+Vorteile: Sehr präzise, funktioniert auf fast allen Oberflächen.
+Nachteile: Teurer als optische Mäuse.</rdfs:comment>
+        <rdfs:label xml:lang="de">Laser-Maus</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9g8eQ8AzLUiEllEpkt61od -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9g8eQ8AzLUiEllEpkt61od">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5"/>
+        <rdfs:label xml:lang="de">Google Chrome</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42"/>
+        <rdfs:label xml:lang="de">Laufwerk mit Wechselmedien</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9oiZU8NkZDZcyKFOxcxygX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:label xml:lang="de">VRAM-Teil (Video RAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9pTJh7zSNVwb4vhbTiFEyX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/R9pTJh7zSNVwb4vhbTiFEyX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB"/>
+        <rdfs:label xml:lang="de">Festplattenverwaltungs</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l"/>
+        <rdfs:label xml:lang="de">Eingabeteil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB25YOpOo1k1hZfZafHiuoM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB25YOpOo1k1hZfZafHiuoM">
+        <rdfs:label xml:lang="de">Ontologie_Aktivität</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB"/>
+        <rdfs:label xml:lang="de">OR-Verknüpfungs-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB2BJEU4A1EWj6N0FZ3QVR0 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB2BJEU4A1EWj6N0FZ3QVR0">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k"/>
+        <rdfs:label xml:lang="de">Brailliezeile</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://de.wikipedia.org/wiki/Braillezeile"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB2WZux2eJWTzO6819FVtuu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB2WZux2eJWTzO6819FVtuu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:label xml:lang="de">FRAM-Teil (Ferroelectric RAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6XOHm7YA0qLFkBNWj331P -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB6XOHm7YA0qLFkBNWj331P">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm"/>
+        <rdfs:label xml:lang="de">DDR1-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY"/>
+        <rdfs:label xml:lang="de">CPU-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA"/>
+        <rdfs:label xml:lang="de">Kommunikationssoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8BHQ0bze8h76hf64BNZPR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Das Herzstück Ihrer Grafikkarte und somit die wichtigste Komponente ist der Grafikprozessor. Er übernimmt den Großteil der Grafikberechnung und entlastet somit den Hauptprozessor des Computers.</rdfs:comment>
+        <rdfs:label xml:lang="de">Grafikprozessor-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY"/>
+        <rdfs:label xml:lang="de">Gehäuse-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB9eokRP0JCr24vcJX9aDPb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RB9eokRP0JCr24vcJX9aDPb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42"/>
+        <rdfs:label xml:lang="de">Internes Laufwerksteil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBAUCnMkb0jG2L1A9KOQ63h -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBAUCnMkb0jG2L1A9KOQ63h">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5"/>
+        <rdfs:label xml:lang="de">Microsoft Edge</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBGMeLj2nCXnEl6L6i8GFbx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBGMeLj2nCXnEl6L6i8GFbx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia"/>
+        <rdfs:label xml:lang="de">SIMD-Register-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R88AKRpGOPAxHcdpExDoLLU"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">HA-Teil (Halb-Addierer)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJLNxKGtkuEzRpnICy1LLk -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBJLNxKGtkuEzRpnICy1LLk">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9"/>
+        <rdfs:label xml:lang="de">Mikrofon</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu"/>
+        <rdfs:label xml:lang="de">Anwendungssoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBOWLPgCE9kJxuhXMsViwcK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBOWLPgCE9kJxuhXMsViwcK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm"/>
+        <rdfs:label xml:lang="de">GDDR5-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBbB0nXhuwE1YLYSxBrR2uL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBbB0nXhuwE1YLYSxBrR2uL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB"/>
+        <rdfs:label xml:lang="de">Datensicherungssoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj"/>
+        <rdfs:label xml:lang="de">Bildschirm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">XNOR-Verknüpfungs-Teil (Äquivalenz)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBoZOkVAefQIxNEr8MB8dpW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBoZOkVAefQIxNEr8MB8dpW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Sitzen auf dem Ohr, sind kompakter und leichter.</rdfs:comment>
+        <rdfs:label xml:lang="de">On-Ear-Kopfhörer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Die Grafikkarte ist im Computer für die visuelle Ausgabe zuständig. Die Grafikkarte erhält die relevanten Daten vom Prozessor und wandelt sie so um, dass sie auf dem Bildschirm ausgegeben werden können.</rdfs:comment>
+        <rdfs:label xml:lang="de">Grafikkarten-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBv9dsAt7cnVvtgNmQIXudI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBv9dsAt7cnVvtgNmQIXudI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj"/>
+        <rdfs:label xml:lang="de">Projektor</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBwimrXWjEhpWV2DQ3ctO8u">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9"/>
+        <rdfs:label xml:lang="de">Maus</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.helpster.de/computermausarten-wissenswertes_129262"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RBz7FOo6rOeT39LMXwtuBia">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6"/>
+        <rdfs:label xml:lang="de">Vektorregister-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC21UjlexOw75pWSSudRMaj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC21UjlexOw75pWSSudRMaj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9"/>
+        <rdfs:label xml:lang="de">Scanner</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC3cipnshFkIfMjbmUvRYPu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC3cipnshFkIfMjbmUvRYPu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm"/>
+        <rdfs:label xml:lang="de">DDR4-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC41IhpR8IT3RV6MLLINEdA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC41IhpR8IT3RV6MLLINEdA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o"/>
+        <rdfs:label xml:lang="de">Unternehmens-Windows</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RC4o4rZuy9QTIdFsg2PNMD6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8"/>
+        <rdfs:label xml:lang="de">Register-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6"/>
+        <rdfs:label xml:lang="de">Kopfhörer</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://blog.beyerdynamic.de/20-wichtige-begriffe-der-audiotechnik-die-du-kennen-solltest/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB"/>
+        <rdfs:label xml:lang="de">AND-Verknüpfungs-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCE5BEehzQYtYyzb3Q902jo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK"/>
+        <rdfs:label xml:lang="de">Bildbearbeitungsprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCFo4ecEvCCvNCYkkXZ7ZZl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCFo4ecEvCCvNCYkkXZ7ZZl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">NAND-Verknüpfungs-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6"/>
+        <rdfs:label xml:lang="de">Logischer Einheits-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCM8ZNimiyuEjcSW6SncVbR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCM8ZNimiyuEjcSW6SncVbR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm"/>
+        <rdfs:label xml:lang="de">DDR2-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCQFcNmMBS5wOI7dYWUbDnf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCQFcNmMBS5wOI7dYWUbDnf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky"/>
+        <rdfs:label xml:lang="de">Windows Phone (Mobile)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:label xml:lang="de">DRAM-Teil (Dynamic RAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug"/>
+        <rdfs:label xml:lang="de">Software-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCZqzvyVwiGoWyu92PyPnkM -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCZqzvyVwiGoWyu92PyPnkM">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6"/>
+        <rdfs:label xml:lang="de">Vergleichsausgang x&lt;y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCbhrrAtcGr0EPklvjUDwXO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCbhrrAtcGr0EPklvjUDwXO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg"/>
+        <rdfs:label xml:lang="de">Plotter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCf1MCtfbGBSJN64ANRhSAF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCf1MCtfbGBSJN64ANRhSAF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6"/>
+        <rdfs:label xml:lang="de">Vergleichsausgang x=y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfNmue5WbrI4hbJDIa8zRp -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfNmue5WbrI4hbJDIa8zRp">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5"/>
+        <rdfs:label xml:lang="de">Ecosia</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o"/>
+        <rdfs:label xml:lang="de">Spezialisiertes Windows</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCjCw4XFPYIEPohnaT0LM9B -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCjCw4XFPYIEPohnaT0LM9B">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK"/>
+        <rdfs:label xml:lang="de">Audiobearbeitungsprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCl2bUL66XDxHpx1HZhnDFh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCl2bUL66XDxHpx1HZhnDFh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK"/>
+        <rdfs:label xml:lang="de">L1 Cache-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9"/>
+        <rdfs:label xml:lang="de">Tastatur</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://de.movilforum.com/Tastaturtypen/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4Lk2OXIWIpQ6OiIuKRfoI"/>
+        <rdfs:label xml:lang="de">DDR SDRAM-Teil (Double Data Rate SDRAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCtEzB8edoAhFiAg8ci4Tv -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCtEzB8edoAhFiAg8ci4Tv">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4"/>
+        <rdfs:label xml:lang="de">Asynchronous SRAM-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCx6XI1twI8BYXxKsU3Dk4p -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCx6XI1twI8BYXxKsU3Dk4p">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Frühe Computer verwendeten Drucker, um Daten auf Papier auszugeben. Diese Drucker konnten Textzeilen auf Endlospapier drucken, was eine visuelle Darstellung der Daten ermöglichte.</rdfs:comment>
+        <rdfs:label xml:lang="de">Fernschreiber</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://de.wikipedia.org/wiki/Computermonitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4"/>
+        <rdfs:label xml:lang="de">Synchronous SRAM-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RCyVpeZjxRzfr6HWOBj55vW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RCyVpeZjxRzfr6HWOBj55vW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6"/>
+        <rdfs:label xml:lang="de">Vergleichsausgang x&gt;y</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD0nPwuYJTUdrcqbp9i0a2l -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD0nPwuYJTUdrcqbp9i0a2l">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42"/>
+        <rdfs:label xml:lang="de">Externes Laufwerksteil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD2YIDrmiKblsUK5JdyDlcn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD2YIDrmiKblsUK5JdyDlcn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Schichtweises Auftragen und Schneiden von Materialbahnen.
+Anwendungen: Große Modelle, Prototypen.
+Vorteile: Geringe Materialkosten, schnelle Herstellung.
+Nachteile: Geringere Detailgenauigkeit, begrenzte Materialauswahl.</rdfs:comment>
+        <rdfs:label xml:lang="de">Laminated Object Manufacturing (LOM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RBJnD6iId8cQCxZTW51ebMA"/>
+        <rdfs:label xml:lang="de">Webbrowser-Software</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8aeVW3hJOaPqgRWKAA3eY6"/>
+        <rdfs:label xml:lang="de">Arithmetischer Einheits-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ"/>
+        <rdfs:label xml:lang="de">Dienstprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDJJrw1widv0EcS6dy88Pb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDJJrw1widv0EcS6dy88Pb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2"/>
+        <rdfs:label xml:lang="de">Stapelzeiger-Teil (Stack Pointer)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDLo5ZFbAaULdcyRvppsTEy -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDLo5ZFbAaULdcyRvppsTEy">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diese wurden verwendet, um Daten einzugeben und auszugeben. Lochkarten wurden durch Lochkartenstanzer erstellt und konnten von Computern gelesen werden.</rdfs:comment>
+        <rdfs:label xml:lang="de">Lochkarten und -streifen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPPSjypvo7NF4ht7g3goje -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPPSjypvo7NF4ht7g3goje">
+        <rdfs:label xml:lang="de">Ontologie_Zeitabhängigkeit</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDPUjy5GMJMBF3krW1l6FFL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDPUjy5GMJMBF3krW1l6FFL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:label xml:lang="de">Scheibengehäuse-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSIWWlkwEEEdXPb1DlwTuw">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6"/>
+        <rdfs:label xml:lang="de">Videokonferenz-Programm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY"/>
+        <rdfs:label xml:lang="de">RAM-Teil (Random Access Memory)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDT3SUbF4IrWPvlAkbDBbdO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDT3SUbF4IrWPvlAkbDBbdO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R34u78RDW9SJKJLFAZGKm6"/>
+        <rdfs:label xml:lang="de">Lautsprecher</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Das Mainboard (oder auch Motherboard) ist die Hauptplatine, sozusagen der Kern und das Zentrum des Rechners.</rdfs:comment>
+        <rdfs:label xml:lang="de">Mainboard-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDXACVJIQGCDaZFrz3HPJFh -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDXACVJIQGCDaZFrz3HPJFh">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">DSP (Digitaler Signalprozessor; regelt die Verwaltung und Bedienung)</rdfs:comment>
+        <rdfs:label xml:lang="de">DSP-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Multiplizierer-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDZQ0ifA0PRJO91BrCvbEja -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDZQ0ifA0PRJO91BrCvbEja">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Paralleler Matrixmultiplizierer-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDg3kEKG9hSMGvu0k7pJFhZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDg3kEKG9hSMGvu0k7pJFhZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Antrieb für Aktorachse</rdfs:comment>
+        <rdfs:label xml:lang="de">Aktorachsenantrieb-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8k1jgVDiuIT8m9dJM9lQug"/>
+        <rdfs:label xml:lang="de">Hardware-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDh60rxz8m5JQs9nsmnxIJf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDh60rxz8m5JQs9nsmnxIJf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9"/>
+        <rdfs:label xml:lang="de">QR-Code-Leser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R81FdDOGfbnjt3aaUvw9l9y"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Verwendet elektrisches Speichersystem und besteht aus Flash-Speicherbausteinen. Realisiert das Speichern über Halbleiter. Besitzen keine beweglichen Teile wie HDD.</rdfs:comment>
+        <rdfs:label xml:lang="de">SSD-Teil (Solid State Disc)</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.computerwissen.de/hardware/komponenten-peripherie/festplatte/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDklXKjIUxpT14UulYJc49P -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDklXKjIUxpT14UulYJc49P">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8raQAmlYu7sYZNh4KpYO8k"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Diese Geräte erzeugen Vibrationen oder andere taktile Empfindungen, um Benutzer über Ereignisse oder Zustände zu informieren. Beispiele sind Smartphones, die bei Benachrichtigungen vibrieren, oder Gaming-Controller, die Rückmeldungen während des Spiels geben. Beispiel: Controller mit Vibrierfunktion</rdfs:comment>
+        <rdfs:label xml:lang="de">Haptisches Feedback-Gerät</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDmCu1JNzKdq8gXZyml1RmS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7hbgelomyqO17YcQKYp4nK"/>
+        <rdfs:label xml:lang="de">Animationsprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDmqoXuvxszQyTg1FkPMPT6">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDFC3jsDE2VGzUiBmAO8W3O"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RCBnlmORpFGdq0yE6zRr8jy"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9LJW80i25DV8Gn9qHMnnxK"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Komparatoren-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDpZ0J034vBpUnzOwQIq2cZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDpZ0J034vBpUnzOwQIq2cZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geräuschentwicklung: 25-40 dB</rdfs:comment>
+        <rdfs:label xml:lang="de">Hybridkühlungsteil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDq6UlnGDp42tz1WptYDJqa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDq6UlnGDp42tz1WptYDJqa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schreib-Lese-Köpfe (beweglich; sitzen auf der Aktorachse)</rdfs:comment>
+        <rdfs:label xml:lang="de">Lesekopf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDsHOJNs1IL50zDYWxwEL3Z -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDsHOJNs1IL50zDYWxwEL3Z">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi"/>
+        <rdfs:label xml:lang="de">CAD-Software (Computer-Aided Design)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R4g5NjK4VYhFJGRslYX0gu"/>
+        <rdfs:label xml:lang="de">Textverarbeitungsprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDvI4myLIi2bZ9XBRK7DF42">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDgwwyxz7hsyO3SzW3cMsJY"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bei einem Laufwerk handelt es sich um ein Gerät, welches den Schreib- oder Lesezugriff auf ein elektronisches Speichermedium ermöglicht.</rdfs:comment>
+        <rdfs:label xml:lang="de">Laufwerk-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDyiUOXU3mDxESrKRgofRSW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RDyiUOXU3mDxESrKRgofRSW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geräuschentwicklung: 30-50 dB</rdfs:comment>
+        <rdfs:label xml:lang="de">Blower-Kühler-Teil (Gebläsekühler)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg"/>
+        <rdfs:label xml:lang="de">3D-Drucker</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://tipps-3ddrucker.de/3d-drucker-infos/3d-drucker-arten/"/>
+        <rdfs:seeAlso rdf:resource="https://www.3d-grenzenlos.de/3d-drucker-arten/"/>
+        <rdfs:seeAlso rdf:resource="https://zeigdeinekunst.de/3d-drucker-arten-welche-gibt-es/"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RFoNz1kmOexYojD6xn0daA -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RFoNz1kmOexYojD6xn0daA">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi"/>
+        <rdfs:label xml:lang="de">Buchhaltungssoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RITpdAHdSi0SwwtG3JHcFR -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RITpdAHdSi0SwwtG3JHcFR">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8y29pQxiqpXK3RgU7VxG1E"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">Teletype-Terminal</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RJDAO6GCQTWi9yElZWc0aJ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RJDAO6GCQTWi9yElZWc0aJ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj"/>
+        <rdfs:label xml:lang="de">Belichter</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMW1PH2aof8ZeoVZPa6fPO">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R71CkFVRgN7Rh875qoX1ECi"/>
+        <rdfs:label xml:lang="de">Entwicklungssoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R76GXYn3xKINVdFdvHSfgl4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/RCJgBv5AlrU9HJAqyqOdkjB"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Schichtweises Auftragen von geschmolzenem Kunststofffilament.
+Anwendungen: Prototyping, funktionale Teile, Hobbyprojekte.
+Vorteile: Erschwinglich, große Materialauswahl.
+Nachteile: Geringere Auflösung, sichtbare Schichtlinien.</rdfs:comment>
+        <rdfs:label xml:lang="de">Fused Deposition Modeling (FDM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMxPS2fXf0lf8RREd1cjlV -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RMxPS2fXf0lf8RREd1cjlV">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Aushärtung von Harz mit digitaler Lichtprojektion.
+Anwendungen: Ähnlich wie SLA, aber schneller.
+Vorteile: Hohe Auflösung, schnelle Druckzeiten.
+Nachteile: Begrenzte Materialauswahl, teure Drucker.</rdfs:comment>
+        <rdfs:label xml:lang="de">Digital Light Processing (DLP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RN60DAXHcHNLddcLGyRqo3">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7JF7lrRUYPsoU2nLaOr8sH"/>
+        <rdfs:label xml:lang="de">Steuersignal-Teil s</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNS1ANEHVjHXqFAHca8Ype -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNS1ANEHVjHXqFAHca8Ype">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:label xml:lang="de">ECC RAM-Teil (Error-Correcting-Code RAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RNfxOcx3fe8YRFazLrzAFl -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RNfxOcx3fe8YRFazLrzAFl">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8auCNjL4SgtjWSMAl9hl9E"/>
+        <rdfs:label xml:lang="de">Unix</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQt2FrMaj7yXm04ahdFTo9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQt2FrMaj7yXm04ahdFTo9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCfhTN3QsdeC4Ce7VMG42ky"/>
+        <rdfs:label xml:lang="de">Windows CE (Embedded Compact)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RQxerG1rwegoHvwr4FyEgS -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RQxerG1rwegoHvwr4FyEgS">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geräuschentwicklung: 0 dB (geräuschlos)</rdfs:comment>
+        <rdfs:label xml:lang="de">Passivkühlungsteil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RRLuH4pm0NZzUUwT0QxHuB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RRLuH4pm0NZzUUwT0QxHuB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB"/>
+        <rdfs:label xml:lang="de">Bitweises Rotations-Teil (Rotate)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RSnHrOlSJK2ccypOl4nYrc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l"/>
+        <rdfs:label xml:lang="de">Ein- und Ausgabeteil (Hybrid)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTIQkYOr3LP19PCtfgpTgN -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTIQkYOr3LP19PCtfgpTgN">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCBmb5qJEeIputcnsLW77ef"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Bedecken das gesamte Ohr, bieten hervorragende Klangqualität und Geräuschisolierung.</rdfs:comment>
+        <rdfs:label xml:lang="de">Over-Ear-Kopfhörer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTbWOqbFBMkj93ixX6TRXi -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTbWOqbFBMkj93ixX6TRXi">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Aushärtung von flüssigem Harz mit einem UV-Laser.
+Anwendungen: Hochdetaillierte Prototypen, Schmuck, medizinische Modelle.
+Vorteile: Hohe Auflösung, glatte Oberflächen.
+Nachteile: Teure Materialien, Nachbearbeitung erforderlich.</rdfs:comment>
+        <rdfs:label xml:lang="de">Stereolithografie (SLA)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RTulsSYDCz5kK3i4Xx3VMW -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RTulsSYDCz5kK3i4Xx3VMW">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Auftragen von flüssigem Material durch Düsen, das anschließend ausgehärtet wird.
+Anwendungen: Hochdetaillierte Modelle, Prototypen.
+Vorteile: Hohe Präzision, glatte Oberflächen.
+Nachteile: Teure Materialien und Drucker.</rdfs:comment>
+        <rdfs:label xml:lang="de">Multi Jet Printing (MJP)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RUSSYtZWlFVa0ndhHG5Tbx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RUSSYtZWlFVa0ndhHG5Tbx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8c4ZSQ7ZN8l9Ar60y6KXZ4"/>
+        <rdfs:label xml:lang="de">Demultiplexer-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RV2Yg48VXKYNjZbsznkFj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RV2Yg48VXKYNjZbsznkFj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Direct Metal Laser Sintering (DMLS) / Selective Laser Melting (SLM):
+
+Funktionsweise: Verschmelzen von Metallpulver mit einem Laser.
+Anwendungen: Metallteile, industrielle Anwendungen.
+Vorteile: Hohe Festigkeit, komplexe Geometrien.
+Nachteile: Sehr teuer, aufwendige Nachbearbeitung.</rdfs:comment>
+        <rdfs:label xml:lang="de">Direct Metal Laser Sintering (DMLS)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RVymN7btU9A3zTRH8xRFFX">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8wOeIOnXstL9BHdYwqhM2r"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBHjP61GEmtg0pSiwRuz2gm"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">VA-Teil (Voll-Addierer)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Geräuschentwicklung: 20-35 dB</rdfs:comment>
+        <rdfs:label xml:lang="de">Wasserkühlungsteil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXepuVySiwfopxiWbqqcYQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXepuVySiwfopxiWbqqcYQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s"/>
+        <rdfs:label xml:lang="de">DVD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RXtT3MqJ5viFr6sWJY1EED -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RXtT3MqJ5viFr6sWJY1EED">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCHf3GHfAAeIIDIq77ImKaB"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R9G0hhkeoEd0VrqdLQU1NhI"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RB2A1dI4sHkYri8SDXOFYo7"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">NOR-Verknüpfungs-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RY4PA7MFCpysEv5fqUwTJL -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RY4PA7MFCpysEv5fqUwTJL">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:label xml:lang="de">MRAM-Teil (Magnetoresistive RAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:label xml:lang="de">NVRAM (Non-Volatile RAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbN6KWKjKV5fFkapZyPv4M -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbN6KWKjKV5fFkapZyPv4M">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDHo0gfl2hPbFSqw2NyvtuB"/>
+        <rdfs:label xml:lang="de">Antivirenprogramm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RbiRVoMLWP1OfrbH731R41 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RbiRVoMLWP1OfrbH731R41">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8NqZpIqJ1ZQQf2AWxcs0dm"/>
+        <rdfs:label xml:lang="de">GDDR6-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcPGNeqUIMiE3Ndtra1oAm -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RcPGNeqUIMiE3Ndtra1oAm">
+        <rdfs:label xml:lang="de">Ontologie_Besitzer</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RcyGGmSaRpSzIgtypa4VGY -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RcyGGmSaRpSzIgtypa4VGY">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8aLBUTg1saKlGEYvrLSkl2"/>
+        <rdfs:label xml:lang="de">Befehlszähler-Teil (Program Counter)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdaA56JI03hiH3T9rwT3Yb -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdaA56JI03hiH3T9rwT3Yb">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RaQDqn05cASmMljZzYDVUU"/>
+        <rdfs:label xml:lang="de">Flash Memory-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RdoqIyEoJ1nwk36ChphZWH -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RdoqIyEoJ1nwk36ChphZWH">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In den 1960er Jahren wurden Vektor-Displays und Lichtgriffel verwendet, um grafische Daten darzustellen. Diese Displays konnten Linien und Formen zeichnen, waren jedoch nicht für die Darstellung von Text geeignet.</rdfs:comment>
+        <rdfs:label xml:lang="de">Lichtgriffeldisplay</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://de.wikipedia.org/wiki/Computermonitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RegGInUM0Hf07jkZ7C9zVZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCUIAD3grWxo7lJasgqOHAu"/>
+        <rdfs:label xml:lang="de">Systemsoftware</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfKtGvGbKq8rtn53ZP85z9 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RfKtGvGbKq8rtn53ZP85z9">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RD3dwJGk7n4l3I60bOpGvA5"/>
+        <rdfs:label xml:lang="de">Safari</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfrL5QxmKULUo1YcAxyMez -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RfrL5QxmKULUo1YcAxyMez">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCTGZSFIatTf7kHtT86ZUIS"/>
+        <rdfs:label xml:lang="de">EDO RAM-Teil (Extended Data Out RAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RhWQcZZvHStT4rYIAxzo4P -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RhWQcZZvHStT4rYIAxzo4P">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8rWWKyMm5VJ6IIeVMvtejv"/>
+        <rdfs:label xml:lang="de">Basisregister-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RipPlvCjeswGzTn4JkRwJg">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo"/>
+        <rdfs:label xml:lang="de">Permament-sichtbare Ausgabe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rm9Ae8RNrO4NkNGcGw0dlZ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rm9Ae8RNrO4NkNGcGw0dlZ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf"/>
+        <rdfs:label xml:lang="de">MUL-Teil vorzeichenbehaftet im 2er-Komplement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB0SXmR0W1TW6YEvzvVF2y9"/>
+        <rdfs:label xml:lang="de">Barcodeleser</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Ro1SIhvg7BhPLclLNsvlFx -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Ro1SIhvg7BhPLclLNsvlFx">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RB6nlUKIZaZzVHroVOaxly6"/>
+        <rdfs:label xml:lang="de">Instant-Messaging-Programm</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R7zDAKnMsTLvkwr0LWjXQ1o"/>
+        <rdfs:label xml:lang="de">Endverbraucher-Windows</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RpbhJ65H2dyiuiGcgHF1NB -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RpbhJ65H2dyiuiGcgHF1NB">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RCxQJ9tQatIIei3zYtPk1EK"/>
+        <rdfs:label xml:lang="de">L2 Cache-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDYVSSMEUXlH1oRMwyM15Y8"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R7yKtpgF9HdS9tRRHEJGxNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/R8tCm6biv0yVlxV7I05WGiv"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://webprotege.stanford.edu/R959g4nzwWHKXFDOGQ0q9L5"/>
+                <owl:someValuesFrom rdf:resource="http://webprotege.stanford.edu/RBiSyqXdb2YP62ivdpkDBNB"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <rdfs:label xml:lang="de">MUL-Teil vorzeichenbehaftet</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqFGD8CxkU7PnB6Ja1YfCa -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqFGD8CxkU7PnB6Ja1YfCa">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8AwYjCCfASq8gWmxbFQFAb"/>
+        <rdfs:label xml:lang="de">Allgemeiner Register-Teil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4 -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqKGgHwXChO1NVtjK4Yww4">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RDSqI4s6ppDoLbViPHVyd2I"/>
+        <rdfs:label xml:lang="de">SRAM-Teil (Static RAM)</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqRHJbUjXRyHhB2YKPTIZQ -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqRHJbUjXRyHhB2YKPTIZQ">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/REN6zO4SIyNVHpvKbx2e3N"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Funktionsweise: Auftragen eines flüssigen Bindemittels auf Pulverschichten.
+Anwendungen: Metallteile, Sandformen.
+Vorteile: Schnelle Druckzeiten, große Bauteile möglich.
+Nachteile: Nachbearbeitung erforderlich, begrenzte Materialauswahl.</rdfs:comment>
+        <rdfs:label xml:lang="de">Binder Jetting</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqvZD7EdntjhmkJbbBPPzn -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RqvZD7EdntjhmkJbbBPPzn">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s"/>
+        <rdfs:label xml:lang="de">CD</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RrUt11kEUgwskKEqpdqVtd -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RrUt11kEUgwskKEqpdqVtd">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9nJu4weR0FfWBsdrR64X8s"/>
+        <rdfs:label xml:lang="de">Blu-ray</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RsGkUGvr0Xs2IzSIAuEEoc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RsGkUGvr0Xs2IzSIAuEEoc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/Rq6DxMaHwGJS80eMcXBeCf"/>
+        <rdfs:label xml:lang="de">MUL-Teil vorzeichenbehaftet im 1er-Komplement</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/Rv26I5luFROYEVBtTC9Pws -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/Rv26I5luFROYEVBtTC9Pws">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">In den 1960er Jahren wurden Vektor-Displays und Lichtgriffel verwendet, um grafische Daten darzustellen. Diese Displays konnten Linien und Formen zeichnen, waren jedoch nicht für die Darstellung von Text geeignet.</rdfs:comment>
+        <rdfs:label xml:lang="de">Vektordisplay</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://de.wikipedia.org/wiki/Computermonitor"/>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvHoZGruRRTDJqrUmiXkIj">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo"/>
+        <rdfs:label xml:lang="de">Flüchtig-sichtbare-Ausgabe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvX7ABGAg6Tl6rNBtd29Wo">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R9Lmga60LlG0UdgkvGngW2l"/>
+        <rdfs:label xml:lang="de">Ausgabeteil</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RvcvjuMJiRFZ7kiT7JOwkc -->
+
+    <owl:Class rdf:about="http://webprotege.stanford.edu/RvcvjuMJiRFZ7kiT7JOwkc">
+        <rdfs:subClassOf rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Schreib-Lese-Köpfe (beweglich; sitzen auf der Aktorachse)</rdfs:comment>
+        <rdfs:label xml:lang="de">Schreibkopf</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Individuals
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R7El7dboY8KuMhxnS1mmIS">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBe5r5zZUJiosoJabUzeQE4"/>
+        <webprotege:R7xFoyicRLr8k3SgtiGcUW3 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">144</webprotege:R7xFoyicRLr8k3SgtiGcUW3>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;LG&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R9Of7qt0Yn3RgMYZGHQKlu rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">49</webprotege:R9Of7qt0Yn3RgMYZGHQKlu>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;---.---.---.431.253&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9qGk3Za3wDs3DN91tRJ3Hk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</webprotege:R9qGk3Za3wDs3DN91tRJ3Hk>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RBtnvTfsUncqy0kV5M3V7IN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</webprotege:RBtnvTfsUncqy0kV5M3V7IN>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1189.00</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <webprotege:Rud8opx4HjvBoP7Xu68VsN rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:Rud8opx4HjvBoP7Xu68VsN>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">LG 49WQ95C-W UltraWide Dual QHD Nano IPS Curved Monitor</dc:description>
+        <rdfs:label xml:lang="de">Bildschirm_LG_UltraWide</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.kamera-express.de/lg-49wq95c-w-ultrawide-dual-qhd-nano-ips-cu?msclkid=83d264ecd2fa18260e3b037b3c465928&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Shopping%20-%20DE&amp;utm_term=4576236145078159&amp;utm_content=Overig"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R81sJPgoUS5edHwtawzr1R8">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB8E0WALpskP3Wj47VFCCec"/>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;be quiet!&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R8kiAr6oqubivZQUE56vRkW rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R8kiAr6oqubivZQUE56vRkW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">#000.000.011.456&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">78.67</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">be quiet! Pure Base 501 Airflow Black PC-Gehäuse, 2 vorinstallierte Pure Wings 3 140mm PWM-Lüfter, hoher statischer Druck, geräumiges Design, kompakte Abmessungen, USB 3.2 Gen. 2 Type C</dc:description>
+        <rdfs:label xml:lang="de">Gehäuse_bequiet!_PureBase501Airflow</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.de/quiet-PC-Geh%C3%A4use-vorinstallierte-PWM-L%C3%BCfter-Abmessungen/dp/B0DGXR6TTD/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;dib=eyJ2IjoiMSJ9.gyXsgC3ywctYbzR2bTNomV00f-XvC-ZW7nklXYAHfs9sKM4As8D08jaz2Ye_R5VYzpPehR-5hfYcKvY24iHethal583a-OfDMi_bk_zuBppUPWkLtZCN4LpLLMqvNUPFuG4ZQgt0lni33CEwPY71XTNdqWUbFDqul2GJ2dqPrRsM0ixnqj7THOZtgwiIW-GaD4bRgssm0kP84XGNGZguT-NULSlAt1o4afucxr-TzMA.lC-6NuPruQtRiJUKcXiKwORn7JBmw0_UpK0gNw67EoA&amp;dib_tag=se&amp;keywords=pc%2Bgeh%C3%A4use%2Bbequiet&amp;qid=1737990372&amp;sr=8-3&amp;th=1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R8hga3vPUa8NN3VrXW07MPs">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RMcHmWlk835bYph86CFZO2"/>
+        <webprotege:R7XxfhroYAoL6Q8Gk4HDxEa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</webprotege:R7XxfhroYAoL6Q8Gk4HDxEa>
+        <webprotege:R7xFoyicRLr8k3SgtiGcUW3 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">0.5</webprotege:R7xFoyicRLr8k3SgtiGcUW3>
+        <webprotege:R8kiAr6oqubivZQUE56vRkW rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R8kiAr6oqubivZQUE56vRkW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;b8-9a-2c-5f-21-53&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9qGk3Za3wDs3DN91tRJ3Hk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">52</webprotege:R9qGk3Za3wDs3DN91tRJ3Hk>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RarrynxDv2eM7175Mmgt4k rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;1280x720&apos;</webprotege:RarrynxDv2eM7175Mmgt4k>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2699.00</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BambuLab X1E Combo 3D Drucker inkl. Software, integrierte Kamera, beheizbares Druckbett. [Fused Deposition Modeling (FDM)]</dc:description>
+        <rdfs:label xml:lang="de">3D_Drucker_FDM_BambuLab_X1E</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.conrad.de/de/p/bambulab-x1e-combo-3d-drucker-inkl-software-integrierte-kamera-beheizbares-druckbett-3123315.html?hk=SEM&amp;+B%C3%BCro=&amp;+B%C3%BCro=&amp;B2C+Experience=&amp;ef_id=df138bb73a4f19525fe1ec20c80ad5c9%3AG%3As&amp;s_kwcid=AL%21222%2110%2172293299822756%214575892546088651&amp;msclkid=df138bb73a4f19525fe1ec20c80ad5c9&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Shopping_All+Products_Bad+Performer&amp;utm_term=4575892546088651&amp;utm_content=Shopping_All+Products_Bad+Performer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9e32bn1TxdThLXOBCnaRG">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RClIiAk3pH87BsEyRt67KDI"/>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Rii&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;a1-b5-34-c7-8f-j2&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">10.99</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Rii Tastatur Kabelgebunden, PC Tastatur USB, Business Slim Tastatur mit Kabel für Computer, Laptop, Mac, Windows, macOS, QWERTZ Deutsches Layout– Schwarz</dc:description>
+        <rdfs:label xml:lang="de">Tastatur_Rii</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.de/Rii-Tastatur-Windows-Microsoft-Deutsches/dp/B07VK1P4C9/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=39BHXL71BFYM9&amp;dib=eyJ2IjoiMSJ9.WStaaagcQDMSKb_ZNCx1rWyaDrFbDHHEhd8h9UtsdiP53m1zkzJL5Wzvvby7MFgAknvSK64Mk_jwyUeigwLQWjMJMA9CESO4S9M8JVxaw8Q2G-WPh88syGpe7yanxy85_buCyMUEgV3ooHmBvq6BB57SGUsG1VFQDBNBSiksAFMB1iJOxpDT1NrrEwRlQrNJIMolfwfqnXsjoHmtgrHlNEG0iO47j-mbWSn3D1S0Ogg.PnEJApUK2DHpqytjtPY4jXeO6SLL5I1pWm88N6yoEu0&amp;dib_tag=se&amp;keywords=tastatur&amp;qid=1737988763&amp;sprefix=braillezeile%2Btastatur%2Caps%2C180&amp;sr=8-3&amp;th=1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/R9hYVQxHhcgpSismm47Vww1">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7T1i0FXM8oZGRClL80DVVk"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RW8nyBfmPYfKcDwdAfbAcF"/>
+        <webprotege:R7XxfhroYAoL6Q8Gk4HDxEa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">12</webprotege:R7XxfhroYAoL6Q8Gk4HDxEa>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Arctic</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R8kiAr6oqubivZQUE56vRkW rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R8kiAr6oqubivZQUE56vRkW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;###-###-123-##2-123-654&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RBtnvTfsUncqy0kV5M3V7IN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</webprotege:RBtnvTfsUncqy0kV5M3V7IN>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">70.06</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ARCTIC Liquid Freezer III 240 A-RGB - Wasserkühlung PC, AIO CPU Wasserkühler, Intel &amp; AMD, effiziente PWM-gesteuerte Pumpe, Lüfter: 200–2000 RPM, LGA1851 und LGA1700 Contact Frame - Schwarz</dc:description>
+        <rdfs:label xml:lang="de">Wasserkühler_Arctic_LiquidFreezerIII</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.de/ARCTIC-Liquid-Freezer-RGB-PWM-gesteuerte/dp/B09VH4M76W/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=36HJS42VILI55&amp;dib=eyJ2IjoiMSJ9.rIO4cr7DdhzQMXSR3zAA_QOoYsiBsHH5rvy-w-b--BZX7U4utTaZTb4vXV6LelQumbzQC2q_nU4GswuVsr0syAIJyln7lA1KdT3Y9yvjf9E4dIWbTBNkp3HqWFDoNsf0K3rTw-M52XpowJok2Hqmo8VMR3sBPkIGAAdc2HmGBJh13dsJ2IJswUwYI9LDhNUQsoZK31ytVYg8UU3fsyyrbnlo4Wuc1pejbIv7VlS0I50.tIlRMQaSl8VH1BcYE6uyAzPA2ofR6su_hsxLkkNBZXQ&amp;dib_tag=se&amp;keywords=wasserk%C3%BChler%2Bpc&amp;qid=1737990511&amp;sprefix=wasserk%C3%BChler%2Bpc%2Caps%2C164&amp;sr=8-3&amp;th=1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RB3h0kmjU0pnRlFVXs0lOqc">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDjxhoCSlHlt4IF8KHclTkH"/>
+        <webprotege:R7wdHfhvGV0UKGTxM8G87nj rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R7wdHfhvGV0UKGTxM8G87nj>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Transcend&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;0001235312&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RBtnvTfsUncqy0kV5M3V7IN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</webprotege:RBtnvTfsUncqy0kV5M3V7IN>
+        <webprotege:RDL7XETk8p0EHzrkITAxAQm rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4000000000</webprotege:RDL7XETk8p0EHzrkITAxAQm>
+        <webprotege:RDMKm6E8s8NoKUwee3PowRi rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4480000000</webprotege:RDMKm6E8s8NoKUwee3PowRi>
+        <webprotege:RNBtbcwwcCxpiSA1VAYyWc rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">512000000000</webprotege:RNBtbcwwcCxpiSA1VAYyWc>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">21.26</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <rdfs:label xml:lang="de">SSD_64GB_Transcend</rdfs:label>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBG4lcJEvuvIqRwKNq7kdAF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RCrW31kQBDEQrGpejofSTm"/>
+        <webprotege:R7XxfhroYAoL6Q8Gk4HDxEa rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1.35</webprotege:R7XxfhroYAoL6Q8Gk4HDxEa>
+        <webprotege:R7wdHfhvGV0UKGTxM8G87nj rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R7wdHfhvGV0UKGTxM8G87nj>
+        <webprotege:R88wreIDfSSn53PeDfXRIa7 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">3200000000</webprotege:R88wreIDfSSn53PeDfXRIa7>
+        <webprotege:R8XM2k3rtBda1CcLciLloDE rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">8589934592</webprotege:R8XM2k3rtBda1CcLciLloDE>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;......623412&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">18.95</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Corsair VENGEANCELPX16GB (2x 8GB) DDR4 3200(Pc4-25600) C16 1.35V Desktop Memory - Schwarz</dc:description>
+        <rdfs:label xml:lang="de">RAM_8GB_Corsair_Vengeance</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.de/Corsair-Vengeance-3200MHz-Performance-Arbeitsspeicher/dp/B07RS1G6XW/ref=sr_1_3?dib=eyJ2IjoiMSJ9.PyoFKd7S4ljtAVkGsvd4b1mUPWu1Jdpxnta-KdKex_iO02kHg9R620Uoft1_Y4BdEDsvjgdxIvIDIc7P4OYk3pi57GVZq7iPI7yhq0UFKqHm8eb4fnTMqj8y-H5mUvqNimx_Dds9tbzymgkoxe7-vvDZaaGQFSViHzUb4Dcm3OsbpHHK1-7C6FUveBmlqn-TZkr5fpFqY3_4C-FoRdXXRaq9ntWu7Jag257RcjD8eyE.ngKrO-jDGZXAcVqVKVg45UA1utE938FF23kJ9-wRc5U&amp;dib_tag=se&amp;keywords=ram&amp;qid=1737989248&amp;sr=8-3&amp;th=1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBY075jaRNMdS05sBloIyb">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RBsYVcG84fsEH5EcbAb2tE8"/>
+        <webprotege:R7wdHfhvGV0UKGTxM8G87nj rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R7wdHfhvGV0UKGTxM8G87nj>
+        <webprotege:R88wreIDfSSn53PeDfXRIa7 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2610000000</webprotege:R88wreIDfSSn53PeDfXRIa7>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Nvidia</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R8XM2k3rtBda1CcLciLloDE rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">137438953472</webprotege:R8XM2k3rtBda1CcLciLloDE>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;134.123.124.234&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9qGk3Za3wDs3DN91tRJ3Hk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">850</webprotege:R9qGk3Za3wDs3DN91tRJ3Hk>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RBtnvTfsUncqy0kV5M3V7IN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</webprotege:RBtnvTfsUncqy0kV5M3V7IN>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">1199.00</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ASUS ProArt GeForce RTX 4080 SUPER OC Edition 16GB GDDR6X Gaming Grafikkarte (NVIDIA GeForce RTX4080 DLSS 3, PCIe 4.0, 1x HDMI 2.1a, 3X DisplayPort 1.4a, PROART-RTX4080S-O16G)</dc:description>
+        <rdfs:label xml:lang="de">Grafikkarte_Nvidia_AsusRTX_4080</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.de/ASUS-GeForce-Grafikkarte-DisplayPort-PROART-RTX4080S-O16G/dp/B0CS3V7ZKJ/ref=sr_1_2?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=1OYTAHY9J3JP7&amp;dib=eyJ2IjoiMSJ9.rge7k9zyACedTZ7m0nyXVuOSAry-55vRCRDC8_AOLuxlqwvNUgr9IHdRuAhwFW-7sZP9_AY5yGADLMMsny15G7rAWZdPw9hrD0ytHGgDpM48pYkrLPMzTVDHf47eqmGc9IANRo7Pn9WhVipgqMXW42RhMYk8e9PG4PGkiguyLlNxiGeHDoogrna4VfV90qrv-eIvXQoEUlyPPz1F2NLoyuLtg1bFLsEJC4jUyiFkEEQ.rxD8nhoi8cakyA9LFG6zdrImwz543pCdj-p7NxBY8-Y&amp;dib_tag=se&amp;keywords=grafikkarte+nvidia+rtx+4080&amp;qid=1737990082&amp;sprefix=grafikkarte+nvidia+rtx+4080%2Caps%2C142&amp;sr=8-2"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RBbEJsHLHYnAPBKGD4VhB3p">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7MhPQn7nbdVpX2AEOGBJFC"/>
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7tmR30yrygda3Gu1fayUlM"/>
+        <webprotege:R74K5h90xr1XdDjfalpfaNZ rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R74K5h90xr1XdDjfalpfaNZ>
+        <webprotege:R7XxfhroYAoL6Q8Gk4HDxEa rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">230</webprotege:R7XxfhroYAoL6Q8Gk4HDxEa>
+        <webprotege:R8IHRxDaDqVqJM1UvS4xJD4 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R8IHRxDaDqVqJM1UvS4xJD4>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Thermaltake&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R8kiAr6oqubivZQUE56vRkW rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R8kiAr6oqubivZQUE56vRkW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;943626732469237&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9qGk3Za3wDs3DN91tRJ3Hk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">700</webprotege:R9qGk3Za3wDs3DN91tRJ3Hk>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RBsYcVz2tIg9NJeXBsMmlhh rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RBsYcVz2tIg9NJeXBsMmlhh>
+        <webprotege:RBtnvTfsUncqy0kV5M3V7IN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</webprotege:RBtnvTfsUncqy0kV5M3V7IN>
+        <webprotege:RCiRbaaOFE2HlCKV9wMPTtO rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RCiRbaaOFE2HlCKV9wMPTtO>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">48.90</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Thermaltake TR2 S 700W | PC-ATX-Netzteil | 80-Plus | leiser 120 Lüfter | EU zertifiziert | schwarz</dc:description>
+        <rdfs:label xml:lang="de">Netzteil_Thermaltake_Axialkühler</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.de/Thermaltake-TR2-S-700W-PC-Netzteil/dp/B016WFYCFU/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=383INO7IYRAN8&amp;dib=eyJ2IjoiMSJ9.KxKMHgyrCEFXWeyVcqVKZmsKE7tvAd0NvjV4RUCQ9z6hsGfmQReD4VLan2vs9NbGxciCgUomwiad3_xSaWX2YMpTkcl9VlqJ_vW-LrOsQdRkjqVimVu_rPgOg5Rbr8dJGF1NPDc0JH8TbWIf6jR-gpEHoLvMHDkssT-u2OwLaE0Kmcmh6S94hZbpBizHvFOoBG-RGLHp1IRLLTZ67kGHQ22fTLTGDEUqA9IwX1uk6To.nb2unBFscOr_9_pLsnv0MWMmPTTGE_GpVTdSCojaRIo&amp;dib_tag=se&amp;keywords=pc%2Bnetzteil&amp;qid=1737989725&amp;sprefix=pc%2B%2Caps%2C331&amp;sr=8-3&amp;th=1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDBiPAleIbzh1sZiGOdYcD2">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDtcIe0fT5h5YUVPS2aP8pB"/>
+        <webprotege:R35tvgStoILFLIn34mRDz rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-12-16T00:00:00</webprotege:R35tvgStoILFLIn34mRDz>
+        <webprotege:R4ARc50bFI4mItm4ZZOHCX rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R4ARc50bFI4mItm4ZZOHCX>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R8XxJlWSAf2BbwgFcnW2Yp3 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R8XxJlWSAf2BbwgFcnW2Yp3>
+        <webprotege:R8j3kX9uLbPnhcit5XPoUiD rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R8j3kX9uLbPnhcit5XPoUiD>
+        <webprotege:R9rLXylVdPe6O4b8Qpru6OV rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R9rLXylVdPe6O4b8Qpru6OV>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RC2FOq15laxAU0x92swF89y rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Version 2412 (Build 18324.20092)&apos;</webprotege:RC2FOq15laxAU0x92swF89y>
+        <webprotege:RDoYMBZA3gZBQJoLCKwRV8z rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;.NET&apos;</webprotege:RDoYMBZA3gZBQJoLCKwRV8z>
+        <webprotege:RDxlrJB0gG7yj8V2szZ9NOp rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RDxlrJB0gG7yj8V2szZ9NOp>
+        <rdfs:comment rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Microsoft 365 Apps-Update: Qualitätsupdate für aktuellen Kanal (Vorschau) für die x86-basierte Edition, Version 2412 (Build 18324.20092)
+Letzte Änderung: 16.12.2024
+Größe: 12 KB
+UpdateID: da169a9c-4aad-4c4d-9434-649f23f3881f</rdfs:comment>
+        <rdfs:label xml:lang="de">MS_Word_v2412</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.catalog.update.microsoft.com/ScopedViewInline.aspx?updateid=da169a9c-4aad-4c4d-9434-649f23f3881f"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RDTPeTwiiVixj9PnVU9IfLq">
+        <webprotege:R35tvgStoILFLIn34mRDz rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2025-01-16T00:00:00</webprotege:R35tvgStoILFLIn34mRDz>
+        <webprotege:R4ARc50bFI4mItm4ZZOHCX rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R4ARc50bFI4mItm4ZZOHCX>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Microsoft&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R8XxJlWSAf2BbwgFcnW2Yp3 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R8XxJlWSAf2BbwgFcnW2Yp3>
+        <webprotege:R8j3kX9uLbPnhcit5XPoUiD rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R8j3kX9uLbPnhcit5XPoUiD>
+        <webprotege:R98dnqHI3bRhQstjMGIEaid rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R98dnqHI3bRhQstjMGIEaid>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;1872345676&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9rLXylVdPe6O4b8Qpru6OV rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R9rLXylVdPe6O4b8Qpru6OV>
+        <webprotege:RBf59dSP9gj8r2V12nqrsIf rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RBf59dSP9gj8r2V12nqrsIf>
+        <webprotege:RC2FOq15laxAU0x92swF89y rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;24335.207.3345.5574&apos;</webprotege:RC2FOq15laxAU0x92swF89y>
+        <webprotege:RCBkgrZDOGXsHjzUrxJJzZ6 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RCBkgrZDOGXsHjzUrxJJzZ6>
+        <webprotege:RDjc88dNWKKv4hXVPIAzkZq rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;1080p&apos;</webprotege:RDjc88dNWKKv4hXVPIAzkZq>
+        <webprotege:RDoYMBZA3gZBQJoLCKwRV8z rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;.NET&apos;</webprotege:RDoYMBZA3gZBQJoLCKwRV8z>
+        <webprotege:RDwZIHFBEAXQsVF2p12cem5 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:RDwZIHFBEAXQsVF2p12cem5>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Veröffentlichungsjahr	Veröffentlichungsdatum	Teams-Version	Slimcore-Version
+2025	16. Januar	24335.207.3345.5574	2024.47.0-1.10-h452ab</dc:description>
+        <rdfs:label xml:lang="de">MS_Teams_24335.207.3345.5574</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://learn.microsoft.com/de-de/officeupdates/teams-app-versioning"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6 -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/REnLnc39yBzh6GNWHwFG6">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RDV5oSSOWxFhJ6ZQ8S9V5Ek"/>
+        <webprotege:R88wreIDfSSn53PeDfXRIa7 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4400000000</webprotege:R88wreIDfSSn53PeDfXRIa7>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;MSI&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R8kiAr6oqubivZQUE56vRkW rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R8kiAr6oqubivZQUE56vRkW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;b8ab439c53&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RBtnvTfsUncqy0kV5M3V7IN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">0</webprotege:RBtnvTfsUncqy0kV5M3V7IN>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">133.00</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">MSI MPG B550 GAMING PLUS</dc:description>
+        <rdfs:label xml:lang="de">Mainboard_MSI_MPG_B550</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.coolblue.de/produkt/864609/msi-mpg-b550-gaming-plus.html?cmt=c_b%2Ccp_532530061%2Caid_1354600906373878%2Ct_pla-4588262031974841%2Cn_o%2Cd_c%2Clp_&amp;msclkid=950606667a3918f635c961f18b153b83&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=[Bing]+[PT%3AALL]+[RL1%3AGermany]+[PTID%3A0]+[CO%3ADE]+[LAN%3ADE]+[DEV%3AALL]+[FL%3AALL]+[CH%3AShopping]&amp;utm_term=4588262031974841&amp;utm_content=[PT%3AAll+other+products]"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RKZT6wOxchcwpTTGW8Rhah">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R7AGbWHOW4kIvOwrMd9XCZO"/>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Logitech&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;8543557&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RCnw0GkDxF0MPlRk18qlk09 rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1000</webprotege:RCnw0GkDxF0MPlRk18qlk09>
+        <webprotege:RDu235EzVWsaGkBpQXdn58y rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</webprotege:RDu235EzVWsaGkBpQXdn58y>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">9.51</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Logitech Maus M90 optische Kabelmaus, 3 Tasten, 1000 dpi, schwarz</dc:description>
+        <rdfs:label xml:lang="de">Optische_Maus_Logitech_M90</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.bueromarkt-ag.de/maus_logitech_m90_optische_kabelmaus,p-910-001794,l-bing-prd,pd-b2c.html?msclkid=442d8e1f16f0176de7f9e988fb8653a9"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RMQxWgnkcHWQiGs2SQoZSL">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RngcW2nN4RcTyIdJAfwuPs"/>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Tera&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">43.60</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Tera Barcode Scanner 1D 2D QR Wireless Kabellos 2,4 GHz + Wired USB 2,0 Kabelgebunden Handscanner Barcodelesegerät 5 Mil Auflösung 100m Reichweite, Bildschirm-Scannen Unterstützt, Upgrade-Modell D5100</dc:description>
+        <rdfs:label xml:lang="de">Barcodeleser_Tera</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.de/Tera-Kabelgebunden-Barcodeleseger%C3%A4t-Bildschirm-Scannen-Upgrade-Modell-Orange-Neu/dp/B098DCGK91/ref=asc_df_B098DCGK91?tag=bingshoppin0b-21&amp;linkCode=df0&amp;hvadid=80676792510543&amp;hvnetw=o&amp;hvqmt=e&amp;hvbmt=be&amp;hvdev=c&amp;hvlocint=&amp;hvlocphy=&amp;hvtargid=pla-4584276312271876&amp;th=1"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RVKGWTe7N88mXINoKgcHzZ">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RB6aLAUUocROt5po9bS10O8"/>
+        <webprotege:R7wdHfhvGV0UKGTxM8G87nj rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R7wdHfhvGV0UKGTxM8G87nj>
+        <webprotege:R88wreIDfSSn53PeDfXRIa7 rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">4000000000</webprotege:R88wreIDfSSn53PeDfXRIa7>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;AMD&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R8kiAr6oqubivZQUE56vRkW rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R8kiAr6oqubivZQUE56vRkW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;100-100001351WOF&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9qGk3Za3wDs3DN91tRJ3Hk rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">350</webprotege:R9qGk3Za3wDs3DN91tRJ3Hk>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RBy39ttmeGT5AgOuuVPr2Ul rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">32</webprotege:RBy39ttmeGT5AgOuuVPr2Ul>
+        <webprotege:RNBtbcwwcCxpiSA1VAYyWc rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1024000000</webprotege:RNBtbcwwcCxpiSA1VAYyWc>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">2875.00</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">AMD Ryzen Threadripper 7970X 32 x 4 GHz 32-Core Prozessor (CPU) WOF Sockel (PC): AMD® sTR5 350 W</dc:description>
+        <rdfs:label xml:lang="de">CPU_AMD_Ryzen_Threadripper</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.conrad.de/de/p/amd-ryzen-threadripper-7970x-32-x-4-ghz-32-core-prozessor-cpu-wof-sockel-pc-amd-str5-350-w-3062065.html?hk=SEM&amp;+B%C3%BCro=&amp;+B%C3%BCro=&amp;B2C+Experience=&amp;ef_id=e0bea59a4cbc10587515c20db5c8c797%3AG%3As&amp;s_kwcid=AL%21222%2110%2172293299822756%214575892546088651&amp;msclkid=e0bea59a4cbc10587515c20db5c8c797&amp;utm_source=bing&amp;utm_medium=cpc&amp;utm_campaign=Shopping_All+Products_Bad+Performer&amp;utm_term=4575892546088651&amp;utm_content=Shopping_All+Products_Bad+Performer"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RfcEBNxZdqZDYbXHcOLZbn">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/RoD0DaaZb6nfDexkMH58XC"/>
+        <webprotege:R35tvgStoILFLIn34mRDz rdf:datatype="http://www.w3.org/2001/XMLSchema#string">13.08.2024</webprotege:R35tvgStoILFLIn34mRDz>
+        <webprotege:R35tvgStoILFLIn34mRDz rdf:datatype="http://www.w3.org/2001/XMLSchema#dateTime">2024-08-13T00:00:00</webprotege:R35tvgStoILFLIn34mRDz>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Microsoft&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R8XxJlWSAf2BbwgFcnW2Yp3 rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R8XxJlWSAf2BbwgFcnW2Yp3>
+        <webprotege:R8j3kX9uLbPnhcit5XPoUiD rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R8j3kX9uLbPnhcit5XPoUiD>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;ghjshhgdhgfg&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">true</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RC2FOq15laxAU0x92swF89y rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;11 24H2&apos;</webprotege:RC2FOq15laxAU0x92swF89y>
+        <webprotege:RDoYMBZA3gZBQJoLCKwRV8z rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;.NET&apos;</webprotege:RDoYMBZA3gZBQJoLCKwRV8z>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">39.95</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Windows 11 ist ein Dienst, was bedeutet, dass er durch regelmäßige Featureupdates besser wird. Wir verfolgen einen stufenweisen und gemessenen Ansatz, um jedes Featureupdate auszurollen. Dies bedeutet, dass Sie Windows 11 Version 24H2 erhalten, wenn Daten zeigen, dass Ihr Gerät bereit ist und Dass Sie über eine hervorragende Updateerfahrung verfügen.</dc:description>
+        <rdfs:label xml:lang="de">MS_Windows_11_Home_v24H2</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://lizenzguru.de/windows-11-home.html?msclkid=558bfa5f6acb16e8e1949dc89cefc6cf"/>
+        <rdfs:seeAlso rdf:resource="https://support.microsoft.com/de-de/topic/windows-11-version-24h2-update-history-0929c747-1815-4543-8461-0160d16f15e5"/>
+    </owl:NamedIndividual>
+    
+
+
+    <!-- http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF -->
+
+    <owl:NamedIndividual rdf:about="http://webprotege.stanford.edu/RqxZcDY4MSJ5xj9VTo10CF">
+        <rdf:type rdf:resource="http://webprotege.stanford.edu/R8W0B3d73tAYDdzuCxDZJA4"/>
+        <webprotege:R8Wz1qsIqmHg4N783Nq57XW rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;Seagate&apos;</webprotege:R8Wz1qsIqmHg4N783Nq57XW>
+        <webprotege:R9anvE89dav0tnBIjQnAkCj rdf:datatype="http://www.w3.org/2001/XMLSchema#string">&apos;dncuaicueuu&apos;</webprotege:R9anvE89dav0tnBIjQnAkCj>
+        <webprotege:R9t2gDNun4cKbMt1JrINvcT rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</webprotege:R9t2gDNun4cKbMt1JrINvcT>
+        <webprotege:RBtnvTfsUncqy0kV5M3V7IN rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</webprotege:RBtnvTfsUncqy0kV5M3V7IN>
+        <webprotege:RNBtbcwwcCxpiSA1VAYyWc rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">16000000000000</webprotege:RNBtbcwwcCxpiSA1VAYyWc>
+        <webprotege:RpYu3n3hhvm56zq8ZSXlBe rdf:datatype="http://www.w3.org/2001/XMLSchema#decimal">69.99</webprotege:RpYu3n3hhvm56zq8ZSXlBe>
+        <dc:description rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Seagate Barracuda 2TB interne Festplatte HDD, 3.5 Zoll, 7200 U/Min, 256 MB Cache, SATA 6GB/s, silber, Data Rescue ServiceModellnr.: ST2000DMZ08</dc:description>
+        <rdfs:label xml:lang="de">HDD_Seagate_Barracuda_2TB</rdfs:label>
+        <rdfs:seeAlso rdf:resource="https://www.amazon.de/Seagate-ST2000DMZ08-BarraCuda-Festplatte-silberfarben/dp/B07H2RR55Q/ref=sr_1_3?__mk_de_DE=%C3%85M%C3%85%C5%BD%C3%95%C3%91&amp;crid=13QMRJPWK2IO7&amp;dib=eyJ2IjoiMSJ9.C6KanzdhTJdQpW_rUoO3hDTANY88C1WhaEVsIVBSCs0N36sFWbuoHVfRGhgtueNP5LYLg5_ggtqdfIscvYp9Mv4Z9D4xQCatCZHcNCPfIpMta0mtbr_YHSSpccIPP9Q7n6lCL5GWZFb_ZShlYBBVcAOWL9Rmy5P96qVkb9UyHX7EnkvM2TMzZv042CYUA-YAtZDO1GATkt3uX_yiZgFbNmF8l93CQvKCnHR7ga5dIZA.N5zj2f0gQ17tnuMWH-UG4LAbxxFV13X9vf1mlvRfNl8&amp;dib_tag=se&amp;keywords=hdd%2Bfestplatte&amp;qid=1738009522&amp;sprefix=hdd%2Bfestplatte%2Caps%2C106&amp;sr=8-3&amp;th=1"/>
+    </owl:NamedIndividual>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.13) https://github.com/owlcs/owlapi -->
+
